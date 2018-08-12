@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Uart_ETH_smartconnect_0_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970222-UART16550_FIFO_Rx_16_Tx_16_Port/UART2ETH.runs/Uart_ETH_smartconnect_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_tier2_xbar_2_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970222-UART16550_FIFO_Rx_16_Tx_16_Port/UART2ETH.runs/Uart_ETH_tier2_xbar_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_auto_pc_5_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970222-UART16550_FIFO_Rx_16_Tx_16_Port/UART2ETH.runs/Uart_ETH_auto_pc_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

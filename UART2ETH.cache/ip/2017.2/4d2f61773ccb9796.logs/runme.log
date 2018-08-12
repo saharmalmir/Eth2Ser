@@ -1,0 +1,1436 @@
+
+*** Running vivado
+    with args -log Uart_ETH_All_Data_Sender_0_4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Uart_ETH_All_Data_Sender_0_4.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source Uart_ETH_All_Data_Sender_0_4.tcl -notrace
+Command: synth_design -top Uart_ETH_All_Data_Sender_0_4 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020-clg400'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020-clg400'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8308 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 403.324 ; gain = 80.125
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Uart_ETH_All_Data_Sender_0_4' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_All_Data_Sender_0_4/synth/Uart_ETH_All_Data_Sender_0_4.vhd:169]
+	Parameter C_S_AXI_AXILITES_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S_AXI_AXILITES_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DRAM_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DRAM_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DRAM_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DRAM_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DRAM_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DRAM_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DRAM_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DRAM_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DRAM_USER_VALUE bound to: 0 - type: integer 
+	Parameter C_M_AXI_DRAM_PROT_VALUE bound to: 0 - type: integer 
+	Parameter C_M_AXI_DRAM_CACHE_VALUE bound to: 3 - type: integer 
+	Parameter C_M_AXI_DRAM_TARGET_ADDR bound to: 18874368 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:12' bound to instance 'U0' of component 'All_Data_Sender' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_All_Data_Sender_0_4/synth/Uart_ETH_All_Data_Sender_0_4.vhd:427]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:150]
+	Parameter C_M_AXI_DRAM_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DRAM_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DRAM_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DRAM_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DRAM_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DRAM_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DRAM_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_DRAM_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_AXILITES_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S_AXI_AXILITES_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DRAM_PROT_VALUE bound to: 0 - type: integer 
+	Parameter C_M_AXI_DRAM_TARGET_ADDR bound to: 18874368 - type: integer 
+	Parameter C_M_AXI_DRAM_CACHE_VALUE bound to: 3 - type: integer 
+	Parameter C_M_AXI_DRAM_USER_VALUE bound to: 0 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:337]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:340]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:342]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:344]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:346]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:348]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:350]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:352]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:354]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:356]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:358]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:360]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:362]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:364]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:366]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:368]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:370]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:372]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:374]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:376]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:378]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:380]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:382]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:384]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:386]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:388]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:390]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:392]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:394]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:396]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:398]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:400]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:402]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:404]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:406]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:408]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:410]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_AXILiteS_s_axi' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_AXILiteS_s_axi.vhd:12' bound to instance 'All_Data_Sender_AXILiteS_s_axi_U' of component 'All_Data_Sender_AXILiteS_s_axi' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:633]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender_AXILiteS_s_axi' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_AXILiteS_s_axi.vhd:53]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter BYTES bound to: 4 - type: integer 
+	Parameter DEPTH bound to: 36 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_AXILiteS_s_axi_ram' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_AXILiteS_s_axi.vhd:314' bound to instance 'int_a' of component 'All_Data_Sender_AXILiteS_s_axi_ram' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_AXILiteS_s_axi.vhd:126]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender_AXILiteS_s_axi_ram' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_AXILiteS_s_axi.vhd:337]
+	Parameter BYTES bound to: 4 - type: integer 
+	Parameter DEPTH bound to: 36 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element gen_write[0].mem_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element gen_write[0].mem_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element gen_write[2].mem_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element gen_write[2].mem_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element gen_write[3].mem_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element gen_write[3].mem_reg was removed. 
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender_AXILiteS_s_axi_ram' (1#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_AXILiteS_s_axi.vhd:337]
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender_AXILiteS_s_axi' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_AXILiteS_s_axi.vhd:53]
+	Parameter USER_DW bound to: 32 - type: integer 
+	Parameter USER_AW bound to: 32 - type: integer 
+	Parameter USER_MAXREQS bound to: 5 - type: integer 
+	Parameter NUM_READ_OUTSTANDING bound to: 16 - type: integer 
+	Parameter NUM_WRITE_OUTSTANDING bound to: 16 - type: integer 
+	Parameter MAX_READ_BURST_LENGTH bound to: 16 - type: integer 
+	Parameter MAX_WRITE_BURST_LENGTH bound to: 16 - type: integer 
+	Parameter C_M_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_TARGET_ADDR bound to: 18874368 - type: integer 
+	Parameter C_USER_VALUE bound to: 0 - type: integer 
+	Parameter C_PROT_VALUE bound to: 0 - type: integer 
+	Parameter C_CACHE_VALUE bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:12' bound to instance 'All_Data_Sender_DRAM_m_axi_U' of component 'All_Data_Sender_DRAM_m_axi' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:664]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender_DRAM_m_axi' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:142]
+	Parameter NUM_READ_OUTSTANDING bound to: 16 - type: integer 
+	Parameter NUM_WRITE_OUTSTANDING bound to: 16 - type: integer 
+	Parameter MAX_READ_BURST_LENGTH bound to: 16 - type: integer 
+	Parameter MAX_WRITE_BURST_LENGTH bound to: 16 - type: integer 
+	Parameter C_M_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_TARGET_ADDR bound to: 18874368 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_USER_VALUE bound to: 0 - type: integer 
+	Parameter C_PROT_VALUE bound to: 0 - type: integer 
+	Parameter C_CACHE_VALUE bound to: 3 - type: integer 
+	Parameter USER_DW bound to: 32 - type: integer 
+	Parameter USER_AW bound to: 32 - type: integer 
+	Parameter USER_MAXREQS bound to: 5 - type: integer 
+	Parameter USED_FIX bound to: 0 - type: bool 
+	Parameter FIX_VALUE bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi_throttl' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:936' bound to instance 'wreq_throttl' of component 'All_Data_Sender_DRAM_m_axi_throttl' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:291]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender_DRAM_m_axi_throttl' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:953]
+	Parameter USED_FIX bound to: 0 - type: bool 
+	Parameter FIX_VALUE bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender_DRAM_m_axi_throttl' (3#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:953]
+	Parameter USED_FIX bound to: 1 - type: bool 
+	Parameter FIX_VALUE bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi_throttl' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:936' bound to instance 'rreq_throttl' of component 'All_Data_Sender_DRAM_m_axi_throttl' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:308]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender_DRAM_m_axi_throttl__parameterized1' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:953]
+	Parameter USED_FIX bound to: 1 - type: bool 
+	Parameter FIX_VALUE bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender_DRAM_m_axi_throttl__parameterized1' (3#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:953]
+	Parameter NUM_WRITE_OUTSTANDING bound to: 16 - type: integer 
+	Parameter MAX_WRITE_BURST_LENGTH bound to: 16 - type: integer 
+	Parameter C_M_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_TARGET_ADDR bound to: 18874368 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_USER_VALUE bound to: 0 - type: integer 
+	Parameter C_PROT_VALUE bound to: 0 - type: integer 
+	Parameter C_CACHE_VALUE bound to: 3 - type: integer 
+	Parameter USER_DW bound to: 32 - type: integer 
+	Parameter USER_AW bound to: 32 - type: integer 
+	Parameter USER_MAXREQS bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi_write' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1907' bound to instance 'bus_write' of component 'All_Data_Sender_DRAM_m_axi_write' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:331]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender_DRAM_m_axi_write' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1994]
+	Parameter NUM_WRITE_OUTSTANDING bound to: 16 - type: integer 
+	Parameter MAX_WRITE_BURST_LENGTH bound to: 16 - type: integer 
+	Parameter C_M_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_TARGET_ADDR bound to: 18874368 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_USER_VALUE bound to: 0 - type: integer 
+	Parameter C_PROT_VALUE bound to: 0 - type: integer 
+	Parameter C_CACHE_VALUE bound to: 3 - type: integer 
+	Parameter USER_DW bound to: 32 - type: integer 
+	Parameter USER_AW bound to: 32 - type: integer 
+	Parameter USER_MAXREQS bound to: 5 - type: integer 
+	Parameter N bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi_reg_slice' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:453' bound to instance 'rs_wreq' of component 'All_Data_Sender_DRAM_m_axi_reg_slice' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:2130]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender_DRAM_m_axi_reg_slice' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:470]
+	Parameter N bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender_DRAM_m_axi_reg_slice' (4#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:470]
+	Parameter DATA_BITS bound to: 64 - type: integer 
+	Parameter DEPTH bound to: 5 - type: integer 
+	Parameter DEPTH_BITS bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi_fifo' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:577' bound to instance 'fifo_wreq' of component 'All_Data_Sender_DRAM_m_axi_fifo' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:2143]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender_DRAM_m_axi_fifo' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:594]
+	Parameter DATA_BITS bound to: 64 - type: integer 
+	Parameter DEPTH bound to: 5 - type: integer 
+	Parameter DEPTH_BITS bound to: 3 - type: integer 
+WARNING: [Synth 8-614] signal 'sclk_en' is read in the process but is not in the sensitivity list [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:687]
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender_DRAM_m_axi_fifo' (5#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:594]
+	Parameter MEM_STYLE bound to: block - type: string 
+	Parameter DATA_WIDTH bound to: 36 - type: integer 
+	Parameter ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter DEPTH bound to: 256 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi_buffer' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:704' bound to instance 'buff_wdata' of component 'All_Data_Sender_DRAM_m_axi_buffer' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:2536]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender_DRAM_m_axi_buffer' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:726]
+	Parameter MEM_STYLE bound to: block - type: string 
+	Parameter DATA_WIDTH bound to: 36 - type: integer 
+	Parameter ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter DEPTH bound to: 256 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender_DRAM_m_axi_buffer' (6#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:726]
+	Parameter DATA_BITS bound to: 8 - type: integer 
+	Parameter DEPTH bound to: 5 - type: integer 
+	Parameter DEPTH_BITS bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi_fifo' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:577' bound to instance 'fifo_burst' of component 'All_Data_Sender_DRAM_m_axi_fifo' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:2565]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender_DRAM_m_axi_fifo__parameterized1' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:594]
+	Parameter DATA_BITS bound to: 8 - type: integer 
+	Parameter DEPTH bound to: 5 - type: integer 
+	Parameter DEPTH_BITS bound to: 3 - type: integer 
+WARNING: [Synth 8-614] signal 'sclk_en' is read in the process but is not in the sensitivity list [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:687]
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender_DRAM_m_axi_fifo__parameterized1' (6#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:594]
+	Parameter DATA_BITS bound to: 2 - type: integer 
+	Parameter DEPTH bound to: 15 - type: integer 
+	Parameter DEPTH_BITS bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi_fifo' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:577' bound to instance 'fifo_resp' of component 'All_Data_Sender_DRAM_m_axi_fifo' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:2997]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender_DRAM_m_axi_fifo__parameterized3' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:594]
+	Parameter DATA_BITS bound to: 2 - type: integer 
+	Parameter DEPTH bound to: 15 - type: integer 
+	Parameter DEPTH_BITS bound to: 4 - type: integer 
+WARNING: [Synth 8-614] signal 'sclk_en' is read in the process but is not in the sensitivity list [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:687]
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender_DRAM_m_axi_fifo__parameterized3' (6#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:594]
+	Parameter DATA_BITS bound to: 2 - type: integer 
+	Parameter DEPTH bound to: 5 - type: integer 
+	Parameter DEPTH_BITS bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi_fifo' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:577' bound to instance 'fifo_resp_to_user' of component 'All_Data_Sender_DRAM_m_axi_fifo' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:3013]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender_DRAM_m_axi_fifo__parameterized5' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:594]
+	Parameter DATA_BITS bound to: 2 - type: integer 
+	Parameter DEPTH bound to: 5 - type: integer 
+	Parameter DEPTH_BITS bound to: 3 - type: integer 
+WARNING: [Synth 8-614] signal 'sclk_en' is read in the process but is not in the sensitivity list [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:687]
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender_DRAM_m_axi_fifo__parameterized5' (6#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:594]
+WARNING: [Synth 8-6014] Unused sequential element sect_end_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:2346]
+WARNING: [Synth 8-6014] Unused sequential element sect_end_buf_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:2352]
+WARNING: [Synth 8-6014] Unused sequential element could_multi_bursts.burst_end_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:2530]
+WARNING: [Synth 8-3848] Net AWREGION in module/entity All_Data_Sender_DRAM_m_axi_write does not have driver. [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1937]
+WARNING: [Synth 8-3848] Net WID in module/entity All_Data_Sender_DRAM_m_axi_write does not have driver. [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1941]
+WARNING: [Synth 8-3848] Net WUSER in module/entity All_Data_Sender_DRAM_m_axi_write does not have driver. [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1945]
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender_DRAM_m_axi_write' (7#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1994]
+	Parameter NUM_READ_OUTSTANDING bound to: 16 - type: integer 
+	Parameter MAX_READ_BURST_LENGTH bound to: 16 - type: integer 
+	Parameter C_M_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_TARGET_ADDR bound to: 18874368 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_USER_VALUE bound to: 0 - type: integer 
+	Parameter C_PROT_VALUE bound to: 0 - type: integer 
+	Parameter C_CACHE_VALUE bound to: 3 - type: integer 
+	Parameter USER_DW bound to: 32 - type: integer 
+	Parameter USER_AW bound to: 32 - type: integer 
+	Parameter USER_MAXREQS bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi_read' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:999' bound to instance 'bus_read' of component 'All_Data_Sender_DRAM_m_axi_read' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:394]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender_DRAM_m_axi_read' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1076]
+	Parameter NUM_READ_OUTSTANDING bound to: 16 - type: integer 
+	Parameter MAX_READ_BURST_LENGTH bound to: 16 - type: integer 
+	Parameter C_M_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_TARGET_ADDR bound to: 18874368 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_USER_VALUE bound to: 0 - type: integer 
+	Parameter C_PROT_VALUE bound to: 0 - type: integer 
+	Parameter C_CACHE_VALUE bound to: 3 - type: integer 
+	Parameter USER_DW bound to: 32 - type: integer 
+	Parameter USER_AW bound to: 32 - type: integer 
+	Parameter USER_MAXREQS bound to: 5 - type: integer 
+	Parameter N bound to: 64 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi_reg_slice' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:453' bound to instance 'rs_rreq' of component 'All_Data_Sender_DRAM_m_axi_reg_slice' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1206]
+	Parameter DATA_BITS bound to: 64 - type: integer 
+	Parameter DEPTH bound to: 5 - type: integer 
+	Parameter DEPTH_BITS bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi_fifo' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:577' bound to instance 'fifo_rreq' of component 'All_Data_Sender_DRAM_m_axi_fifo' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1219]
+	Parameter MEM_STYLE bound to: block - type: string 
+	Parameter DATA_WIDTH bound to: 35 - type: integer 
+	Parameter ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter DEPTH bound to: 256 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi_buffer' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:704' bound to instance 'fifo_rdata' of component 'All_Data_Sender_DRAM_m_axi_buffer' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1565]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender_DRAM_m_axi_buffer__parameterized1' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:726]
+	Parameter MEM_STYLE bound to: block - type: string 
+	Parameter DATA_WIDTH bound to: 35 - type: integer 
+	Parameter ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter DEPTH bound to: 256 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender_DRAM_m_axi_buffer__parameterized1' (7#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:726]
+	Parameter N bound to: 34 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi_reg_slice' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:453' bound to instance 'rs_rdata' of component 'All_Data_Sender_DRAM_m_axi_reg_slice' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1583]
+INFO: [Synth 8-638] synthesizing module 'All_Data_Sender_DRAM_m_axi_reg_slice__parameterized2' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:470]
+	Parameter N bound to: 34 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender_DRAM_m_axi_reg_slice__parameterized2' (7#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:470]
+	Parameter DATA_BITS bound to: 2 - type: integer 
+	Parameter DEPTH bound to: 15 - type: integer 
+	Parameter DEPTH_BITS bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'All_Data_Sender_DRAM_m_axi_fifo' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:577' bound to instance 'fifo_rctl' of component 'All_Data_Sender_DRAM_m_axi_fifo' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1596]
+WARNING: [Synth 8-6014] Unused sequential element sect_end_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1406]
+WARNING: [Synth 8-6014] Unused sequential element sect_end_buf_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1412]
+WARNING: [Synth 8-6014] Unused sequential element could_multi_bursts.fifo_burst_w_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1558]
+WARNING: [Synth 8-6014] Unused sequential element could_multi_bursts.burst_end_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1559]
+WARNING: [Synth 8-3848] Net ARREGION in module/entity All_Data_Sender_DRAM_m_axi_read does not have driver. [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1028]
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender_DRAM_m_axi_read' (8#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1076]
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender_DRAM_m_axi' (9#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:142]
+INFO: [Synth 8-3491] module 'DMA_Send' declared at 'e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/DMA_Send.vhd:12' bound to instance 'grp_DMA_Send_fu_366' of component 'DMA_Send' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:780]
+INFO: [Synth 8-638] synthesizing module 'DMA_Send' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/DMA_Send.vhd:78]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/DMA_Send.vhd:108]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/DMA_Send.vhd:111]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/DMA_Send.vhd:114]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/DMA_Send.vhd:119]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/DMA_Send.vhd:122]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/DMA_Send.vhd:127]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/DMA_Send.vhd:134]
+WARNING: [Synth 8-6014] Unused sequential element DRAM_blk_n_AR_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/DMA_Send.vhd:284]
+WARNING: [Synth 8-6014] Unused sequential element DRAM_blk_n_R_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/DMA_Send.vhd:294]
+WARNING: [Synth 8-6014] Unused sequential element ap_block_state12_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/DMA_Send.vhd:344]
+WARNING: [Synth 8-6014] Unused sequential element uart_V_blk_n_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/DMA_Send.vhd:456]
+INFO: [Synth 8-256] done synthesizing module 'DMA_Send' (10#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/DMA_Send.vhd:78]
+INFO: [Synth 8-256] done synthesizing module 'All_Data_Sender' (11#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender.vhd:150]
+INFO: [Synth 8-256] done synthesizing module 'Uart_ETH_All_Data_Sender_0_4' (12#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_All_Data_Sender_0_4/synth/Uart_ETH_All_Data_Sender_0_4.vhd:169]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_AWREADY
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_WREADY
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[31]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[30]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[29]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[28]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[27]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[26]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[25]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[24]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[23]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[22]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[21]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[20]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[19]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[18]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[17]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[16]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[15]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[14]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[13]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[12]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[11]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[10]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[9]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RDATA[8]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RLAST
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RID[0]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RUSER[0]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RRESP[1]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_RRESP[0]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_BVALID
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_BRESP[1]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_BRESP[0]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_BID[0]
+WARNING: [Synth 8-3331] design DMA_Send has unconnected port m_axi_DRAM_BUSER[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port ARREGION[3]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port ARREGION[2]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port ARREGION[1]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port ARREGION[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port RID[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port RUSER[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port rreq_cache[3]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port rreq_cache[2]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port rreq_cache[1]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port rreq_cache[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port rreq_prot[2]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port rreq_prot[1]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port rreq_prot[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port rreq_user[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port AWREGION[3]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port AWREGION[2]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port AWREGION[1]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port AWREGION[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port WID[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port WUSER[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port BID[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port BUSER[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port wreq_cache[3]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port wreq_cache[2]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port wreq_cache[1]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port wreq_cache[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port wreq_prot[2]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port wreq_prot[1]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port wreq_prot[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port wreq_user[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_write has unconnected port wdata_user[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_throttl__parameterized1 has unconnected port in_data_valid
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_throttl__parameterized1 has unconnected port in_data_ready
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_AWID[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_AWSIZE[2]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_AWSIZE[1]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_AWSIZE[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_AWBURST[1]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_AWBURST[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_AWLOCK[1]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_AWLOCK[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_AWREGION[3]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_AWREGION[2]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_AWREGION[1]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_AWREGION[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_WID[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_WLAST
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_ARID[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_ARSIZE[2]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_ARSIZE[1]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_ARSIZE[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_ARBURST[1]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_ARBURST[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_ARLOCK[1]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_ARLOCK[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_ARREGION[3]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_ARREGION[2]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_ARREGION[1]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi has unconnected port I_ARREGION[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 452.422 ; gain = 129.223
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 452.422 ; gain = 129.223
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_All_Data_Sender_0_4/constraints/All_Data_Sender_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_All_Data_Sender_0_4/constraints/All_Data_Sender_ooc.xdc] for cell 'U0'
+Parsing XDC File [E:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.runs/Uart_ETH_All_Data_Sender_0_4_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.runs/Uart_ETH_All_Data_Sender_0_4_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.215 . Memory (MB): peak = 784.496 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 784.496 ; gain = 461.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 784.496 ; gain = 461.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  E:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.runs/Uart_ETH_All_Data_Sender_0_4_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 784.496 ; gain = 461.297
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3936] Found unconnected internal register 'waddr_reg' and it is trimmed from '9' to '8' bits. [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_AXILiteS_s_axi.vhd:201]
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'All_Data_Sender_AXILiteS_s_axi'
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_AXILiteS_s_axi.vhd:163]
+INFO: [Synth 8-5544] ROM "ARREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "BVALID" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "WREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "AWREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "wnext" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "req_en" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element throttl_cnt_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:982]
+INFO: [Synth 8-5546] ROM "req_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "load_p1_from_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[0] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[1] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[2] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[3] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[4] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:786]
+INFO: [Synth 8-5546] ROM "full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "empty_n" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element usedw_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:784]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:678]
+WARNING: [Synth 8-6014] Unused sequential element pout_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[0] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[1] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[2] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[3] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[4] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[5] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[6] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[7] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[8] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[9] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[10] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[11] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[12] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[13] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[14] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[0] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[1] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[2] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[3] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[4] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[0] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[1] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[2] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[3] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element mem_reg[4] was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element sect_cnt_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:2285]
+WARNING: [Synth 8-6014] Unused sequential element could_multi_bursts.loop_cnt_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:2430]
+WARNING: [Synth 8-6014] Unused sequential element bus_equal_gen.len_cnt_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:2650]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:786]
+INFO: [Synth 8-5546] ROM "full_n" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "empty_n" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element usedw_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:784]
+INFO: [Synth 8-5544] ROM "load_p1_from_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element sect_cnt_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1357]
+WARNING: [Synth 8-6014] Unused sequential element could_multi_bursts.loop_cnt_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1475]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-3971] The signal gen_write[1].mem_reg was recognized as a true dual port RAM template.
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_AXILiteS_s_axi.vhd:163]
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_AXILiteS_s_axi.vhd:163]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                              011
+*
+                  wridle |                             0010 |                              000
+                  wrdata |                             0100 |                              001
+                  wrresp |                             1000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'All_Data_Sender_AXILiteS_s_axi'
+WARNING: [Synth 8-6014] Unused sequential element wstate_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_AXILiteS_s_axi.vhd:163]
+WARNING: [Synth 8-327] inferring latch for variable 'sect_len_reg' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:2329]
+WARNING: [Synth 8-327] inferring latch for variable 'sect_len_reg' [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1388]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 784.496 ; gain = 461.297
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 9     
+	   4 Input     32 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 9     
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 8     
++---Registers : 
+	               64 Bit    Registers := 6     
+	               36 Bit    Registers := 4     
+	               35 Bit    Registers := 3     
+	               34 Bit    Registers := 2     
+	               32 Bit    Registers := 20    
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 4     
+	                8 Bit    Registers := 11    
+	                6 Bit    Registers := 3     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 8     
+	                1 Bit    Registers := 52    
++---RAMs : 
+	               9K Bit         RAMs := 1     
+	               8K Bit         RAMs := 1     
+	               1K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 2     
+	   2 Input     36 Bit        Muxes := 2     
+	   2 Input     35 Bit        Muxes := 2     
+	   2 Input     34 Bit        Muxes := 1     
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 18    
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input     29 Bit        Muxes := 1     
+	   2 Input     27 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 1     
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input     21 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  18 Input     16 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 1     
+	   4 Input     12 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 3     
+	  13 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 6     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 13    
+	   4 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	  18 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   7 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 5     
+	   2 Input      2 Bit        Muxes := 30    
+	   5 Input      2 Bit        Muxes := 9     
+	   2 Input      1 Bit        Muxes := 70    
+	   3 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module All_Data_Sender_AXILiteS_s_axi_ram 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
++---RAMs : 
+	               1K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 12    
+	   2 Input      8 Bit        Muxes := 2     
+Module All_Data_Sender_AXILiteS_s_axi 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   7 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module All_Data_Sender_DRAM_m_axi_throttl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module All_Data_Sender_DRAM_m_axi_throttl__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module All_Data_Sender_DRAM_m_axi_reg_slice 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 6     
+	   5 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 4     
+Module All_Data_Sender_DRAM_m_axi_fifo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	               64 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module All_Data_Sender_DRAM_m_axi_buffer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 3     
++---Registers : 
+	               36 Bit    Registers := 3     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---RAMs : 
+	               9K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     36 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 2     
+Module All_Data_Sender_DRAM_m_axi_fifo__parameterized3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module All_Data_Sender_DRAM_m_axi_fifo__parameterized5 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module All_Data_Sender_DRAM_m_axi_fifo__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module All_Data_Sender_DRAM_m_axi_write 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 7     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 16    
+Module All_Data_Sender_DRAM_m_axi_buffer__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 3     
++---Registers : 
+	               35 Bit    Registers := 3     
+	                8 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---RAMs : 
+	               8K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     35 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 2     
+Module All_Data_Sender_DRAM_m_axi_reg_slice__parameterized2 
+Detailed RTL Component Info : 
++---Registers : 
+	               34 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     34 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 6     
+	   5 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 4     
+Module All_Data_Sender_DRAM_m_axi_read 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 7     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 9     
+Module DMA_Send 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   4 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 3     
+	  13 Input     12 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module All_Data_Sender 
+Detailed RTL Component Info : 
++---Registers : 
+	               36 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     36 Bit        Muxes := 1     
+	   2 Input     35 Bit        Muxes := 1     
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input     29 Bit        Muxes := 1     
+	   2 Input     27 Bit        Muxes := 1     
+	   2 Input     25 Bit        Muxes := 1     
+	   2 Input     23 Bit        Muxes := 1     
+	   2 Input     21 Bit        Muxes := 1     
+	   2 Input     19 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  18 Input     16 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 1     
+	   2 Input     13 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	  18 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "req_en" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element throttl_cnt_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:982]
+INFO: [Synth 8-5546] ROM "req_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "rs_wreq/load_p1_from_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element buff_wdata/usedw_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:784]
+WARNING: [Synth 8-6014] Unused sequential element fifo_resp/pout_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element could_multi_bursts.loop_cnt_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:2430]
+WARNING: [Synth 8-6014] Unused sequential element sect_cnt_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:2285]
+WARNING: [Synth 8-6014] Unused sequential element bus_equal_gen.len_cnt_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:2650]
+WARNING: [Synth 8-6014] Unused sequential element fifo_rctl/q_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:620]
+INFO: [Synth 8-5544] ROM "rs_rreq/load_p1_from_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rs_rdata/load_p1_from_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element fifo_rdata/usedw_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:784]
+WARNING: [Synth 8-6014] Unused sequential element fifo_rctl/pout_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:623]
+WARNING: [Synth 8-6014] Unused sequential element could_multi_bursts.loop_cnt_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1475]
+WARNING: [Synth 8-6014] Unused sequential element sect_cnt_reg was removed.  [e:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/00e5/hdl/vhdl/All_Data_Sender_DRAM_m_axi.vhd:1357]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port ARREGION[3]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port ARREGION[2]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port ARREGION[1]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port ARREGION[0]
+WARNING: [Synth 8-3331] design All_Data_Sender_DRAM_m_axi_read has unconnected port RID[0]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3971] The signal All_Data_Sender_AXILiteS_s_axi_U/int_a/gen_write[1].mem_reg was recognized as a true dual port RAM template.
+warning: Removed RAM All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/mem_reg due to inactive write enable
+WARNING: [Synth 8-6014] Unused sequential element All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/mem_reg was removed. 
+WARNING: [Synth 8-5730] RAM All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/mem_reg got removed due to cross hierarchy optimization. 
+INFO: [Synth 8-3886] merging instance 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[0]' (FDE) to 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[1]' (FDE) to 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[2]' (FDE) to 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[3]' (FDE) to 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[4]' (FDE) to 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[5]' (FDE) to 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[6]' (FDE) to 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[7]' (FDE) to 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[8]' (FDE) to 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[9]' (FDE) to 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[10]' (FDE) to 'U0/grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[16]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\grp_DMA_Send_fu_366/BaseAddress_cast_reg_184_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[18] )
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[63]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[61]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[62]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[60]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[59]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[58]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[57]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[56]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[55]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[54]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[53]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[52]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[51]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[50]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[49]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[48]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[47]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[46]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[45]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[44]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[43]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[42]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[41]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[40]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[39]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[38]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[37]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[36]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[35]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[34]' (FDE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[33] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_read/rs_rreq/data_p2_reg[32] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[63] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[61] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[62] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[60] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[59] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[58] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[57] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[56] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[54] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[53] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[52] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[51] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[50] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[49] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[48] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[47] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[46] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[45] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[44] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[43] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[42] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[41] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[40] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[39] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[38] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[37] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[36] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[35] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[34] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[33] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[32] )
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/start_addr_reg[0]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_read/start_addr_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_read/start_addr_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/start_addr_reg[0]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/start_addr_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/start_addr_reg[1] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/full_n_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\grp_DMA_Send_fu_366/a_addr_reg_179_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[32]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[32]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[33]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[33]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[34]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[34]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[35]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[35]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[0]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[0]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[1]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[1]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[2]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[2]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[3]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[3]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[4]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[4]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[5]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[5]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[6]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[6]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[7]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[7]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[8]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[8]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[9]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[9]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[10]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[10]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[11]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[11]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[12]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[12]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[13]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[13]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[14]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[14]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[15]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[15]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[16]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[16]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[17]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[18]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[17]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[18]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[18]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[18]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[19]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[20]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[19]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[20]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[20]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[21]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[20]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[21]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[21]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[21]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[22]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[22]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[23]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[24]'
+INFO: [Synth 8-3886] merging instance 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[23]' (FD) to 'U0/bus_writei_24/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[24]'
+INFO: [Synth 8-3886] merging instance 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[24]' (FDRE) to 'U0/All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[25]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_tmp_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/show_ahead_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/bus_writei_24/\All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\All_Data_Sender_AXILiteS_s_axi_U/rstate_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_read/could_multi_bursts.arlen_buf_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[32] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[33] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[34] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[35] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[36] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[37] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[38] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[39] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[40] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[41] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[42] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[43] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[44] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[18] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/fifo_wreq/full_n_tmp_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[10] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/wreq_throttl/throttl_cnt_reg[7]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/wreq_throttl/throttl_cnt_reg[6]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/wreq_throttl/throttl_cnt_reg[5]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/wreq_throttl/throttl_cnt_reg[4]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/wreq_throttl/throttl_cnt_reg[3]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/wreq_throttl/throttl_cnt_reg[2]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/wreq_throttl/throttl_cnt_reg[1]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/wreq_throttl/throttl_cnt_reg[0]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/q_buf_reg[31]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/waddr_reg[7]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/waddr_reg[6]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/waddr_reg[5]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/waddr_reg[4]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/waddr_reg[3]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/waddr_reg[2]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/waddr_reg[1]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/buff_wdata/waddr_reg[0]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/sect_len_reg[9]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/sect_len_reg[8]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/sect_len_reg[7]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/sect_len_reg[6]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/sect_len_reg[5]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/sect_len_reg[4]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/sect_len_reg[3]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/sect_len_reg[2]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/sect_len_reg[1]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/sect_len_reg[0]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/fifo_wreq/full_n_tmp_reg) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/state_reg[1]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/state_reg[0]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/s_ready_t_reg) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[63]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[62]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[61]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[60]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[59]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[58]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[57]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[56]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[55]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[54]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[53]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[52]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[51]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[50]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[49]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[48]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[47]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[46]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[45]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[44]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[43]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[42]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[41]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[40]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[39]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[38]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[37]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[36]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[35]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[34]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[33]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[32]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[31]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[30]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[29]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[28]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[27]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[26]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[25]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[24]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[23]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[22]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[21]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[20]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[19]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[18]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[17]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[16]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[15]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[14]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[13]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[12]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[11]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[10]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[9]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[8]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[7]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[6]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[5]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[4]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[3]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[2]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[1]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p2_reg[0]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[63]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[62]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[61]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[60]) is unused and will be removed from module All_Data_Sender.
+WARNING: [Synth 8-3332] Sequential element (All_Data_Sender_DRAM_m_axi_U/bus_write/rs_wreq/data_p1_reg[59]) is unused and will be removed from module All_Data_Sender.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 784.496 ; gain = 461.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping  Report (see note below)
++---------------------------------------------------+----------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                                        | RTL Object           | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++---------------------------------------------------+----------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|All_Data_Sender_AXILiteS_s_axi_ram:                | gen_write[1].mem_reg | 64 x 32(READ_FIRST)    | W | R | 64 x 32(READ_FIRST)    | W | R | Port A and B     | 0      | 1      | 
+|All_Data_Sender_DRAM_m_axi_buffer__parameterized1: | mem_reg              | 256 x 35(READ_FIRST)   | W |   | 256 x 35(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
++---------------------------------------------------+----------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:45 . Memory (MB): peak = 784.496 ; gain = 461.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3971] The signal All_Data_Sender_AXILiteS_s_axi_U/int_a/gen_write[1].mem_reg was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:47 . Memory (MB): peak = 801.324 ; gain = 478.125
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance U0/All_Data_Sender_AXILiteS_s_axi_U/int_a/gen_write[1].mem_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/All_Data_Sender_AXILiteS_s_axi_U/int_a/gen_write[1].mem_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/All_Data_Sender_DRAM_m_axi_U/bus_read/fifo_rdata/mem_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:48 . Memory (MB): peak = 801.324 ; gain = 478.125
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5365] Flop grp_DMA_Send_fu_366/a_load_reg_189_reg[31] is being inverted and renamed to grp_DMA_Send_fu_366/a_load_reg_189_reg[31]_inv.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:49 . Memory (MB): peak = 801.324 ; gain = 478.125
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:49 . Memory (MB): peak = 801.324 ; gain = 478.125
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:49 . Memory (MB): peak = 801.324 ; gain = 478.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:49 . Memory (MB): peak = 801.324 ; gain = 478.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:49 . Memory (MB): peak = 801.324 ; gain = 478.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:49 . Memory (MB): peak = 801.324 ; gain = 478.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Dynamic Shift Register Report:
++------------+-------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name    | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+-------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | mem_reg[4]  | 8      | 64         | 64     | 0       | 0      | 0      | 0      | 
+|dsrl__1     | mem_reg[14] | 16     | 2          | 2      | 0       | 0      | 0      | 0      | 
+|dsrl__2     | mem_reg[4]  | 8      | 2          | 2      | 0       | 0      | 0      | 0      | 
+|dsrl__3     | mem_reg[4]  | 8      | 8          | 8      | 0       | 0      | 0      | 0      | 
++------------+-------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    51|
+|2     |LUT1     |    75|
+|3     |LUT2     |    73|
+|4     |LUT3     |   177|
+|5     |LUT4     |   107|
+|6     |LUT5     |   114|
+|7     |LUT6     |   123|
+|8     |RAMB18E1 |     1|
+|9     |RAMB36E1 |     1|
+|10    |SRL16E   |    31|
+|11    |FDRE     |   624|
+|12    |FDSE     |     7|
++------+---------+------+
+
+Report Instance Areas: 
++------+-------------------------------------+-----------------------------------------------------+------+
+|      |Instance                             |Module                                               |Cells |
++------+-------------------------------------+-----------------------------------------------------+------+
+|1     |top                                  |                                                     |  1384|
+|2     |  U0                                 |All_Data_Sender                                      |  1384|
+|3     |    All_Data_Sender_AXILiteS_s_axi_U |All_Data_Sender_AXILiteS_s_axi                       |   189|
+|4     |      int_a                          |All_Data_Sender_AXILiteS_s_axi_ram                   |   126|
+|5     |    All_Data_Sender_DRAM_m_axi_U     |All_Data_Sender_DRAM_m_axi                           |   805|
+|6     |      bus_read                       |All_Data_Sender_DRAM_m_axi_read                      |   787|
+|7     |        fifo_rctl                    |All_Data_Sender_DRAM_m_axi_fifo__parameterized3      |    59|
+|8     |        fifo_rdata                   |All_Data_Sender_DRAM_m_axi_buffer__parameterized1    |   100|
+|9     |        fifo_rreq                    |All_Data_Sender_DRAM_m_axi_fifo                      |   103|
+|10    |        rs_rdata                     |All_Data_Sender_DRAM_m_axi_reg_slice__parameterized2 |    33|
+|11    |        rs_rreq                      |All_Data_Sender_DRAM_m_axi_reg_slice                 |   107|
+|12    |      rreq_throttl                   |All_Data_Sender_DRAM_m_axi_throttl__parameterized1   |    18|
+|13    |    grp_DMA_Send_fu_366              |DMA_Send                                             |   287|
++------+-------------------------------------+-----------------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:49 . Memory (MB): peak = 801.324 ; gain = 478.125
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 843 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 801.324 ; gain = 146.051
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:49 . Memory (MB): peak = 801.324 ; gain = 478.125
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 53 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+365 Infos, 284 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:52 . Memory (MB): peak = 801.324 ; gain = 485.883
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+INFO: [Common 17-1381] The checkpoint 'E:/ETH2SER/SoftwareProjects/UART2ETH970410_LEDPanel_LCD_KeyPad_Modif/UART2ETH.runs/Uart_ETH_All_Data_Sender_0_4_synth_1/Uart_ETH_All_Data_Sender_0_4.dcp' has been generated.

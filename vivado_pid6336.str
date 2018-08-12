@@ -1,0 +1,1167 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 6336
+License: Customer
+
+Current time: 	2/18/18 3:45:11 PM IRST
+Time zone: 	Iran Standard Time (Asia/Tehran)
+
+OS: Windows 7
+OS Version: 6.1
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 23 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o;C:/Windows/Sun/Java/bin;C:/Windows/system32;C:/Windows;C:/Xilinx/Vivado/2017.2/bin;C:/Xilinx/Vivado/2017.2/lib/win64.o;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin;C:/Xilinx/SDK/2017.2/bin;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado_HLS/2017.2/bin;C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common;C:/Windows/system32;C:/Windows;C:/Windows/System32/Wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Program Files (x86)/Cypress/EZ-USB FX3 SDK/1.3/ARM GCC/bin/;C:/Program Files (x86)/Cypress/EZ-USB FX3 SDK/1.3/eclipse/jre/bin/;C:/Aldec/Active-HDL 8.3/BIN;C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/;C:/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/;C:/Program Files/Microsoft SQL Server/120/Tools/Binn/;C:/Program Files/Microsoft SQL Server/120/DTS/Binn/;C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/;C:/Program Files/PuTTY/;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	AVA.CO
+User home directory: C:/Users/AVA.CO
+User working directory: E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.2
+RDI_DATADIR: C:/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.2/bin
+
+User preferences location: C:/Users/AVA.CO/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/AVA.CO/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/AVA.CO/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	C:/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/.Xil/Vivado-6336-AVACO-PC2
+
+GUI allocated memory:	176 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 535 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 35 MB (+34287kb) [00:00:16]
+// [Engine Memory]: 464 MB (+334633kb) [00:00:16]
+// Opening Vivado Project: E:\ETH2SER\SoftwareProjects\UARTConfigTestEXP-961126\UARTConfigTestEXP-961126.xpr. Version: Vivado v2017.2 
+// bs:g (cg:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 47 MB (+10935kb) [00:00:19]
+// [Engine Memory]: 535 MB (+50428kb) [00:00:19]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 537 MB. GUI used memory: 32 MB. Current time: 2/18/18 3:45:13 PM IRST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 647 MB (+89170kb) [00:00:25]
+// [GUI Memory]: 57 MB (+7202kb) [00:00:27]
+// [GUI Memory]: 65 MB (+5488kb) [00:00:29]
+// Tcl Message: open_project E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/SR-System/IPs'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:13 . Memory (MB): peak = 929.063 ; gain = 191.500 
+// Project name: UARTConfigTestEXP-961126; location: E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd)]", 1); // B:i (D:JPanel, cg:JFrame)
+// PAPropertyPanels.initPanels (UARTConfigTest.bd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+// bs:g (cg:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd} 
+// Tcl Message: Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 732 MB (+55422kb) [00:00:51]
+// [GUI Memory]: 71 MB (+2908kb) [00:00:52]
+// PAPropertyPanels.initPanels (UARTConfigTest.bd) elapsed time: 0.2s
+// TclEventType: RSB_CONNECTION_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 759 MB. GUI used memory: 49 MB. Current time: 2/18/18 3:45:46 PM IRST
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 956.969 ; gain = 27.906 
+// Elapsed time: 10 seconds
+dismissDialog("Open Block Design"); // bs:g (cg:JFrame)
+// [GUI Memory]: 77 MB (+2452kb) [00:00:57]
+// Elapsed time: 21 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X:p (cg:JFrame): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g:JCheckBox (JPanel:JComponent, X:p): TRUE
+// [Engine Memory]: 770 MB (+1237kb) [00:01:18]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:p)
+dismissDialog("Export Hardware"); // X:p (cg:JFrame)
+// Tcl Message: file mkdir E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.sdk 
+// Tcl Message: file copy -force E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.runs/impl_1/UARTConfigTest_wrapper.sysdef E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.sdk/UARTConfigTest_wrapper.hdf  
+// [GUI Memory]: 82 MB (+1880kb) [00:01:19]
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 771 MB. GUI used memory: 51 MB. Current time: 2/18/18 3:46:14 PM IRST
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa:p (cg:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aa:p)
+dismissDialog("Launch SDK"); // aa:p (cg:JFrame)
+// Tcl Message: launch_sdk -workspace E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.sdk -hwspec E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.sdk/UARTConfigTest_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.sdk -hwspec E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.sdk/UARTConfigTest_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// PAPropertyPanels.initPanels (ps7_0_axi_periph) elapsed time: 0.2s
+// PAPropertyPanels.initPanels (processing_system7_0) elapsed time: 0.2s
+// [GUI Memory]: 88 MB (+1285kb) [00:01:46]
+// Elapsed time: 29 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+// [GUI Memory]: 92 MB (+584kb) [00:03:19]
+// [GUI Memory]: 97 MB (+45kb) [00:04:29]
+// PAPropertyPanels.initPanels (o_UART_TX1) elapsed time: 0.2s
+// Elapsed time: 517 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd), UARTConfigTest(STRUCTURE) (UARTConfigTest.vhd)]", 3, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd), UARTConfigTest(STRUCTURE) (UARTConfigTest.vhd), UART_TX_0 : UARTConfigTest_UART_TX_0_0 (UARTConfigTest_UART_TX_0_0.xci)]", 6, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/hdl/UARTConfigTest.vhd" -n1122'
+// Elapsed time: 62 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd), UARTConfigTest(STRUCTURE) (UARTConfigTest.vhd)]", 3); // B:i (D:JPanel, cg:JFrame)
+// Elapsed time: 10 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // B:JideButton (f:CommandBar, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 792 MB. GUI used memory: 56 MB. Current time: 2/18/18 3:56:39 PM IRST
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "uart"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Uartlite", 1, "AXI Uartlite", 0, false); // O:af (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Uartlite", 1); // O:af (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Uartlite", 1, "AXI Uartlite", 0, false, false, false, false, false, true); // O:af (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_uartlite:2.0 axi_uartlite_2 
+// bs:g (cg:JFrame):  Add IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: endgroup 
+dismissDialog("Add IP"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // B:JideButton (f:CommandBar, cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 105 MB (+3103kb) [00:11:55]
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "uart"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Uartlite", 1, "AXI Uartlite", 0, false); // O:af (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Uartlite", 1); // O:af (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Uartlite", 1, "AXI Uartlite", 0, false, false, false, false, false, true); // O:af (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_uartlite:2.0 axi_uartlite_3 
+// Tcl Message: endgroup 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// p:g (cg:JFrame): Re-customize IP: addNotify
+// Elapsed time: 15 seconds
+setText("Number of Ports", "4"); // z:X (aV:y, p:g)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Re-customize IP"); // p:g (cg:JFrame)
+// Tcl Command: 'set_property -dict [list CONFIG.NUM_PORTS {4}] [get_bd_cells xlconcat_0]'
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.NUM_PORTS {4}] [get_bd_cells xlconcat_0] 
+// Tcl Message: endgroup 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 570, 92, 871, 394, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// cZ:p (cg:JFrame): Make Connecton: addNotify
+selectCheckBoxTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, Other type, xlconcat_0, In2]", 6, false, true, ui.utils.TriState.True); // dl:a (JViewport:JComponent, cZ:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, cZ:p)
+// TclEventType: RSB_CONNECTION_CHANGE
+dismissDialog("Make Connecton"); // cZ:p (cg:JFrame)
+// Tcl Message: connect_bd_net [get_bd_pins axi_uartlite_2/interrupt] [get_bd_pins xlconcat_0/In2] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 569, 219, 871, 394, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// cZ:p (cg:JFrame): Make Connecton: addNotify
+selectCheckBoxTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, Other type, xlconcat_0, In3]", 6, false, false, ui.utils.TriState.False); // dl:a (JViewport:JComponent, cZ:p)
+selectCheckBoxTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, Other type, xlconcat_0, In3]", 6, false, true, ui.utils.TriState.True); // dl:a (JViewport:JComponent, cZ:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, cZ:p)
+// TclEventType: RSB_CONNECTION_CHANGE
+dismissDialog("Make Connecton"); // cZ:p (cg:JFrame)
+// Tcl Message: connect_bd_net [get_bd_pins axi_uartlite_3/interrupt] [get_bd_pins xlconcat_0/In3] 
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:k (JPanel:JComponent, cg:JFrame)
+// w:p (cg:JFrame): Run Connection Automation: addNotify
+dismissDialog("Run Connection Automation"); // w:p (cg:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 576, 64, 871, 394, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_uartlite_2/tx] 
+// Tcl Message: endgroup 
+// Run Command: RDIResourceCommand.RDICommands_UNDO
+typeControlKey(null, null, 'z');
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: undo 
+// Tcl Message: INFO: [Common 17-17] undo 'endgroup' INFO: [Common 17-17] undo 'make_bd_pins_external  [get_bd_pins axi_uartlite_2/tx]' INFO: [Common 17-17] undo 'startgroup' 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 574, 46, 871, 394, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_uartlite_2/rx] 
+// Tcl Message: endgroup 
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, UARTConfig.xdc]", 6, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, UARTConfig.xdc]", 6, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/constrs_1/new/UARTConfig.xdc" -n0'
+// Elapsed time: 23 seconds
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "rxi_UART_RX3"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+// Tcl Command: 'set_property name rxi_UART_RX3 [get_bd_ports rx]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name rxi_UART_RX3 [get_bd_ports rx] 
+// Tcl Command: 'set_property location {-33 -11} [get_bd_ports rxi_UART_RX3]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {-33 -11} [get_bd_ports rxi_UART_RX3] 
+// Tcl Command: 'set_property location {-42 -28} [get_bd_ports rxi_UART_RX3]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {-42 -28} [get_bd_ports rxi_UART_RX3] 
+// Elapsed time: 13 seconds
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "i_UART_RX3"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+// Tcl Command: 'set_property name i_UART_RX3 [get_bd_ports rxi_UART_RX3]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name i_UART_RX3 [get_bd_ports rxi_UART_RX3] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 590, 199, 871, 394, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_uartlite_3/rx] 
+// Tcl Message: endgroup 
+// Elapsed time: 15 seconds
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "rxi_UART_RX4"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+// Tcl Command: 'set_property name rxi_UART_RX4 [get_bd_ports rx]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name rxi_UART_RX4 [get_bd_ports rx] 
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "i_UART_RX4"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+// Tcl Command: 'set_property name i_UART_RX4 [get_bd_ports i_UART_RX2]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name i_UART_RX4 [get_bd_ports i_UART_RX2] 
+// [Engine Memory]: 812 MB (+4113kb) [00:14:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 822 MB. GUI used memory: 60 MB. Current time: 2/18/18 3:59:04 PM IRST
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "i_UART_RX4"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "i_UART_RX4"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+// Tcl Command: 'set_property location {-31 130} [get_bd_ports rxi_UART_RX4]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {-31 130} [get_bd_ports rxi_UART_RX4] 
+// Tcl Command: 'set_property location {-54 161} [get_bd_ports rxi_UART_RX4]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {-54 161} [get_bd_ports rxi_UART_RX4] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 62, 96, 871, 394, false, false, false, true, false); // fe:aJ (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "External Port Properties..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "i_UART_RX4"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+// HOptionPane Error: 'A port named 'i_UART_RX4' already exists. Please enter another name. (Vivado)'
+// [Engine Memory]: 858 MB (+5403kb) [00:14:40]
+selectButton("PAResourceAtoD.CreateRSBPortDialog_PORT_WITH_SPECIFIED_NAME_ALREADY_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// HMemoryUtils.trashcanNow. Engine heap size: 858 MB. GUI used memory: 60 MB. Current time: 2/18/18 3:59:34 PM IRST
+// Elapsed time: 31 seconds
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "i_UART_RX1"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+// HOptionPane Error: 'A port named 'i_UART_RX1' already exists. Please enter another name. (Vivado)'
+selectButton("PAResourceAtoD.CreateRSBPortDialog_PORT_WITH_SPECIFIED_NAME_ALREADY_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+floatView(PAResourceOtoP.PAViews_SYSTEM, "Diagram"); // ax:DockableFrame (aF:FrameContainer, cg:JFrame)
+// PAResourceOtoP.PAViews_SYSTEM: System: float view
+maximizeFrame(PAResourceOtoP.PAViews_SYSTEM, "Diagram"); // ax:DockableFrame (aF:FrameContainer, FrameFloatingContainer:ResizableFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 83, 247, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "External Port Properties..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "i_UART_RX2"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+// Tcl Command: 'set_property name i_UART_RX2 [get_bd_ports i_UART_RX4]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, UARTConfig.xdc]", 6, false); // B:i (D:JPanel, cg:JFrame)
+// Tcl Message: set_property name i_UART_RX2 [get_bd_ports i_UART_RX4] 
+// Elapsed time: 14 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 83, 157, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "External Port Properties..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "i_UART_RX4"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+// Tcl Command: 'set_property name i_UART_RX4 [get_bd_ports rxi_UART_RX4]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name i_UART_RX4 [get_bd_ports rxi_UART_RX4] 
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "i_UART_RX4"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, UARTConfig.xdc]", 6, false); // B:i (D:JPanel, cg:JFrame)
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:k (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// w:p (FrameFloatingContainer:ResizableFrame): Run Connection Automation: addNotify
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (1 out of 2 selected), axi_uartlite_2, S_AXI]", 2, false, true, ui.utils.TriState.True); // J:a (JViewport:JComponent, w:p)
+selectCheckBoxTree(PAResourceAtoD.ApplyRSBMultiAutomationDialog_CHECKBOX_TREE, "[All Automation (2 out of 2 selected), axi_uartlite_3, S_AXI]", 4, false, true, ui.utils.TriState.True); // J:a (JViewport:JComponent, w:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, w:p)
+dismissDialog("Run Connection Automation"); // w:p (FrameFloatingContainer:ResizableFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// bs:g (FrameFloatingContainer:ResizableFrame):  Run Connection Automation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: startgroup 
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" intc_ip "/ps7_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins axi_uartlite_2/S_AXI] 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: </axi_uartlite_2/S_AXI/Reg> is being mapped into </processing_system7_0/Data> at <0x42C20000 [ 64K ]> 
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" intc_ip "/ps7_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins axi_uartlite_3/S_AXI] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </axi_uartlite_3/S_AXI/Reg> is being mapped into </processing_system7_0/Data> at <0x42C30000 [ 64K ]> 
+// Tcl Message: endgroup 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+dismissDialog("Run Connection Automation"); // bs:g (FrameFloatingContainer:ResizableFrame)
+// TclEventType: DG_GRAPH_GENERATED
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bs:g (cg:JFrame):  Save Design : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd>  Wrote  : <E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/ui/bd_ce3ad162.ui>  
+// Elapsed time: 14 seconds
+dismissDialog("Save Design"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 18 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1039, 199, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_uartlite_0/tx] 
+// Tcl Message: endgroup 
+// Elapsed time: 35 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 883, 338, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 867, 322, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_uartlite_1/tx] 
+// Tcl Message: endgroup 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1092, 320, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "External Port Properties..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "o_UART_TX2"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+// Tcl Command: 'set_property name o_UART_TX2 [get_bd_ports tx_1]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd), UARTConfigTest_axi_uartlite_3_0 (UARTConfigTest_axi_uartlite_3_0.xci)]", 5, false); // B:i (D:JPanel, cg:JFrame)
+// Tcl Message: set_property name o_UART_TX2 [get_bd_ports tx_1] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 473, 159, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_uartlite_2/tx] 
+// Tcl Message: endgroup 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1177, 163, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "External Port Properties..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1189, 161, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, FrameFloatingContainer:ResizableFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "External Port Properties..."); // ac:JMenuItem (ai:JPopupMenu, FrameFloatingContainer:ResizableFrame)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1186, 164, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, FrameFloatingContainer:ResizableFrame)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, FrameFloatingContainer:ResizableFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "External Port Properties..."); // ac:JMenuItem (ai:JPopupMenu, FrameFloatingContainer:ResizableFrame)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "o_UART_TX3"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+// Tcl Command: 'set_property name o_UART_TX3 [get_bd_ports tx_1]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name o_UART_TX3 [get_bd_ports tx_1] 
+// [GUI Memory]: 112 MB (+2107kb) [00:18:28]
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 454, 389, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Block Pin Properties..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 443, 385, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 458, 387, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins axi_uartlite_3/tx] 
+// Tcl Message: endgroup 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1188, 389, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "External Port Properties..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1188, 386, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "External Port Properties..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "tx_1o_UART_TX4"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+// Tcl Command: 'set_property name tx_1o_UART_TX4 [get_bd_ports tx_1]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// Tcl Message: set_property name tx_1o_UART_TX4 [get_bd_ports tx_1] 
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "o_UART_TX4"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+// Tcl Command: 'set_property name o_UART_TX4 [get_bd_ports tx_1o_UART_TX4]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_CANVAS_LOCATION
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "Properties", 1); // i:JideTabbedPane (JPanel:JComponent, cg:JFrame)
+// Tcl Message: set_property name o_UART_TX4 [get_bd_ports tx_1o_UART_TX4] 
+// TclEventType: RSB_CANVAS_LOCATION
+selectTab(RDIResource.PropertiesView_TABBED_PANE, (HResource) null, "General", 0); // i:JideTabbedPane (JPanel:JComponent, cg:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "axi_uartlite_3 ; S_AXI ; Reg ; 0x42C3_0000 ; 64K ; 0x42C3_FFFF", 5, "Reg", 2, false); // g:af (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd>  Wrote  : <E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/ui/bd_ce3ad162.ui>  
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 148 seconds
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "gpio"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI GPIO", 0, "AXI GPIO", 0, false); // O:af (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI GPIO", 0); // O:af (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI GPIO", 0, "AXI GPIO", 0, false, false, false, false, false, true); // O:af (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0 
+// Tcl Message: endgroup 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// p:g (FrameFloatingContainer:ResizableFrame): Re-customize IP: addNotify
+// Elapsed time: 10 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "IP Configuration", 1); // aU:i (C:JPanel, p:g)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Board", 0); // aU:i (C:JPanel, p:g)
+dismissDialog("Re-customize IP"); // p:g (FrameFloatingContainer:ResizableFrame)
+// [GUI Memory]: 119 MB (+1166kb) [00:22:07]
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: delete_bd_objs [get_bd_cells axi_gpio_0] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 88 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // B:JideButton (f:CommandBar, FrameFloatingContainer:ResizableFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "vec"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "vect"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Utility Vector Logic", 0, "Utility Vector Logic", 0, false); // O:af (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Utility Vector Logic", 0); // O:af (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Utility Vector Logic", 0, "Utility Vector Logic", 0, false, false, false, false, false, true); // O:af (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:ip:util_vector_logic:2.0 util_vector_logic_1 
+// Tcl Message: endgroup 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Command: 'set_property location {5.5 1871 315} [get_bd_cells util_vector_logic_1]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {5.5 1871 315} [get_bd_cells util_vector_logic_1] 
+// Elapsed time: 26 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 860, 265, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins util_vector_logic_1/Op1] 
+// Tcl Message: endgroup 
+// Run Command: RDIResourceCommand.RDICommands_UNDO
+typeControlKey(null, null, 'z');
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: undo 
+// Tcl Message: INFO: [Common 17-17] undo 'endgroup' INFO: [Common 17-17] undo 'make_bd_pins_external  [get_bd_pins util_vector_logic_1/Op1]' INFO: [Common 17-17] undo 'startgroup' 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// p:g (FrameFloatingContainer:ResizableFrame): Re-customize IP: addNotify
+setText("C_SIZE", "1"); // z:X (aV:y, p:g)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+// Tcl Command: 'set_property -dict [list CONFIG.C_SIZE {1}] [get_bd_cells util_vector_logic_1]'
+// TclEventType: RSB_PROPERTY_CHANGE
+dismissDialog("Re-customize IP"); // p:g (FrameFloatingContainer:ResizableFrame)
+// Tcl Message: set_property -dict [list CONFIG.C_SIZE {1}] [get_bd_cells util_vector_logic_1] 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 858, 266, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS, "Make External"); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_PORTS
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: startgroup 
+// Tcl Message: make_bd_pins_external  [get_bd_pins util_vector_logic_1/Op1] 
+// Tcl Message: endgroup 
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 88, 267, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SelectMenu_HIGHLIGHT, "Highlight"); // Z:JMenu (ai:JPopupMenu, Popup:JWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "External Port Properties..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+// Elapsed time: 10 seconds
+setText(PAResourceQtoS.RSBExternalPortPropPanels_NAME, "i_Switch_1"); // X:JTextField (JPanel:JComponent, cg:JFrame)
+// Tcl Command: 'set_property name i_Switch_1 [get_bd_ports Op1]'
+// TclEventType: RSB_RENAME_OBJECT
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_RENAME_OBJECT
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "axi_uartlite_3 ; S_AXI ; Reg ; 0x42C3_0000 ; 64K ; 0x42C3_FFFF", 5, "Reg", 2, false); // g:af (JViewport:JComponent, cg:JFrame)
+// Tcl Message: set_property name i_Switch_1 [get_bd_ports Op1] 
+// Elapsed time: 23 seconds
+selectButton(PAResourceQtoS.SystemBuilderView_ADD_IP, "System_RSB_ADD_IP"); // B:JideButton (f:CommandBar, FrameFloatingContainer:ResizableFrame)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "mux"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "DataMuxOut1Bit_v1_0", 0, "DataMuxOut1Bit_v1_0", 0, false); // O:af (JViewport:JComponent, ResizableWindow:JWindow)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "DataMuxOut1Bit_v1_0", 0); // O:af (JViewport:JComponent, ResizableWindow:JWindow)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "DataMuxOut1Bit_v1_0", 0, "DataMuxOut1Bit_v1_0", 0, false, false, false, false, false, true); // O:af (JViewport:JComponent, ResizableWindow:JWindow) - Double Click
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: RSB_ADD_OBJECT
+// Tcl Message: startgroup 
+// Tcl Message: create_bd_cell -type ip -vlnv xilinx.com:user:DataMuxOut1Bit:1.0 DataMuxOut1Bit_0 
+// Tcl Message: endgroup 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Command: 'set_property location {8 2262 318} [get_bd_cells DataMuxOut1Bit_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {8 2262 318} [get_bd_cells DataMuxOut1Bit_0] 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_nets Op1_1] [get_bd_cells util_vector_logic_1] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Command: 'set_property location {6.5 2167 322} [get_bd_cells DataMuxOut1Bit_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {6.5 2167 322} [get_bd_cells DataMuxOut1Bit_0] 
+// Elapsed time: 12 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1002, 295, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// cZ:p (FrameFloatingContainer:ResizableFrame): Make Connecton: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 889 MB. GUI used memory: 73 MB. Current time: 2/18/18 4:10:29 PM IRST
+// Elapsed time: 23 seconds
+selectTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, Other type, Ports, i_Switch_1]", 35, false); // db:i (JViewport:JComponent, cZ:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, cZ:p)
+// 'bh' command handler elapsed time: 24 seconds
+// TclEventType: RSB_CONNECTION_CHANGE
+dismissDialog("Make Connecton"); // cZ:p (FrameFloatingContainer:ResizableFrame)
+// Tcl Message: connect_bd_net [get_bd_ports i_Switch_1] [get_bd_pins DataMuxOut1Bit_0/i_Select] 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: delete_bd_objs [get_bd_nets axi_uartlite_0_tx] [get_bd_ports tx] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins axi_uartlite_0/tx] [get_bd_pins DataMuxOut1Bit_0/i_In1] 
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_nets UART_TX_0_o_TXD] 
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: connect_bd_net [get_bd_pins UART_TX_0/o_TXD] [get_bd_pins DataMuxOut1Bit_0/i_In2] 
+// Elapsed time: 39 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1278, 509, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 1032, 280, 1350, 684, false, false, false, true, false); // fe:aJ (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_MAKE_CONNECTION, "Make Connection..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_MAKE_CONNECTION
+// cZ:p (FrameFloatingContainer:ResizableFrame): Make Connecton: addNotify
+selectCheckBoxTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, Other type, Ports, o_UART_TX1]", 9, false, false, ui.utils.TriState.False); // dl:a (JViewport:JComponent, cZ:p)
+selectCheckBoxTree(PAResourceQtoS.RSBSelectPinsDialog_PINS_TREE, "[, Other type, Ports, o_UART_TX1]", 9, false, true, ui.utils.TriState.True); // dl:a (JViewport:JComponent, cZ:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, cZ:p)
+// 'bh' command handler elapsed time: 3 seconds
+// TclEventType: RSB_CONNECTION_CHANGE
+dismissDialog("Make Connecton"); // cZ:p (FrameFloatingContainer:ResizableFrame)
+// Tcl Message: connect_bd_net [get_bd_ports o_UART_TX1] [get_bd_pins DataMuxOut1Bit_0/o_Out] 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd>  Wrote  : <E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/ui/bd_ce3ad162.ui>  
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Command: 'set_property location {2578 334} [get_bd_ports o_UART_TX1]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {2578 334} [get_bd_ports o_UART_TX1] 
+// Tcl Command: 'set_property location {2557 313} [get_bd_ports o_UART_TX1]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {2557 313} [get_bd_ports o_UART_TX1] 
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// p:g (FrameFloatingContainer:ResizableFrame): Re-customize IP: addNotify
+// Elapsed time: 66 seconds
+dismissDialog("Re-customize IP"); // p:g (FrameFloatingContainer:ResizableFrame)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// p:g (FrameFloatingContainer:ResizableFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // p:g (FrameFloatingContainer:ResizableFrame)
+selectButton(PAResourceQtoS.SystemBuilderView_OPTIMIZE_ROUTING, "System_RSB_OPTIMIZE_LAYOUT"); // B:JideButton (f:CommandBar, FrameFloatingContainer:ResizableFrame)
+// Tcl Command: 'regenerate_bd_layout -routing'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_ROUTE_LAYOUT
+// Tcl Message: regenerate_bd_layout -routing 
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B:JideButton (f:CommandBar, FrameFloatingContainer:ResizableFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+selectButton(PAResourceQtoS.SystemBuilderView_OPTIMIZE_ROUTING, "System_RSB_OPTIMIZE_LAYOUT"); // B:JideButton (f:CommandBar, FrameFloatingContainer:ResizableFrame)
+// Tcl Command: 'regenerate_bd_layout -routing'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_ROUTE_LAYOUT
+// Tcl Message: regenerate_bd_layout -routing 
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // B:JideButton (f:CommandBar, FrameFloatingContainer:ResizableFrame)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design'
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// bs:g (FrameFloatingContainer:ResizableFrame):  Validate Design : addNotify
+// Tcl Message: validate_bd_design 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 934 MB. GUI used memory: 73 MB. Current time: 2/18/18 4:13:04 PM IRST
+// [Engine Memory]: 935 MB (+35484kb) [00:28:12]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: validate_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1082.926 ; gain = 22.398 
+dismissDialog("Validate Design"); // bs:g (FrameFloatingContainer:ResizableFrame)
+selectButton("PAResourceTtoZ.ValidateRSBDesign_VALIDATION_SUCCESSFUL_THERE_NO_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B:JideButton (f:CommandBar, FrameFloatingContainer:ResizableFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+selectButton(PAResourceQtoS.SystemBuilderView_OPTIMIZE_ROUTING, "System_RSB_OPTIMIZE_LAYOUT"); // B:JideButton (f:CommandBar, FrameFloatingContainer:ResizableFrame)
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Command: 'regenerate_bd_layout -routing'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_ROUTE_LAYOUT
+// Tcl Message: regenerate_bd_layout -routing 
+selectButton(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "System_validate_bd_design_rsb"); // B:JideButton (f:CommandBar, FrameFloatingContainer:ResizableFrame)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'set_property location {7 2084 264} [get_bd_cells DataMuxOut1Bit_0]'
+// TclEventType: RSB_CANVAS_LOCATION
+// Tcl Message: set_property location {7 2084 264} [get_bd_cells DataMuxOut1Bit_0] 
+// Elapsed time: 18 seconds
+selectButton(PAResourceCommand.PACommandNames_REGENERATE_LAYOUT, "System_regenerate_rsb_layout"); // B:JideButton (f:CommandBar, FrameFloatingContainer:ResizableFrame)
+// Run Command: PAResourceCommand.PACommandNames_REGENERATE_LAYOUT
+// Tcl Command: 'regenerate_bd_layout'
+// TclEventType: RSB_LAYOUT_STATE
+// TclEventType: RSB_REGENERATE_LAYOUT
+// Tcl Message: regenerate_bd_layout 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: save_bd_design 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd>  Wrote  : <E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/ui/bd_ce3ad162.ui>  
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 60 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// au:p (cg:JFrame): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, au:p)
+// bs:g (cg:JFrame):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: generate_target all [get_files  E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd] 
+// Tcl Message: INFO: [BD 41-1662] The design 'UARTConfigTest.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// HMemoryUtils.trashcanNow. Engine heap size: 965 MB. GUI used memory: 74 MB. Current time: 2/18/18 4:14:34 PM IRST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/hdl/UARTConfigTest.vhd VHDL Output written to : E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/hdl/UARTConfigTest_wrapper.vhd 
+// [Engine Memory]: 994 MB (+13293kb) [00:29:45]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,025 MB. GUI used memory: 75 MB. Current time: 2/18/18 4:14:49 PM IRST
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_2 . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_3 . INFO: [BD 41-1029] Generation completed for the IP Integrator block DataMuxOut1Bit_0 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/hw_handoff/UARTConfigTest.hwh Generated Block Design Tcl file E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/hw_handoff/UARTConfigTest_bd.tcl Generated Hardware Definition File E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/hdl/UARTConfigTest.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:27 ; elapsed = 00:00:24 . Memory (MB): peak = 1175.254 ; gain = 87.563 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all UARTConfigTest_processing_system7_0_1] } 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all UARTConfigTest_xlconcat_0_0] } 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all UARTConfigTest_xbar_0] } 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all UARTConfigTest_axi_uartlite_2_0] } 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all UARTConfigTest_axi_uartlite_3_0] } 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all UARTConfigTest_DataMuxOut1Bit_0_0] } 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all UARTConfigTest_auto_pc_0] } 
+// TclEventType: OOC_IP_CACHE_USED
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP UARTConfigTest_auto_pc_0, cache-ID = c84d1e83ea540944; cache size = 6.712 MB. 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 125 MB (+302kb) [00:30:06]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: export_ip_user_files -of_objects [get_files E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd] -no_script -sync -force -quiet 
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd] 
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs -jobs 4 {UARTConfigTest_processing_system7_0_1_synth_1 UARTConfigTest_xlconcat_0_0_synth_1 UARTConfigTest_xbar_0_synth_1 UARTConfigTest_axi_uartlite_2_0_synth_1 UARTConfigTest_axi_uartlite_3_0_synth_1 UARTConfigTest_DataMuxOut1Bit_0_0_synth_1} 
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// 'bi' command handler elapsed time: 72 seconds
+// Elapsed time: 71 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+// [Engine Memory]: 1,045 MB (+1035kb) [00:30:53]
+// WARNING: HTimer (RSBAttributeDisplay Update Pin Markers Timer) is taking too long to process. Increasing delay to 3000 ms.
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// HMemoryUtils.trashcanNow. Engine heap size: 1,045 MB. GUI used memory: 75 MB. Current time: 2/18/18 4:15:53 PM IRST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// a:p (cg:JFrame): Create HDL Wrapper: addNotify
+// 'X' command handler elapsed time: 3 seconds
+dismissDialog("Create HDL Wrapper"); // a:p (cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a:p (cg:JFrame): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:p)
+dismissDialog("Create HDL Wrapper"); // a:p (cg:JFrame)
+// bs:g (cg:JFrame):  Create HDL Wrapper : addNotify
+// Tcl Message: make_wrapper -files [get_files E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd] -top 
+dismissDialog("Create HDL Wrapper"); // bs:g (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+// bs:g (cg:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd} 
+dismissDialog("Open Block Design"); // bs:g (cg:JFrame)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,067 MB. GUI used memory: 79 MB. Current time: 2/18/18 4:16:21 PM IRST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 284 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+// bs:g (cg:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd} 
+dismissDialog("Open Block Design"); // bs:g (cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a:p (cg:JFrame): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:p)
+dismissDialog("Create HDL Wrapper"); // a:p (cg:JFrame)
+// Tcl Message: make_wrapper -files [get_files E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd] -top 
+dockFrame(PAResourceOtoP.PAViews_SYSTEM, "Diagram"); // ax:DockableFrame (aF:FrameContainer, FrameFloatingContainer:ResizableFrame)
+maximizeFrame(PAResourceOtoP.PAViews_SYSTEM, "Diagram"); // ax:DockableFrame (aF:FrameContainer, FrameFloatingContainer:ResizableFrame)
+// PAResourceOtoP.PAViews_SYSTEM: System: dock view
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a:p (cg:JFrame): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:p)
+dismissDialog("Create HDL Wrapper"); // a:p (cg:JFrame)
+// Tcl Message: make_wrapper -files [get_files E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd] -top 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bs:g (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sun Feb 18 16:21:19 2018] Launched synth_1... Run output will be captured here: E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.runs/synth_1/runme.log [Sun Feb 18 16:21:19 2018] Launched impl_1... Run output will be captured here: E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 342 seconds
+dismissDialog("Bitstream Generation Completed"); // ah:x (cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X:p (cg:JFrame): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:p)
+selectButton("PAResourceItoN.NewExportHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_WAS_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, H:JDialog)
+dismissDialog("Export Hardware"); // X:p (cg:JFrame)
+// Tcl Message: file copy -force E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.runs/impl_1/UARTConfigTest_wrapper.sysdef E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.sdk/UARTConfigTest_wrapper.hdf  
+// Elapsed time: 240 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X:p (cg:JFrame): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:p)
+dismissDialog("Export Hardware"); // X:p (cg:JFrame)
+// Tcl Message: file mkdir E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.sdk 
+// Tcl Message: file copy -force E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.runs/impl_1/UARTConfigTest_wrapper.sysdef E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.sdk/UARTConfigTest_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa:p (cg:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aa:p)
+dismissDialog("Launch SDK"); // aa:p (cg:JFrame)
+// Tcl Message: launch_sdk -workspace E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.sdk -hwspec E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.sdk/UARTConfigTest_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.sdk -hwspec E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.sdk/UARTConfigTest_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 134 MB (+2151kb) [00:46:42]
+// Elapsed time: 662 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, UARTConfig.xdc]", 5, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, UARTConfig.xdc]", 5, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/constrs_1/new/UARTConfig.xdc" -n0'
+// HMemoryUtils.trashcanNow. Engine heap size: 1,080 MB. GUI used memory: 75 MB. Current time: 2/18/18 4:46:21 PM IRST
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// p:g (cg:JFrame): Re-customize IP: addNotify
+// Elapsed time: 477 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Re-customize IP"); // p:g (cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// p:g (cg:JFrame): Re-customize IP: addNotify
+selectComboBox("Baud Rate (C_BAUDRATE)", "115200", 9); // y:e (C:JPanel, p:g)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Re-customize IP"); // p:g (cg:JFrame)
+// Tcl Command: 'set_property -dict [list CONFIG.C_BAUDRATE {115200}] [get_bd_cells axi_uartlite_3]'
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.C_BAUDRATE {115200}] [get_bd_cells axi_uartlite_3] 
+// Tcl Message: endgroup 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// p:g (cg:JFrame): Re-customize IP: addNotify
+selectComboBox("Baud Rate (C_BAUDRATE)", "115200", 9); // y:e (C:JPanel, p:g)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Re-customize IP"); // p:g (cg:JFrame)
+// Tcl Command: 'set_property -dict [list CONFIG.C_BAUDRATE {115200}] [get_bd_cells axi_uartlite_2]'
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.C_BAUDRATE {115200}] [get_bd_cells axi_uartlite_2] 
+// Tcl Message: endgroup 
+// Run Command: PAResourceCommand.PACommandNames_SAVE_RSB_DESIGN
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// Tcl Message: Wrote  : <E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd>  Wrote  : <E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/ui/bd_ce3ad162.ui>  
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 34 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// au:p (cg:JFrame): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, au:p)
+// bs:g (cg:JFrame):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Wrote  : <E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd>  VHDL Output written to : E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/hdl/UARTConfigTest.vhd VHDL Output written to : E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/hdl/UARTConfigTest_wrapper.vhd 
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,093 MB. GUI used memory: 76 MB. Current time: 2/18/18 4:51:21 PM IRST
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_3 . INFO: [BD 41-1029] Generation completed for the IP Integrator block DataMuxOut1Bit_0 . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/hw_handoff/UARTConfigTest.hwh Generated Block Design Tcl file E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/hw_handoff/UARTConfigTest_bd.tcl Generated Hardware Definition File E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/hdl/UARTConfigTest.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1223.820 ; gain = 0.000 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all UARTConfigTest_axi_uartlite_2_0] } 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all UARTConfigTest_axi_uartlite_3_0] } 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all UARTConfigTest_auto_pc_0] } 
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP UARTConfigTest_auto_pc_0, cache-ID = c84d1e83ea540944; cache size = 8.441 MB. 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: export_ip_user_files -of_objects [get_files E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd] -no_script -sync -force -quiet 
+// TclEventType: RUN_RESET
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 4 {UARTConfigTest_axi_uartlite_2_0_synth_1 UARTConfigTest_axi_uartlite_3_0_synth_1} 
+// Tcl Message: [Sun Feb 18 16:51:24 2018] Launched UARTConfigTest_axi_uartlite_2_0_synth_1, UARTConfigTest_axi_uartlite_3_0_synth_1... Run output will be captured here: UARTConfigTest_axi_uartlite_2_0_synth_1: E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.runs/UARTConfigTest_axi_uartlite_2_0_synth_1/runme.log UARTConfigTest_axi_uartlite_3_0_synth_1: E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.runs/UARTConfigTest_axi_uartlite_3_0_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// [Engine Memory]: 1,099 MB (+1775kb) [01:06:35]
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// 'bi' command handler elapsed time: 23 seconds
+// Elapsed time: 22 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UARTConfigTest_wrapper(STRUCTURE) (UARTConfigTest_wrapper.vhd), UARTConfigTest_i : UARTConfigTest (UARTConfigTest.bd)]", 2, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ac:JMenuItem (ai:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a:p (cg:JFrame): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:p)
+dismissDialog("Create HDL Wrapper"); // a:p (cg:JFrame)
+// Tcl Message: make_wrapper -files [get_files E:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/UARTConfigTest.bd] -top 

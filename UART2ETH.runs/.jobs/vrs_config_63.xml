@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Uart_ETH_ila_0_2_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_ila_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_smartconnect_0_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_smartconnect_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_AllDataMover_0_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_AllDataMover_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_0_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_UART_RX_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_0_3_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_UART_RX_0_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_0_2_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_UART_RX_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_0_14_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_UART_RX_0_14_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_0_13_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_UART_RX_0_13_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_0_12_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_UART_RX_0_12_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_0_11_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_UART_RX_0_11_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_0_10_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_UART_RX_0_10_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_0_9_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_UART_RX_0_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_0_8_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_UART_RX_0_8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_0_7_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_UART_RX_0_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_0_6_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_UART_RX_0_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_0_5_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_UART_RX_0_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_0_4_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_UART_RX_0_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_0_16_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_UART_RX_0_16_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_All_Data_Sender_0_4_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_All_Data_Sender_0_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_axi_gpio_LED_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_axi_gpio_LED_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_axi_gpio_SW_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_axi_gpio_SW_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_axi_gpio_0_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/Uart_ETH_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="Uart_ETH_ila_0_2_synth_1"/>
+		<Parent Id="Uart_ETH_smartconnect_0_0_synth_1"/>
+		<Parent Id="Uart_ETH_AllDataMover_0_0_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_0_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_3_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_2_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_14_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_13_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_12_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_11_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_10_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_9_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_8_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_7_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_6_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_5_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_4_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_16_synth_1"/>
+		<Parent Id="Uart_ETH_All_Data_Sender_0_4_synth_1"/>
+		<Parent Id="Uart_ETH_axi_gpio_LED_0_synth_1"/>
+		<Parent Id="Uart_ETH_axi_gpio_SW_0_synth_1"/>
+		<Parent Id="Uart_ETH_axi_gpio_0_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="Uart_ETH_ila_0_2_synth_1"/>
+		<Parent Id="Uart_ETH_smartconnect_0_0_synth_1"/>
+		<Parent Id="Uart_ETH_AllDataMover_0_0_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_0_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_3_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_2_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_14_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_13_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_12_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_11_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_10_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_9_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_8_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_7_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_6_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_5_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_4_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_0_16_synth_1"/>
+		<Parent Id="Uart_ETH_All_Data_Sender_0_4_synth_1"/>
+		<Parent Id="Uart_ETH_axi_gpio_LED_0_synth_1"/>
+		<Parent Id="Uart_ETH_axi_gpio_SW_0_synth_1"/>
+		<Parent Id="Uart_ETH_axi_gpio_0_0_synth_1"/>
+	</Run>
+</Runs>
+

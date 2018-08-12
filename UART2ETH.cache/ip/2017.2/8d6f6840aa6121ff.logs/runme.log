@@ -1,0 +1,69 @@
+
+*** Running vivado
+    with args -log UARTConfigTest_axi_gpio_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source UARTConfigTest_axi_gpio_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source UARTConfigTest_axi_gpio_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 374.648 ; gain = 79.500
+INFO: [Synth 8-638] synthesizing module 'UARTConfigTest_axi_gpio_0_0' [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ip/UARTConfigTest_axi_gpio_0_0/synth/UARTConfigTest_axi_gpio_0_0.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-256] done synthesizing module 'UARTConfigTest_axi_gpio_0_0' (8#1) [e:/ETH2SER/SoftwareProjects/UART2ETH961130_2/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ip/UARTConfigTest_axi_gpio_0_0/synth/UARTConfigTest_axi_gpio_0_0.vhd:84]
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 415.980 ; gain = 120.832
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 415.980 ; gain = 120.832
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 737.434 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 737.434 ; gain = 442.285
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 737.434 ; gain = 442.285
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 737.434 ; gain = 442.285
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:36 . Memory (MB): peak = 737.434 ; gain = 442.285
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:38 . Memory (MB): peak = 737.434 ; gain = 442.285
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 737.434 ; gain = 442.285
+Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:59 . Memory (MB): peak = 737.434 ; gain = 442.285
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:01:00 . Memory (MB): peak = 737.434 ; gain = 442.285
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:01:01 . Memory (MB): peak = 737.434 ; gain = 442.285
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:01:01 . Memory (MB): peak = 737.434 ; gain = 442.285
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:01:01 . Memory (MB): peak = 737.434 ; gain = 442.285
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:01:01 . Memory (MB): peak = 737.434 ; gain = 442.285
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:01:01 . Memory (MB): peak = 737.434 ; gain = 442.285
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:01:01 . Memory (MB): peak = 737.434 ; gain = 442.285
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     5|
+|3     |LUT3 |     4|
+|4     |LUT4 |     7|
+|5     |LUT5 |    11|
+|6     |LUT6 |    10|
+|7     |FDR  |    16|
+|8     |FDRE |    41|
+|9     |FDSE |     4|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:01:01 . Memory (MB): peak = 737.434 ; gain = 442.285
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:01:06 . Memory (MB): peak = 737.434 ; gain = 450.047

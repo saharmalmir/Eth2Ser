@@ -1,0 +1,40 @@
+
+*** Running vivado
+    with args -log UARTConfigTest_util_vector_logic_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source UARTConfigTest_util_vector_logic_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source UARTConfigTest_util_vector_logic_0_0.tcl -notrace
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 364.520 ; gain = 79.676
+INFO: [Synth 8-638] synthesizing module 'UARTConfigTest_util_vector_logic_0_0' [e:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/ip/UARTConfigTest_util_vector_logic_0_0/synth/UARTConfigTest_util_vector_logic_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'util_vector_logic_v2_0_1_util_vector_logic' [e:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/ipshared/25ee/hdl/util_vector_logic_v2_0_vl_rfs.v:45]
+INFO: [Synth 8-256] done synthesizing module 'util_vector_logic_v2_0_1_util_vector_logic' (1#1) [e:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/ipshared/25ee/hdl/util_vector_logic_v2_0_vl_rfs.v:45]
+INFO: [Synth 8-256] done synthesizing module 'UARTConfigTest_util_vector_logic_0_0' (2#1) [e:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/ip/UARTConfigTest_util_vector_logic_0_0/synth/UARTConfigTest_util_vector_logic_0_0.v:57]
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 404.598 ; gain = 119.754
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 404.598 ; gain = 119.754
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 404.598 ; gain = 119.754
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 404.598 ; gain = 119.754
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 549.941 ; gain = 265.098
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 549.941 ; gain = 265.098
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 549.941 ; gain = 265.098
+Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 549.941 ; gain = 265.098
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 549.941 ; gain = 265.098
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 549.941 ; gain = 265.098
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 549.941 ; gain = 265.098
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 549.941 ; gain = 265.098
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 549.941 ; gain = 265.098
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 549.941 ; gain = 265.098
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 653.141 ; gain = 370.871
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1022.305 ; gain = 369.164

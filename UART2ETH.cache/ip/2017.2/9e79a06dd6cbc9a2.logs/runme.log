@@ -1,0 +1,88 @@
+
+*** Running vivado
+    with args -log Uart_ETH_axi_uart16550_0_4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Uart_ETH_axi_uart16550_0_4.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source Uart_ETH_axi_uart16550_0_4.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 405.809 ; gain = 80.023
+INFO: [Synth 8-638] synthesizing module 'Uart_ETH_axi_uart16550_0_4' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_uart16550_0_4/synth/Uart_ETH_axi_uart16550_0_4.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'axi_uart16550' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:4680]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (1#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (3#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'xuart' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:4204]
+INFO: [Synth 8-638] synthesizing module 'uart16550' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:2317]
+INFO: [Synth 8-638] synthesizing module 'xuart_tx_load_sm' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:310]
+INFO: [Synth 8-256] done synthesizing module 'xuart_tx_load_sm' (4#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:310]
+INFO: [Synth 8-638] synthesizing module 'rx16550' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:1303]
+INFO: [Synth 8-256] done synthesizing module 'rx16550' (5#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:1303]
+INFO: [Synth 8-638] synthesizing module 'tx16550' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:681]
+INFO: [Synth 8-256] done synthesizing module 'tx16550' (6#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:681]
+INFO: [Synth 8-638] synthesizing module 'tx_fifo_block' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:542]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'cntr_incr_decr_addn_f' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'cntr_incr_decr_addn_f' (7#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f' (8#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f' (9#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'tx_fifo_block' (10#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:542]
+INFO: [Synth 8-638] synthesizing module 'rx_fifo_block' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:1129]
+INFO: [Synth 8-638] synthesizing module 'rx_fifo_control' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:104]
+INFO: [Synth 8-256] done synthesizing module 'rx_fifo_control' (11#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'srl_fifo_rbu_f__parameterized0' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-638] synthesizing module 'dynshreg_f__parameterized0' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'dynshreg_f__parameterized0' (11#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:397]
+INFO: [Synth 8-256] done synthesizing module 'srl_fifo_rbu_f__parameterized0' (11#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/6039/hdl/lib_srl_fifo_v1_0_rfs.vhd:697]
+INFO: [Synth 8-256] done synthesizing module 'rx_fifo_block' (12#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:1129]
+INFO: [Synth 8-256] done synthesizing module 'uart16550' (13#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:2317]
+INFO: [Synth 8-638] synthesizing module 'ipic_if' [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:3880]
+INFO: [Synth 8-256] done synthesizing module 'ipic_if' (14#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:3880]
+INFO: [Synth 8-256] done synthesizing module 'xuart' (15#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:4204]
+INFO: [Synth 8-256] done synthesizing module 'axi_uart16550' (16#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd:4680]
+INFO: [Synth 8-256] done synthesizing module 'Uart_ETH_axi_uart16550_0_4' (17#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970323_Tx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_uart16550_0_4/synth/Uart_ETH_axi_uart16550_0_4.vhd:99]
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 453.902 ; gain = 128.117
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 453.902 ; gain = 128.117
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 776.113 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 776.113 ; gain = 450.328
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 776.113 ; gain = 450.328
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 776.113 ; gain = 450.328
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 776.113 ; gain = 450.328
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 776.113 ; gain = 450.328
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 776.113 ; gain = 450.328
+Finished Timing Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 778.262 ; gain = 452.477
+Finished Technology Mapping : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 782.016 ; gain = 456.230
+Finished IO Insertion : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 782.016 ; gain = 456.230
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 782.016 ; gain = 456.230
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 782.016 ; gain = 456.230
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 782.016 ; gain = 456.230
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 782.016 ; gain = 456.230
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 782.016 ; gain = 456.230
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     4|
+|2     |LUT1   |    19|
+|3     |LUT2   |    47|
+|4     |LUT3   |    48|
+|5     |LUT4   |    60|
+|6     |LUT5   |    82|
+|7     |LUT6   |   147|
+|8     |MUXF7  |     5|
+|9     |ODDR   |     1|
+|10    |SRL16E |    19|
+|11    |FDRE   |   260|
+|12    |FDSE   |    47|
++------+-------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:53 ; elapsed = 00:00:55 . Memory (MB): peak = 782.016 ; gain = 456.230
+synth_design: Time (s): cpu = 00:00:56 ; elapsed = 00:00:58 . Memory (MB): peak = 782.016 ; gain = 463.992

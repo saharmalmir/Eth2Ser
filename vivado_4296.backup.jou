@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Aug  1 15:39:30 2018
+# Process ID: 4296
+# Current directory: E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2756 E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.xpr
+# Log file: E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/vivado.log
+# Journal file: E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.xpr
+update_compile_order -fileset sources_1
+open_bd_design {E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/Uart_ETH.bd}
+file mkdir E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk
+file copy -force E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.runs/impl_1/Uart_ETH_wrapper.sysdef E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper.hdf
+
+launch_sdk -workspace E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk -hwspec E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper.hdf

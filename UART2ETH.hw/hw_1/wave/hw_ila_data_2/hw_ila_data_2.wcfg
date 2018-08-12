@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/ETH2SER/SoftwareProjects/UART2ETH970505_Master_Slave_Timer/UART2ETH.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="52645428fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="286"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="Uart_ETH_i/Uart_Blocks/All_Data_Sender_0_uart18_V_write" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Uart_ETH_i/Uart_Blocks/All_Data_Sender_0_uart18_V_write</obj_property>
+      <obj_property name="ObjectShortName">All_Data_Sender_0_uart18_V_write</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Uart_ETH_i/Uart_Blocks/i_Baud16x_1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Uart_ETH_i/Uart_Blocks/i_Baud16x_1</obj_property>
+      <obj_property name="ObjectShortName">i_Baud16x_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Uart_ETH_i/Uart_Blocks/i_Baud_2" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Uart_ETH_i/Uart_Blocks/i_Baud_2</obj_property>
+      <obj_property name="ObjectShortName">i_Baud_2</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Uart_ETH_i/Uart_Blocks/i_Data_2" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Uart_ETH_i/Uart_Blocks/i_Data_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_Data_2[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Uart_ETH_i/Uart_Blocks/Uart_Master_Slave_dout_14" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Uart_ETH_i/Uart_Blocks/Uart_Master_Slave_dout_14[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Uart_Master_Slave_dout_14[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="Uart_ETH_i/Uart_Blocks/Uart_Master_Slave_n_Busy" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Uart_ETH_i/Uart_Blocks/Uart_Master_Slave_n_Busy</obj_property>
+      <obj_property name="ObjectShortName">Uart_Master_Slave_n_Busy</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

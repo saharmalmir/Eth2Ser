@@ -1,0 +1,279 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port i_Reset -pg 1 -y 3850 -defaultsOSRD
+preplace port o_TXD15 -pg 1 -y 3320 -defaultsOSRD
+preplace port i_RXD7 -pg 1 -y 3190 -defaultsOSRD
+preplace port s_axi_aclk -pg 1 -y 3870 -defaultsOSRD
+preplace port o_TXD16 -pg 1 -y 840 -defaultsOSRD
+preplace port o_TXD -pg 1 -y 4480 -defaultsOSRD
+preplace port i_RXD8 -pg 1 -y 4900 -defaultsOSRD
+preplace port M00_AXI1 -pg 1 -y 1420 -defaultsOSRD
+preplace port i_CLK -pg 1 -y 3830 -defaultsOSRD
+preplace port i_RXD9 -pg 1 -y 1620 -defaultsOSRD
+preplace port o_TXD1 -pg 1 -y 4230 -defaultsOSRD
+preplace port s_axi_AXILiteS16 -pg 1 -y 2380 -defaultsOSRD
+preplace port o_TXD2 -pg 1 -y 3600 -defaultsOSRD
+preplace port o_TXD3 -pg 1 -y 1640 -defaultsOSRD
+preplace port i_RXD10 -pg 1 -y 3210 -defaultsOSRD
+preplace port o_TXD4 -pg 1 -y 240 -defaultsOSRD
+preplace port i_RXD11 -pg 1 -y 3270 -defaultsOSRD
+preplace port i_RXD -pg 1 -y 1600 -defaultsOSRD
+preplace port i_RXD_Config -pg 1 -y 1580 -defaultsOSRD
+preplace port o_TXD5 -pg 1 -y 550 -defaultsOSRD
+preplace port i_RXD12 -pg 1 -y 3230 -defaultsOSRD
+preplace port i_RXD1 -pg 1 -y 20 -defaultsOSRD
+preplace port o_TXD10 -pg 1 -y 2220 -defaultsOSRD
+preplace port o_TXD6 -pg 1 -y 4730 -defaultsOSRD
+preplace port i_RXD13 -pg 1 -y 3290 -defaultsOSRD
+preplace port i_RXD2 -pg 1 -y 40 -defaultsOSRD
+preplace port o_TXD11 -pg 1 -y 2470 -defaultsOSRD
+preplace port o_TXD7 -pg 1 -y 5230 -defaultsOSRD
+preplace port i_RXD14 -pg 1 -y 3250 -defaultsOSRD
+preplace port i_RXD3 -pg 1 -y 1640 -defaultsOSRD
+preplace port s_axi_aresetn -pg 1 -y 2400 -defaultsOSRD
+preplace port o_TXD12 -pg 1 -y 2760 -defaultsOSRD
+preplace port o_TXD8 -pg 1 -y 4980 -defaultsOSRD
+preplace port i_RXD15 -pg 1 -y 3310 -defaultsOSRD
+preplace port i_Reset_Periph -pg 1 -y 5170 -defaultsOSRD
+preplace port i_RXD4 -pg 1 -y 3330 -defaultsOSRD
+preplace port i_RXD16 -pg 1 -y 1560 -defaultsOSRD
+preplace port o_TXD13 -pg 1 -y 3030 -defaultsOSRD
+preplace port o_TXD9 -pg 1 -y 1930 -defaultsOSRD
+preplace port i_RXD5 -pg 1 -y 5150 -defaultsOSRD
+preplace port o_TXD_Config -pg 1 -y 1240 -defaultsOSRD
+preplace port o_TXD14 -pg 1 -y 3980 -defaultsOSRD
+preplace port i_RXD6 -pg 1 -y 3170 -defaultsOSRD
+preplace portBus busy_V1 -pg 1 -y 820 -defaultsOSRD
+preplace portBus i_input -pg 1 -y 3890 -defaultsOSRD
+preplace inst Uart_Master_Slave -pg 1 -lvl 2 -y 810 -defaultsOSRD
+preplace inst Uart_config -pg 1 -lvl 2 -y 1210 -defaultsOSRD
+preplace inst Uart_1 -pg 1 -lvl 2 -y 4200 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 2 -y 1420 -defaultsOSRD
+preplace inst Uart_2 -pg 1 -lvl 2 -y 3580 -defaultsOSRD
+preplace inst Uart_3 -pg 1 -lvl 2 -y 1620 -defaultsOSRD
+preplace inst Uart_4 -pg 1 -lvl 2 -y 220 -defaultsOSRD
+preplace inst Uart_5 -pg 1 -lvl 2 -y 530 -defaultsOSRD
+preplace inst Uart_10 -pg 1 -lvl 2 -y 2200 -defaultsOSRD
+preplace inst Uart_6 -pg 1 -lvl 2 -y 4710 -defaultsOSRD
+preplace inst Uart_11 -pg 1 -lvl 2 -y 2470 -defaultsOSRD
+preplace inst Uart_7 -pg 1 -lvl 2 -y 5210 -defaultsOSRD
+preplace inst Uart_12 -pg 1 -lvl 2 -y 2740 -defaultsOSRD
+preplace inst Uart_8 -pg 1 -lvl 2 -y 4960 -defaultsOSRD
+preplace inst AllDataMover_0 -pg 1 -lvl 1 -y 800 -defaultsOSRD
+preplace inst Uart_13 -pg 1 -lvl 2 -y 3010 -defaultsOSRD
+preplace inst Uart_9 -pg 1 -lvl 2 -y 1910 -defaultsOSRD
+preplace inst Uart_14 -pg 1 -lvl 2 -y 3944 -defaultsOSRD
+preplace inst All_Data_Sender_0 -pg 1 -lvl 1 -y 2400 -defaultsOSRD
+preplace inst Uart_15 -pg 1 -lvl 2 -y 3300 -defaultsOSRD
+preplace inst Buadrate_Generator -pg 1 -lvl 1 -y 3860 -defaultsOSRD
+preplace inst Uart_0 -pg 1 -lvl 2 -y 4452 -defaultsOSRD
+preplace netloc Buadrate_Generator_o_StopBit_12 1 1 1 1560
+preplace netloc Buadrate_Generator_o_Parity_3 1 1 1 920
+preplace netloc Buadrate_Generator_o_StopBit_0 1 1 1 570
+preplace netloc i_RXD_3 1 0 2 NJ 1580 590J
+preplace netloc Uart_8_o_TXD 1 2 1 NJ
+preplace netloc Uart_2_o_TXD 1 2 1 NJ
+preplace netloc All_Data_Sender_0_uart5_V_din 1 1 1 750
+preplace netloc rd_en_8_1 1 1 1 640
+preplace netloc Uart_Master_Slave_empty_14 1 1 2 790J 950 2070
+preplace netloc i_RXD_4 1 0 2 20J 1570 770J
+preplace netloc Buadrate_Generator_o_StopBit_13 1 1 1 1590
+preplace netloc Buadrate_Generator_o_Parity_4 1 1 1 1140
+preplace netloc Buadrate_Generator_o_StopBit_1 1 1 1 710
+preplace netloc Uart_1_empty_1 1 1 2 640 40 2330
+preplace netloc AllDataMover_0_uart9_V_read 1 1 1 500
+preplace netloc Buadrate_Generator_o_StopBit_14 1 1 1 1610
+preplace netloc Buadrate_Generator_o_Parity_5 1 1 1 1240
+preplace netloc Buadrate_Generator_o_StopBit_2 1 1 1 1580
+preplace netloc Uart_3_n_Busy 1 1 2 1180 1750 2070
+preplace netloc Uart_config_empty_14 1 1 2 820J 1050 2080
+preplace netloc All_Data_Sender_0_uart10_V_din 1 1 1 1290
+preplace netloc Uart_9_dout_9 1 1 2 700J 1040 2090
+preplace netloc util_vector_logic_0_Res 1 1 2 1340J 3730 2110
+preplace netloc Buadrate_Generator_o_StopBit_15 1 1 1 1600
+preplace netloc Buadrate_Generator_o_Parity_6 1 1 1 560
+preplace netloc Buadrate_Generator_o_StopBit_3 1 1 1 590
+preplace netloc i_Baud_2 1 1 1 1280
+preplace netloc Uart_13_empty_13 1 1 2 990J 3160 2070
+preplace netloc i_RXD5_1 1 0 2 NJ 5150 NJ
+preplace netloc AllDataMover_0_uart8_V_read 1 1 1 1170
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 2 30 1590 900J
+preplace netloc Buadrate_Generator_o_Parity_7 1 1 1 490
+preplace netloc Buadrate_Generator_o_StopBit_4 1 1 1 670
+preplace netloc i_Send_1 1 1 1 1300
+preplace netloc Uart_7_o_TXD 1 2 1 NJ
+preplace netloc Buadrate_Generator_o_Parity_8 1 1 1 510
+preplace netloc Buadrate_Generator_o_StopBit_5 1 1 1 980
+preplace netloc All_Data_Sender_0_uart12_V_din 1 1 1 1390
+preplace netloc Uart_3_dout_1 1 1 2 NJ 360 2210
+preplace netloc i_Send_2 1 1 1 1250
+preplace netloc All_Data_Sender_0_uart7_V_write 1 1 1 840
+preplace netloc Uart_Master_Slave_dout_14 1 1 2 810J 970 2080
+preplace netloc Buadrate_Generator_o_Parity_9 1 1 1 930
+preplace netloc Buadrate_Generator_o_StopBit_6 1 1 1 530
+preplace netloc Uart_14_o_TXD 1 2 1 2370J
+preplace netloc Buadrate_Generator_o_StopBit_7 1 1 1 450
+preplace netloc Uart_13_dout_13 1 1 2 580J 2870 2070
+preplace netloc Buadrate_Generator_o_StopBit_8 1 1 1 470
+preplace netloc All_Data_Sender_0_uart13_V_write 1 1 1 1360
+preplace netloc rd_en_0_1 1 1 1 480
+preplace netloc Uart_12_empty_12 1 1 2 840J 1080 2110
+preplace netloc Buadrate_Generator_o_StopBit_9 1 1 1 640
+preplace netloc All_Data_Sender_0_uart10_V_write 1 1 1 1360
+preplace netloc All_Data_Sender_0_uart8_V_write 1 1 1 760
+preplace netloc Uart_12_dout_12 1 1 2 800J 1070 2120
+preplace netloc Uart_5_dout_5 1 1 2 720J 380 2070
+preplace netloc Uart_10_empty_10 1 1 2 NJ 940 2160
+preplace netloc busy_V1_1 1 0 1 NJ
+preplace netloc All_Data_Sender_0_uart16_V_din 1 1 1 1210
+preplace netloc All_Data_Sender_0_uart4_V_din 1 1 1 1010
+preplace netloc Uart_13_n_Busy 1 1 2 610J 3430 2080
+preplace netloc Uart_10_n_Busy 1 1 2 1370J 2040 2070
+preplace netloc Uart_5_n_Busy 1 1 2 890J 980 2090
+preplace netloc Uart_2_n_Busy 1 1 2 1160J 1760 2180
+preplace netloc Uart_8_dout_8 1 1 2 610J 990 2270
+preplace netloc Uart_0_dout_0 1 1 2 480 10 2360
+preplace netloc i_RXD8_1 1 0 2 NJ 4900 NJ
+preplace netloc Uart_14_n_Busy 1 1 2 1060J 3720 2090
+preplace netloc All_Data_Sender_0_uart9_V_write 1 1 1 800
+preplace netloc i_RXD11_1 1 0 2 NJ 3270 830J
+preplace netloc i_RXD6_1 1 0 2 NJ 3170 1470J
+preplace netloc AllDataMover_0_uart18_V_read 1 1 1 780
+preplace netloc All_Data_Sender_0_uart11_V_din 1 1 1 1400
+preplace netloc Uart_15_empty_15 1 1 2 NJ 1340 2140
+preplace netloc Uart_1_dout_1 1 1 2 610 30 2340
+preplace netloc Uart_15_dout_15 1 1 2 1380J 3710 2090
+preplace netloc Uart_11_dout_11 1 1 2 NJ 1000 2190
+preplace netloc i_Data_1 1 1 1 1310
+preplace netloc i_RXD4_1 1 0 2 60J 3260 750J
+preplace netloc i_Data_2 1 1 1 1090
+preplace netloc All_Data_Sender_0_uart15_V_write 1 1 1 870
+preplace netloc All_Data_Sender_0_uart14_V_din 1 1 1 1350
+preplace netloc All_Data_Sender_0_uart1_V_write 1 1 1 1070
+preplace netloc rd_en_15_1 1 1 1 1440
+preplace netloc AllDataMover_0_m_axi_DRAM 1 1 1 630
+preplace netloc All_Data_Sender_0_uart18_V_write 1 1 1 1110
+preplace netloc Uart_config_n_Busy 1 1 2 1230J 3150 2150
+preplace netloc Uart_config_dout_14 1 1 2 830J 1060 2070
+preplace netloc Buadrate_Generator_o_Parity_10 1 1 1 1030
+preplace netloc i_CLK_1 1 0 1 NJ
+preplace netloc Buadrate_Generator_o_Parity_11 1 1 1 650
+preplace netloc AllDataMover_0_uart12_V_read 1 1 1 610
+preplace netloc Uart_3_empty_1 1 1 2 710J 370 2200
+preplace netloc Uart_12_o_TXD 1 2 1 NJ
+preplace netloc Uart_6_n_Busy 1 1 2 1390 2330 2200
+preplace netloc Uart_7_empty_7 1 1 2 610 680 2310
+preplace netloc Uart_10_dout_10 1 1 2 1590J 930 2170
+preplace netloc Buadrate_Generator_o_Parity_12 1 1 1 690
+preplace netloc i_input_1 1 0 1 NJ
+preplace netloc Uart_config_o_TXD 1 2 1 NJ
+preplace netloc Uart_13_o_TXD 1 2 1 NJ
+preplace netloc Buadrate_Generator_o_Parity_13 1 1 1 1540
+preplace netloc Uart_9_n_Busy 1 1 2 1190J 1330 2080
+preplace netloc All_Data_Sender_0_uart7_V_din 1 1 1 860
+preplace netloc All_Data_Sender_0_uart5_V_write 1 1 1 760
+preplace netloc Uart_8_empty_8 1 1 2 740J 1010 2250
+preplace netloc rst_ps7_0_100M_peripheral_reset 1 0 2 NJ 5170 1330
+preplace netloc AllDataMover_0_uart5_V_read 1 1 1 700
+preplace netloc Buadrate_Generator_o_Parity_14 1 1 1 1570
+preplace netloc Uart_9_o_TXD 1 2 1 NJ
+preplace netloc All_Data_Sender_0_uart14_V_write 1 1 1 680
+preplace netloc All_Data_Sender_0_uart13_V_din 1 1 1 1370
+preplace netloc All_Data_Sender_0_uart6_V_din 1 1 1 460
+preplace netloc UART_TX_0_o_TXD 1 2 1 2370J
+preplace netloc i_RXD7_1 1 0 2 NJ 3190 1480J
+preplace netloc i_RXD12_1 1 0 2 NJ 3230 1150J
+preplace netloc Buadrate_Generator_o_Parity_15 1 1 1 1550
+preplace netloc Uart_Master_Slave_n_Busy 1 1 2 1220J 3140 2220
+preplace netloc AllDataMover_0_uart13_V_read 1 1 1 1590
+preplace netloc Uart_5_empty_5 1 1 2 690J 80 2160
+preplace netloc Uart_3_o_TXD 1 2 1 NJ
+preplace netloc AllDataMover_0_uart2_V_read 1 1 1 540
+preplace netloc Uart_14_dout_14 1 1 2 970J 3790 2080
+preplace netloc Uart_11_n_Busy 1 1 2 1410J 2050 2080
+preplace netloc Uart_11_empty_11 1 1 2 NJ 1020 2130
+preplace netloc Buadrate_Generator_o_OutRx_0 1 1 1 740
+preplace netloc Uart_10_o_TXD 1 2 1 NJ
+preplace netloc Uart_5_o_TXD 1 2 1 NJ
+preplace netloc All_Data_Sender_0_uart8_V_din 1 1 1 460
+preplace netloc All_Data_Sender_0_uart6_V_write 1 1 1 850
+preplace netloc i_RXD1_1 1 0 2 NJ 20 500J
+preplace netloc Net 1 1 1 1100
+preplace netloc rd_en_10_1 1 1 1 620
+preplace netloc All_Data_Sender_0_uart17_V_din 1 1 1 1230
+preplace netloc Buadrate_Generator_o_OutRx_10 1 1 1 1010
+preplace netloc Buadrate_Generator_o_OutRx_1 1 1 1 790
+preplace netloc All_Data_Sender_0_uart9_V_din 1 1 1 810
+preplace netloc Uart_7_n_Busy 1 1 2 1430J 2600 2230
+preplace netloc AllDataMover_0_uart15_V_read 1 1 1 940
+preplace netloc Uart_4_dout_3 1 1 2 660 60 2080
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 2 40 30 600
+preplace netloc Buadrate_Generator_o_OutRx_11 1 1 1 1020
+preplace netloc Buadrate_Generator_o_OutRx_2 1 1 1 850
+preplace netloc All_Data_Sender_0_uart15_V_din 1 1 1 1040
+preplace netloc i_RXD2_1 1 0 2 30J 10 460J
+preplace netloc Uart_4_empty_3 1 1 2 680 70 2070
+preplace netloc Buadrate_Generator_o_OutRx_3 1 1 1 1000
+preplace netloc AllDataMover_0_uart4_V_read 1 1 1 1600
+preplace netloc Buadrate_Generator_o_OutRx_12 1 1 1 630
+preplace netloc Uart_15_o_TXD 1 2 1 NJ
+preplace netloc All_Data_Sender_0_uart16_V_write 1 1 1 1160
+preplace netloc AllDataMover_0_uart3_V_read 1 1 1 1490
+preplace netloc Buadrate_Generator_o_OutRx_13 1 1 1 1510
+preplace netloc Buadrate_Generator_o_OutRx_4 1 1 1 880
+preplace netloc Uart_4_o_TXD 1 2 1 NJ
+preplace netloc All_Data_Sender_0_uart2_V_write 1 1 1 1130
+preplace netloc Uart_2_dout_1 1 1 2 650J 50 2280
+preplace netloc Buadrate_Generator_o_OutRx_14 1 1 1 780
+preplace netloc Buadrate_Generator_o_OutRx_5 1 1 1 1080
+preplace netloc util_vector_logic_1_Res 1 1 2 1270J 3740 2100
+preplace netloc AllDataMover_0_uart6_V_read 1 1 1 740
+preplace netloc All_Data_Sender_0_m_axi_DRAM 1 1 1 910
+preplace netloc All_Data_Sender_0_uart4_V_write 1 1 1 1120
+preplace netloc Buadrate_Generator_o_OutRx_15 1 1 1 1520
+preplace netloc Buadrate_Generator_o_OutRx_6 1 1 1 580
+preplace netloc AllDataMover_0_uart7_V_read 1 1 1 1320
+preplace netloc Uart_9_empty_9 1 1 2 660J 1030 2100
+preplace netloc Buadrate_Generator_o_OutRx_7 1 1 1 520
+preplace netloc Uart_4_n_Busy 1 1 2 870J 960 2190
+preplace netloc UART_TX_1_o_TXD 1 2 1 2370J
+preplace netloc Uart_14_empty_14 1 1 2 960J 3800 2070
+preplace netloc Conn1 1 2 1 NJ
+preplace netloc AllDataMover_0_uart17_V_read 1 1 1 860
+preplace netloc Buadrate_Generator_o_OutRx_8 1 1 1 550
+preplace netloc Uart_0_empty_0 1 1 2 540 20 2350
+preplace netloc i_Baud16x_1 1 1 1 950
+preplace netloc Buadrate_Generator_o_OutRx_9 1 1 1 1450
+preplace netloc All_Data_Sender_0_uart2_V_din 1 1 1 1200
+preplace netloc Conn3 1 0 1 NJ
+preplace netloc Uart_12_n_Busy 1 1 2 1180J 2060 2090
+preplace netloc Uart_8_n_Busy 1 1 2 1260J 1770 2240
+preplace netloc i_RXD3_1 1 0 2 20J 1630 1470J
+preplace netloc AllDataMover_0_uart14_V_read 1 1 1 550
+preplace netloc i_Reset_1 1 0 1 NJ
+preplace netloc Uart_2_empty_1 1 1 2 650J 350 2260
+preplace netloc i_RXD10_1 1 0 2 NJ 3210 1500J
+preplace netloc Uart_Master_Slave_o_TXD 1 2 1 NJ
+preplace netloc All_Data_Sender_0_uart12_V_write 1 1 1 1460
+preplace netloc Uart_15_n_Busy 1 1 2 1120J 3440 2070
+preplace netloc All_Data_Sender_0_uart11_V_write 1 1 1 1420
+preplace netloc Uart_11_o_TXD 1 2 1 NJ
+preplace netloc Buadrate_Generator_o_Parity_0 1 1 1 720
+preplace netloc i_RXD14_1 1 0 2 NJ 3250 1050J
+preplace netloc Buadrate_Generator_o_StopBit_10 1 1 1 660
+preplace netloc Buadrate_Generator_o_Parity_1 1 1 1 730
+preplace netloc i_RXD_1 1 0 2 NJ 1600 1000J
+preplace netloc Uart_6_o_TXD 1 2 1 NJ
+preplace netloc Uart_6_empty_6 1 1 2 1610 660 2290
+preplace netloc Uart_6_dout_6 1 1 2 730 390 2300
+preplace netloc i_UART_RX2_1 1 0 2 50J 3280 820J
+preplace netloc Uart_7_dout_7 1 1 2 500 670 2320
+preplace netloc Buadrate_Generator_o_StopBit_11 1 1 1 700
+preplace netloc Buadrate_Generator_o_Parity_2 1 1 1 1530
+preplace netloc i_RXD9_1 1 0 2 20J 1610 1560J
+preplace netloc i_RXD_2 1 0 2 70J 3300 770J
+levelinfo -pg 1 0 260 1930 2440 -top 0 -bot 5660
+",
+}
+0

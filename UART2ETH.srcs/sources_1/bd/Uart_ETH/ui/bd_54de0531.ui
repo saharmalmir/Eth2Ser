@@ -1,0 +1,25 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port i_Reset -pg 1 -y 210 -defaultsOSRD
+preplace port o_TXD -pg 1 -y -100 -defaultsOSRD
+preplace port i_CLK -pg 1 -y 190 -defaultsOSRD
+preplace port i_RXD -pg 1 -y 250 -defaultsOSRD
+preplace port s_axi_AXILiteS -pg 1 -y 20 -defaultsOSRD
+preplace port ap_rst_n -pg 1 -y 230 -defaultsOSRD
+preplace port m_axi_a -pg 1 -y 220 -defaultsOSRD
+preplace port m_axi_DRAM -pg 1 -y 80 -defaultsOSRD
+preplace inst Uart_Tx_Monitoring -pg 1 -lvl 1 -y -102 -defaultsOSRD
+preplace inst Uart_Rx_Monitoring -pg 1 -lvl 1 -y 56 -defaultsOSRD
+preplace netloc Conn1 1 0 1 -70
+preplace netloc Uart_Tx_Monitoring_o_TXD 1 1 1 330
+preplace netloc Uart_Tx_Monitoring_m_axi_DRAM 1 1 1 340
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 1 -50J
+preplace netloc sin_6 1 0 1 -30J
+preplace netloc clk_wiz_0_clk_92M 1 0 1 -60J
+preplace netloc Uart_Rx_Monitoring_m_axi_a 1 1 1 330
+preplace netloc i_Reset_Periph_1 1 0 1 -40J
+levelinfo -pg 1 -90 190 360 -top -200 -bot 920
+",
+}
+0

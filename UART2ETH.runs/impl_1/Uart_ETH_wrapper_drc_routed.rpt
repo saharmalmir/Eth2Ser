@@ -1,0 +1,362 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Sun Jul 29 14:01:48 2018
+| Host         : AVACO-PC2 running 64-bit Service Pack 1  (build 7601)
+| Command      : report_drc -file Uart_ETH_wrapper_drc_routed.rpt -pb Uart_ETH_wrapper_drc_routed.pb -rpx Uart_ETH_wrapper_drc_routed.rpx
+| Design       : Uart_ETH_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Routed
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 65
++-----------+----------+-------------------+------------+
+| Rule      | Severity | Description       | Violations |
++-----------+----------+-------------------+------------+
+| PDRC-153  | Warning  | Gated clock check | 64         |
+| RTSTAT-10 | Warning  | No routable loads | 1          |
++-----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Send_0/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Send_0/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Send_0/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Send_0/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Send_0/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Send_0/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Send_0/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Send_0/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Send_0/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Send_0/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Send_0/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Send_0/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Send_0/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Send_0/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#5 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Send_1/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Send_1/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Send_1/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#6 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Send_1/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Send_1/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Send_1/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Send_1/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#7 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Send_1/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Send_1/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Send_1/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Send_1/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#8 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Send_1/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Send_1/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Send_1/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#9 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Send_10/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Send_10/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Send_10/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#10 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Send_10/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Send_10/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Send_10/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Send_10/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#11 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Send_10/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Send_10/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Send_10/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Send_10/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#12 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Send_10/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Send_10/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Send_10/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#13 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Send_11/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Send_11/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Send_11/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#14 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Send_11/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Send_11/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Send_11/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Send_11/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#15 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Send_11/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Send_11/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Send_11/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Send_11/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#16 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Send_11/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Send_11/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Send_11/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#17 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Send_12/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Send_12/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Send_12/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#18 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Send_12/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Send_12/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Send_12/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Send_12/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#19 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Send_12/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Send_12/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Send_12/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Send_12/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#20 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Send_12/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Send_12/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Send_12/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#21 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Send_13/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Send_13/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Send_13/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#22 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Send_13/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Send_13/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Send_13/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Send_13/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#23 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Send_13/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Send_13/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Send_13/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Send_13/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#24 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Send_13/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Send_13/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Send_13/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#25 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Send_14/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Send_14/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Send_14/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#26 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Send_14/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Send_14/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Send_14/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Send_14/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#27 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Send_14/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Send_14/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Send_14/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Send_14/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#28 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Send_14/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Send_14/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Send_14/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#29 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Send_15/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Send_15/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Send_15/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#30 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Send_15/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Send_15/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Send_15/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Send_15/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#31 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Send_15/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Send_15/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Send_15/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Send_15/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#32 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Send_15/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Send_15/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Send_15/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#33 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Send_2/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Send_2/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Send_2/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#34 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Send_2/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Send_2/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Send_2/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Send_2/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#35 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Send_2/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Send_2/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Send_2/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Send_2/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#36 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Send_2/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Send_2/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Send_2/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#37 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Send_3/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Send_3/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Send_3/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#38 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Send_3/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Send_3/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Send_3/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Send_3/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#39 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Send_3/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Send_3/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Send_3/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Send_3/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#40 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Send_3/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Send_3/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Send_3/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#41 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Send_4/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Send_4/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Send_4/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#42 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Send_4/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Send_4/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Send_4/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Send_4/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#43 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Send_4/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Send_4/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Send_4/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Send_4/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#44 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Send_4/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Send_4/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Send_4/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#45 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Send_5/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Send_5/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Send_5/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#46 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Send_5/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Send_5/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Send_5/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Send_5/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#47 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Send_5/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Send_5/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Send_5/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Send_5/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#48 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Send_5/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Send_5/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Send_5/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#49 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Send_6/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Send_6/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Send_6/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#50 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Send_6/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Send_6/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Send_6/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Send_6/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#51 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Send_6/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Send_6/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Send_6/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Send_6/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#52 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Send_6/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Send_6/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Send_6/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#53 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Send_7/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Send_7/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Send_7/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#54 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Send_7/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Send_7/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Send_7/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Send_7/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#55 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Send_7/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Send_7/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Send_7/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Send_7/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#56 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Send_7/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Send_7/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Send_7/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#57 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Send_8/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Send_8/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Send_8/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#58 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Send_8/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Send_8/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Send_8/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Send_8/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#59 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Send_8/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Send_8/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Send_8/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Send_8/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#60 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Send_8/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Send_8/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Send_8/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#61 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Send_9/UART_TX_Extended_0/U0/s_Parity_reg_i_2_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Send_9/UART_TX_Extended_0/U0/s_Parity_reg_i_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Send_9/UART_TX_Extended_0/U0/s_Parity_reg_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#62 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Send_9/UART_TX_Extended_0/U0/stopbit_value_reg[3]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Send_9/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Send_9/UART_TX_Extended_0/U0/stopbit_value_reg[3]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Send_9/UART_TX_Extended_0/U0/stopbit_value_reg[3] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#63 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Send_9/UART_TX_Extended_0/U0/stopbit_value_reg[4]/G0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Send_9/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2/O, cell Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Send_9/UART_TX_Extended_0/U0/stopbit_value_reg[4]/L3_2 (in Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Send_9/UART_TX_Extended_0/U0/stopbit_value_reg[4] macro). This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#64 Warning
+Gated clock check  
+Net Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Send_9/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1_n_0 is a gated clock net sourced by a combinational pin Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Send_9/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1/O, cell Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Send_9/UART_TX_Extended_0/U0/stopbit_value_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+90 net(s) have no routable loads. The problem bus(es) and/or net(s) are Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Rec_15/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Rec_10/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Rec_7/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Rec_11/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Rec_3/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Rec_0/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Rec_13/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Uart_ETH_i/Uart_Blocks/Uart_config/Uart_Rec_Config/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Rec_2/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Rec_6/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Rec_1/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Rec_4/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Rec_9/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Rec_5/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, Uart_ETH_i/Uart_Blocks/Uart_Master_Slave/Uart_Rec_Master_Slave/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i (the first 15 of 90 listed).
+Related violations: <none>
+
+

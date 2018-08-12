@@ -1,0 +1,1229 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Jul 29 12:05:55 2018
+# Process ID: 6276
+# Current directory: E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6532 E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.xpr
+# Log file: E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/vivado.log
+# Journal file: E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/SR-System/IPs/IOBUF/IOBUF.xpr
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'open_project' was cancelled
+open_project E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.xpr
+INFO: [Project 1-313] Project file moved from 'E:/ETH2SER/SoftwareProjects/UART2ETH970505_Master_Slave_Timer' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/UARTConfigTest/hdl/UARTConfigTest_wrapper.vhd', nor could it be found using path 'E:/ETH2SER/SoftwareProjects/UART2ETH970505_Master_Slave_Timer/UART2ETH.srcs/sources_1/bd/UARTConfigTest/hdl/UARTConfigTest_wrapper.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/SR-System/IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/Extract_UART_Features_970323'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_UART_Config_Register_970322/AXI_UART_Config'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_FIFO_Tx_970220/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/970231_HLS_FIFO_Rx_Integrated/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/970321_HLS_FIFO_Tx_Integrated/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_FIFO_Rx/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_axi_gpio_LED_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_LED_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_axi_gpio_SW_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_SW_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_smartconnect_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_clk_wiz_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_clk_wiz_1_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_rst_ps7_0_100M_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_rst_ps7_0_100M_2' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_2/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_2' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_2/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_1_14' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_1_14/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_10_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_10_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_0_3' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_0_3/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_2' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_2/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_3' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_3/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_4' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_4/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_5' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_5/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_6' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_6/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_7' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_7/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_8' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_8/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_9' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_9/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_10' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_10/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_11' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_11/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_12' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_12/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_13' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_13/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_4' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_4/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_fifo_generator_0_15' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_15/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_14' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_14/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_Register_8_Input_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Register_8_Input_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_Register_8_Input_1_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Register_8_Input_1_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_Register_8_Input_Rx1_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Register_8_Input_Rx1_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_Register_8_Input_Rx2_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Register_8_Input_Rx2_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_LED_Sample_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_LED_Sample_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_LED_Sample_0_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_LED_Sample_0_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_LED_Sample_1_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_LED_Sample_1_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_LED_Sample_1_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_LED_Sample_1_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_Tick_Timer_General_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Tick_Timer_General_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_Tick_Timer_General_0_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Tick_Timer_General_0_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_xlconstant_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlconstant_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_18' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_18/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_19' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_19/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_20' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_20/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_21' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_21/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_22' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_22/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_23' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_23/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_24' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_24/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_25' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_25/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_26' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_26/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_27' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_27/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_28' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_28/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_29' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_29/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_30' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_30/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_11_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_11_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_11_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_11_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_2' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_2/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_3' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_3/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_4' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_4/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_5' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_5/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_6' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_6/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_7' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_7/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_2' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_2/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_3' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_3/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_4' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_4/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_5' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_5/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_6' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_6/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_7' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_7/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_8' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_8/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_30_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_30_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_37' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_37/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_fifo_generator_0_3' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_3/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_RX_Without_Baud_1_17' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_RX_Without_Baud_1_17/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_14_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_14_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_TX_Without_Baud_14_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_TX_Without_Baud_14_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_TX_Extended_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_TX_Extended_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_RX_Extended_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_RX_Extended_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_2_5' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_2_5/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_TX_Extended_0_4' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_TX_Extended_0_4/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_36' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_36/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_fifo_generator_0_5' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_5/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_RX_Extended_0_4' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_RX_Extended_0_4/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_2_6' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_2_6/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_TX_Extended_0_5' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_TX_Extended_0_5/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_38' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_38/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_fifo_generator_0_6' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_6/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_RX_Extended_0_5' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_RX_Extended_0_5/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_2_10' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_2_10/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_TX_Extended_0_9' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_TX_Extended_0_9/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_42' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_42/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_fifo_generator_0_10' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_10/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_RX_Extended_0_9' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_RX_Extended_0_9/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_2_9' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_2_9/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_TX_Extended_0_8' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_TX_Extended_0_8/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_41' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_41/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_fifo_generator_0_9' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_9/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_RX_Extended_0_8' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_RX_Extended_0_8/stats.txt'. Please regenerate to continue.
+INFO: [Common 17-14] Message 'IP_Flow 19-3664' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+open_project: Time (s): cpu = 00:00:43 ; elapsed = 00:00:47 . Memory (MB): peak = 1042.078 ; gain = 218.391
+update_compile_order -fileset sources_1
+open_bd_design {E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/Uart_ETH.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_Busy
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_KeyPad
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:hls:UART_Config_Register:1.0 - UART_Config_Register_0
+Adding cell -- xilinx.com:user:IO_In_Out_Switcher:1.0 - IO_In_Out_Switcher_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:ip:xlslice:1.0 - Master_Slave_Pin_Selector
+Adding cell -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_10
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_3
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_4
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_5
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_6
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_7
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_8
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_9
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_11
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_12
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_13
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_14
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_15
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_16
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_17
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_18
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_19
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_20
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_21
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_22
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_23
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_24
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_25
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_26
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_27
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_28
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_29
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_30
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_31
+Adding cell -- xilinx.com:user:LED_Sample:1.0 - LED_Sample_1
+Adding cell -- xilinx.com:user:LED_Sample:1.0 - LED_Sample_2
+Adding cell -- xilinx.com:user:LED_Sample:1.0 - LED_Sample_3
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:user:Register_8_Input:1.0 - Register_8_Input_Tx1
+Adding cell -- xilinx.com:user:Register_8_Input:1.0 - Register_8_Input_Tx2
+Adding cell -- xilinx.com:user:Register_8_Input:1.0 - Register_8_Input_Rx1
+Adding cell -- xilinx.com:user:PISO:1.0 - PISO_0
+Adding cell -- xilinx.com:user:LED_Sample:1.0 - LED_Sample_0
+Adding cell -- xilinx.com:user:Register_8_Input:1.0 - Register_8_Input_Rx2
+Adding cell -- xilinx.com:user:LED_Tester:1.0 - LED_Tester_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:user:Tick_Timer_General:1.0 - Tick_Timer_General_0
+Adding cell -- xilinx.com:user:Tick_Timer_General:1.0 - Tick_Timer_General_KeyPad
+Adding cell -- xilinx.com:user:Counter:1.0 - Counter_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD_DATA
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD_RS
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD_RST
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD_CS1
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD_RW
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD_EN
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCDCS2
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD_Backlight
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_1
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_92M
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_18M
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding cell -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /Uart_Blocks/ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding cell -- xilinx.com:hls:All_Data_Sender:1.0 - All_Data_Sender_0
+Adding cell -- xilinx.com:hls:AllDataMover:1.0 - AllDataMover_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_Master_Slave/Uart_Rec_Master_Slave/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Without_Baud:1.0 - UART_RX_Without_Baud_1
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_Master_Slave/Uart_Rec_Master_Slave/i_Reset(rst) and /Uart_Blocks/Uart_Master_Slave/Uart_Rec_Master_Slave/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_14
+Adding cell -- xilinx.com:user:UART_TX_Without_Baud:1.0 - UART_TX_Without_Baud_14
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_config/Uart_Rec_Config/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Without_Baud:1.0 - UART_RX_Without_Baud_1
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_config/Uart_Rec_Config/i_Reset(rst) and /Uart_Blocks/Uart_config/Uart_Rec_Config/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_14
+Adding cell -- xilinx.com:user:UART_TX_Without_Baud:1.0 - UART_TX_Without_Baud_14
+Adding cell -- xilinx.com:user:baudrate_gen:1.0 - baudrate_gen_0
+Adding cell -- xilinx.com:user:Extract_UART_Features:1.0 - Extract_UART_Features_0
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_8
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_9
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_10
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_0
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_11
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_12
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_1
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_2
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_13
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_14
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_3
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_4
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_5
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_6
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_7
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_15
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_1/Uart_Rec_1/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_1/Uart_Rec_1/i_Reset(rst) and /Uart_Blocks/Uart_1/Uart_Rec_1/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_0/Uart_Rec_0/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /Uart_Blocks/Uart_0/Uart_Rec_0/ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_0/Uart_Rec_0/i_Reset(rst) and /Uart_Blocks/Uart_0/Uart_Rec_0/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_15/Uart_Rec_15/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_15/Uart_Rec_15/i_Reset(rst) and /Uart_Blocks/Uart_15/Uart_Rec_15/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_14/Uart_Rec_14/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_14/Uart_Rec_14/i_Reset(rst) and /Uart_Blocks/Uart_14/Uart_Rec_14/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_13/Uart_Rec_13/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_13/Uart_Rec_13/i_Reset(rst) and /Uart_Blocks/Uart_13/Uart_Rec_13/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_12/Uart_Rec_12/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_12/Uart_Rec_12/i_Reset(rst) and /Uart_Blocks/Uart_12/Uart_Rec_12/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_11/Uart_Rec_11/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_11/Uart_Rec_11/i_Reset(rst) and /Uart_Blocks/Uart_11/Uart_Rec_11/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_10/Uart_Rec_10/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_10/Uart_Rec_10/i_Reset(rst) and /Uart_Blocks/Uart_10/Uart_Rec_10/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_9/Uart_Rec_9/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_9/Uart_Rec_9/i_Reset(rst) and /Uart_Blocks/Uart_9/Uart_Rec_9/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_8/Uart_Rec_8/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_8/Uart_Rec_8/i_Reset(rst) and /Uart_Blocks/Uart_8/Uart_Rec_8/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_7/Uart_Rec_7/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_7/Uart_Rec_7/i_Reset(rst) and /Uart_Blocks/Uart_7/Uart_Rec_7/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_6/Uart_Rec_6/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_6/Uart_Rec_6/i_Reset(rst) and /Uart_Blocks/Uart_6/Uart_Rec_6/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_5/Uart_Rec_5/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_5/Uart_Rec_5/i_Reset(rst) and /Uart_Blocks/Uart_5/Uart_Rec_5/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_4/Uart_Rec_4/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_4/Uart_Rec_4/i_Reset(rst) and /Uart_Blocks/Uart_4/Uart_Rec_4/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_3/Uart_Rec_3/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_3/Uart_Rec_3/i_Reset(rst) and /Uart_Blocks/Uart_3/Uart_Rec_3/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_2/Uart_Rec_2/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_2/Uart_Rec_2/i_Reset(rst) and /Uart_Blocks/Uart_2/Uart_Rec_2/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_LED
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_SW
+Successfully read diagram <Uart_ETH> from BD file <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/Uart_ETH.bd>
+open_bd_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1168.695 ; gain = 126.617
+delete_bd_objs [get_bd_nets Timer_Interrupt_o_Tic_1ms] [get_bd_nets Timer_Interrupt_dout] [get_bd_nets Timer_Interrupt_o_Count] [get_bd_cells ila_0]
+delete_bd_objs [get_bd_cells Uart_Blocks/ila_0]
+delete_bd_objs [get_bd_nets Uart_Blocks/Uart_0/Uart_Rec_0/fifo_generator_0_data_count] [get_bd_cells Uart_Blocks/Uart_0/Uart_Rec_0/ila_0]
+regenerate_bd_layout -hierarchy [get_bd_cell Uart_Blocks/Uart_0/Uart_Rec_0]
+regenerate_bd_layout -hierarchy [get_bd_cell Uart_Blocks/Uart_0]
+regenerate_bd_layout -hierarchy [get_bd_cell Uart_Blocks]
+save_bd_design
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/Uart_ETH.bd> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_78f24f28.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_43e7588f.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_2df4208f.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_a6db4fbf.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_93b0d580.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_4d5e61c1.ui> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/Uart_ETH.bd> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_78f24f28.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_43e7588f.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_2df4208f.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_a6db4fbf.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_93b0d580.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_4d5e61c1.ui> 
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/Uart_Blocks/smartconnect_0/S00_AXI_arlock'(1) to net 'AllDataMover_0_m_axi_DRAM_ARLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/Uart_Blocks/smartconnect_0/S00_AXI_awlock'(1) to net 'AllDataMover_0_m_axi_DRAM_AWLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/Uart_Blocks/smartconnect_0/S01_AXI_arlock'(1) to net 'All_Data_Sender_0_m_axi_DRAM_ARLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/Uart_Blocks/smartconnect_0/S01_AXI_awlock'(1) to net 'All_Data_Sender_0_m_axi_DRAM_AWLOCK'(2) - Only lower order bits will be connected.
+VHDL Output written to : E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/hdl/Uart_ETH.vhd
+VHDL Output written to : E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/hdl/Uart_ETH_wrapper.vhd
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_78f24f28.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_43e7588f.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_2df4208f.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_a6db4fbf.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_93b0d580.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_4d5e61c1.ui> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Axi_GPIOs/axi_gpio_LED .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Axi_GPIOs/axi_gpio_SW .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/AllDataMover_0 .
+Exporting to file e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hw_handoff/Uart_ETH_smartconnect_0_0.hwh
+Generated Block Design Tcl file e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hw_handoff/Uart_ETH_smartconnect_0_0_bd.tcl
+Generated Hardware Definition File e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/Uart_ETH_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/smartconnect_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/All_Data_Sender_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Clock_Managment/clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Clock_Managment/clk_wiz_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Clock_Managment/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Clock_Managment/rst_ps7_0_18M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Clock_Managment/rst_ps7_0_92M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block UART_Config_Register_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Extract_UART_Features_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Clock_Managment/util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/baudrate_gen_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_2/Uart_Send_2/util_vector_logic_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_12 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_13 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_14 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_15 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_2/Uart_Rec_2/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_2/Uart_Rec_2/fifo_generator_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/PISO_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/LED_Tester_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/Register_8_Input_Rx2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/Register_8_Input_Rx1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/Register_8_Input_Tx1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/Register_8_Input_Tx2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/LED_Sample_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/LED_Sample_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/LED_Sample_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/LED_Sample_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/Tick_Timer_General_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_Busy .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_KeyPad .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Timer_Interrupt/Tick_Timer_General_KeyPad .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD_DATA .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD_RS .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD_RST .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD_CS1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD_RW .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD_EN .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCDCS2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Timer_Interrupt/Counter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Timer_Interrupt/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Timer_Interrupt/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD_Backlight .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_12 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_13 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_14 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_15 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_16 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_17 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_18 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_19 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_21 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_22 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_23 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_24 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_25 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_26 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_27 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_28 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_29 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_30 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_31 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_config/Uart_Rec_Config/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_config/Uart_Rec_Config/fifo_generator_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_config/Uart_Rec_Config/UART_RX_Without_Baud_1 .
+INFO: [Common 17-14] Message 'BD 41-1029' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_auto_pc_0/Uart_ETH_auto_pc_0_ooc.xdc'
+Exporting to file E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/hw_handoff/Uart_ETH.hwh
+Generated Block Design Tcl file E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/hw_handoff/Uart_ETH_bd.tcl
+Generated Hardware Definition File E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/hdl/Uart_ETH.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Uart_ETH_auto_pc_0, cache-ID = 5b50ff599b9282de; cache size = 512.502 MB.
+[Sun Jul 29 12:13:36 2018] Launched synth_1...
+Run output will be captured here: E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.runs/synth_1/runme.log
+[Sun Jul 29 12:13:36 2018] Launched impl_1...
+Run output will be captured here: E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1347.645 ; gain = 178.949
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1385.785 ; gain = 0.000
+INFO: [Common 17-344] 'open_run' was cancelled
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_IO_In_Out_Switcher_0_1/Uart_ETH_IO_In_Out_Switcher_0_1.dcp' for cell 'Uart_ETH_i/IO_In_Out_Switcher_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlslice_KeyPad_1/Uart_ETH_xlslice_KeyPad_1.dcp' for cell 'Uart_ETH_i/Master_Slave_Pin_Selector'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_Config_Register_0_0/Uart_ETH_UART_Config_Register_0_0.dcp' for cell 'Uart_ETH_i/UART_Config_Register_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_processing_system7_0_1/Uart_ETH_processing_system7_0_1.dcp' for cell 'Uart_ETH_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlconcat_0_1/Uart_ETH_xlconcat_0_1.dcp' for cell 'Uart_ETH_i/xlconcat_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlconstant_0_1/Uart_ETH_xlconstant_0_1.dcp' for cell 'Uart_ETH_i/xlconstant_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlconstant_0_2/Uart_ETH_xlconstant_0_2.dcp' for cell 'Uart_ETH_i/xlconstant_1'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlslice_0_0/Uart_ETH_xlslice_0_0.dcp' for cell 'Uart_ETH_i/xlslice_Busy'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlslice_0_1/Uart_ETH_xlslice_0_1.dcp' for cell 'Uart_ETH_i/xlslice_KeyPad'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_LED_0/Uart_ETH_axi_gpio_LED_0.dcp' for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_LED'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_SW_0/Uart_ETH_axi_gpio_SW_0.dcp' for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_SW'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/Uart_ETH_clk_wiz_0_0.dcp' for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/Uart_ETH_clk_wiz_1_0.dcp' for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_1'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_1/Uart_ETH_rst_ps7_0_100M_1.dcp' for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_18M'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_2/Uart_ETH_rst_ps7_0_100M_2.dcp' for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_92M'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_0/Uart_ETH_util_vector_logic_0_0.dcp' for cell 'Uart_ETH_i/Clock_Managment/util_vector_logic_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_2/Uart_ETH_util_vector_logic_0_2.dcp' for cell 'Uart_ETH_i/Clock_Managment/util_vector_logic_1'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlslice_KeyPad_0/Uart_ETH_xlslice_KeyPad_0.dcp' for cell 'Uart_ETH_i/LCD_Pins/xlslice_LCD'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlslice_LCD1_1/Uart_ETH_xlslice_LCD1_1.dcp' for cell 'Uart_ETH_i/LCD_Pins/xlslice_LCDCS2'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlslice_LCD_RW_0/Uart_ETH_xlslice_LCD_RW_0.dcp' for cell 'Uart_ETH_i/LCD_Pins/xlslice_LCD_Backlight'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlslice_LCD1_0/Uart_ETH_xlslice_LCD1_0.dcp' for cell 'Uart_ETH_i/LCD_Pins/xlslice_LCD_CS1'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlslice_LCD_0/Uart_ETH_xlslice_LCD_0.dcp' for cell 'Uart_ETH_i/LCD_Pins/xlslice_LCD_DATA'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlslice_LCD_RS_1/Uart_ETH_xlslice_LCD_RS_1.dcp' for cell 'Uart_ETH_i/LCD_Pins/xlslice_LCD_EN'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlslice_LCD1_2/Uart_ETH_xlslice_LCD1_2.dcp' for cell 'Uart_ETH_i/LCD_Pins/xlslice_LCD_RS'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlslice_LCD_RS_0/Uart_ETH_xlslice_LCD_RS_0.dcp' for cell 'Uart_ETH_i/LCD_Pins/xlslice_LCD_RST'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlslice_LCD_RS_2/Uart_ETH_xlslice_LCD_RS_2.dcp' for cell 'Uart_ETH_i/LCD_Pins/xlslice_LCD_RW'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_LED_Sample_0_0/Uart_ETH_LED_Sample_0_0.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/LED_Panel/LED_Sample_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_LED_Sample_0_1/Uart_ETH_LED_Sample_0_1.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/LED_Panel/LED_Sample_1'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_LED_Sample_1_1/Uart_ETH_LED_Sample_1_1.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/LED_Panel/LED_Sample_2'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_LED_Sample_1_0/Uart_ETH_LED_Sample_1_0.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/LED_Panel/LED_Sample_3'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_LED_Tester_0_0/Uart_ETH_LED_Tester_0_0.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/LED_Panel/LED_Tester_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_PISO_0_0/Uart_ETH_PISO_0_0.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/LED_Panel/PISO_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Register_8_Input_1_0/Uart_ETH_Register_8_Input_1_0.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/LED_Panel/Register_8_Input_Rx1'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Register_8_Input_0_0/Uart_ETH_Register_8_Input_0_0.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/LED_Panel/Register_8_Input_Rx2'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Register_8_Input_Rx1_0/Uart_ETH_Register_8_Input_Rx1_0.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/LED_Panel/Register_8_Input_Tx1'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Register_8_Input_Rx2_0/Uart_ETH_Register_8_Input_Rx2_0.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/LED_Panel/Register_8_Input_Tx2'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Tick_Timer_General_0_0/Uart_ETH_Tick_Timer_General_0_0.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/LED_Panel/Tick_Timer_General_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_14/Uart_ETH_util_vector_logic_0_14.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/LED_Panel/util_vector_logic_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlconcat_0_0/Uart_ETH_xlconcat_0_0.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/LED_Panel/xlconcat_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_19/Uart_ETH_util_vector_logic_0_19.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_20/Uart_ETH_util_vector_logic_0_20.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_1'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_29/Uart_ETH_util_vector_logic_0_29.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_10'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_30/Uart_ETH_util_vector_logic_0_30.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_11'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_11_0/Uart_ETH_util_vector_logic_11_0.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_12'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_11_1/Uart_ETH_util_vector_logic_11_1.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_13'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_0/Uart_ETH_util_vector_logic_12_0.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_14'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_1/Uart_ETH_util_vector_logic_12_1.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_15'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_2/Uart_ETH_util_vector_logic_12_2.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_16'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_3/Uart_ETH_util_vector_logic_12_3.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_17'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_4/Uart_ETH_util_vector_logic_12_4.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_18'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_5/Uart_ETH_util_vector_logic_12_5.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_19'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_21/Uart_ETH_util_vector_logic_0_21.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_2'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_6/Uart_ETH_util_vector_logic_12_6.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_20'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_7/Uart_ETH_util_vector_logic_12_7.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_21'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_0/Uart_ETH_util_vector_logic_21_0.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_22'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_1/Uart_ETH_util_vector_logic_21_1.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_23'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_2/Uart_ETH_util_vector_logic_21_2.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_24'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_3/Uart_ETH_util_vector_logic_21_3.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_25'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_4/Uart_ETH_util_vector_logic_21_4.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_26'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_5/Uart_ETH_util_vector_logic_21_5.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_27'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_6/Uart_ETH_util_vector_logic_21_6.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_28'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_7/Uart_ETH_util_vector_logic_21_7.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_29'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_22/Uart_ETH_util_vector_logic_0_22.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_3'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_8/Uart_ETH_util_vector_logic_21_8.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_30'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_30_0/Uart_ETH_util_vector_logic_30_0.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_31'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_23/Uart_ETH_util_vector_logic_0_23.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_4'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_24/Uart_ETH_util_vector_logic_0_24.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_5'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_25/Uart_ETH_util_vector_logic_0_25.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_6'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_26/Uart_ETH_util_vector_logic_0_26.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_7'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_27/Uart_ETH_util_vector_logic_0_27.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_8'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_28/Uart_ETH_util_vector_logic_0_28.dcp' for cell 'Uart_ETH_i/LED_Panel_diagram/Not_Block/util_vector_logic_9'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Counter_0_0/Uart_ETH_Counter_0_0.dcp' for cell 'Uart_ETH_i/Timer_Interrupt/Counter_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Tick_Timer_General_0_1/Uart_ETH_Tick_Timer_General_0_1.dcp' for cell 'Uart_ETH_i/Timer_Interrupt/Tick_Timer_General_KeyPad'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_18/Uart_ETH_util_vector_logic_0_18.dcp' for cell 'Uart_ETH_i/Timer_Interrupt/util_vector_logic_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlconstant_0_0/Uart_ETH_xlconstant_0_0.dcp' for cell 'Uart_ETH_i/Timer_Interrupt/xlconstant_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_AllDataMover_0_0/Uart_ETH_AllDataMover_0_0.dcp' for cell 'Uart_ETH_i/Uart_Blocks/AllDataMover_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_All_Data_Sender_0_4/Uart_ETH_All_Data_Sender_0_4.dcp' for cell 'Uart_ETH_i/Uart_Blocks/All_Data_Sender_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/Uart_ETH_smartconnect_0_0.dcp' for cell 'Uart_ETH_i/Uart_Blocks/smartconnect_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Extract_UART_Features_0_0/Uart_ETH_Extract_UART_Features_0_0.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Extract_UART_Features_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_baudrate_gen_0_0/Uart_ETH_baudrate_gen_0_0.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/baudrate_gen_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_10_0/Uart_ETH_DataMuxOut4Bit_10_0.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_0_3/Uart_ETH_DataMuxOut4Bit_0_3.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_1'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_8/Uart_ETH_DataMuxOut4Bit_1_8.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_10'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_9/Uart_ETH_DataMuxOut4Bit_1_9.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_11'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_10/Uart_ETH_DataMuxOut4Bit_1_10.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_12'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_11/Uart_ETH_DataMuxOut4Bit_1_11.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_13'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_12/Uart_ETH_DataMuxOut4Bit_1_12.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_14'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_13/Uart_ETH_DataMuxOut4Bit_1_13.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_15'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_0/Uart_ETH_DataMuxOut4Bit_1_0.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_2'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_1/Uart_ETH_DataMuxOut4Bit_1_1.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_3'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_2/Uart_ETH_DataMuxOut4Bit_1_2.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_4'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_3/Uart_ETH_DataMuxOut4Bit_1_3.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_5'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_4/Uart_ETH_DataMuxOut4Bit_1_4.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_6'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_5/Uart_ETH_DataMuxOut4Bit_1_5.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_7'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_6/Uart_ETH_DataMuxOut4Bit_1_6.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_8'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_7/Uart_ETH_DataMuxOut4Bit_1_7.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_9'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_RX_Extended_0_13/Uart_ETH_UART_RX_Extended_0_13.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Rec_0/UART_RX_Extended_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_14/Uart_ETH_fifo_generator_0_14.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Rec_0/fifo_generator_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_46/Uart_ETH_util_vector_logic_0_46.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Rec_0/util_vector_logic_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_TX_Extended_0_13/Uart_ETH_UART_TX_Extended_0_13.dcp' for cell 'Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Send_0/UART_TX_Extended_0'
+INFO: [Common 17-14] Message 'Project 1-454' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Netlist 29-17] Analyzing 712 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. Uart_ETH_i/Clock_Managment/clk_wiz_1/inst/clkin1_ibufg 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'Uart_ETH_i/Clock_Managment/clk_wiz_1/clk_in1' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/.Xil/Vivado-6276-AVACO-PC2/dcp775/Uart_ETH_clk_wiz_1_0.edf:296]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'Uart_ETH_i/IO_In_Out_Switcher_0/i_In' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/.Xil/Vivado-6276-AVACO-PC2/dcp1127/Uart_ETH_IO_In_Out_Switcher_0_1.edf:302]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'Uart_ETH_i/IO_In_Out_Switcher_0/i_In' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/.Xil/Vivado-6276-AVACO-PC2/dcp1127/Uart_ETH_IO_In_Out_Switcher_0_1.edf:303]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'Uart_ETH_i/IO_In_Out_Switcher_0/i_Selector' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/.Xil/Vivado-6276-AVACO-PC2/dcp1127/Uart_ETH_IO_In_Out_Switcher_0_1.edf:310]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'Uart_ETH_i/IO_In_Out_Switcher_0/i_Selector' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/.Xil/Vivado-6276-AVACO-PC2/dcp1127/Uart_ETH_IO_In_Out_Switcher_0_1.edf:311]
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_processing_system7_0_1/Uart_ETH_processing_system7_0_1.xdc] for cell 'Uart_ETH_i/processing_system7_0/inst'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_processing_system7_0_1/Uart_ETH_processing_system7_0_1.xdc] for cell 'Uart_ETH_i/processing_system7_0/inst'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_LED_0/Uart_ETH_axi_gpio_LED_0_board.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_LED/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_LED_0/Uart_ETH_axi_gpio_LED_0_board.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_LED/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_LED_0/Uart_ETH_axi_gpio_LED_0.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_LED/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_LED_0/Uart_ETH_axi_gpio_LED_0.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_LED/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_SW_0/Uart_ETH_axi_gpio_SW_0_board.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_SW/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_SW_0/Uart_ETH_axi_gpio_SW_0_board.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_SW/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_SW_0/Uart_ETH_axi_gpio_SW_0.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_SW/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_SW_0/Uart_ETH_axi_gpio_SW_0.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_SW/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_1/bd_5544_psr_aclk_0_board.xdc] for cell 'Uart_ETH_i/Uart_Blocks/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_1/bd_5544_psr_aclk_0_board.xdc] for cell 'Uart_ETH_i/Uart_Blocks/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_1/bd_5544_psr_aclk_0.xdc] for cell 'Uart_ETH_i/Uart_Blocks/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_1/bd_5544_psr_aclk_0.xdc] for cell 'Uart_ETH_i/Uart_Blocks/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/Uart_ETH_clk_wiz_0_0_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_0/inst'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/Uart_ETH_clk_wiz_0_0_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_0/inst'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/Uart_ETH_clk_wiz_0_0.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_0/inst'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/Uart_ETH_clk_wiz_0_0.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_0/inst'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/Uart_ETH_clk_wiz_1_0_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_1/inst'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/Uart_ETH_clk_wiz_1_0_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_1/inst'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/Uart_ETH_clk_wiz_1_0.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_1/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/Uart_ETH_clk_wiz_1_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/Uart_ETH_clk_wiz_1_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 2229.441 ; gain = 519.152
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/Uart_ETH_clk_wiz_1_0.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_1/inst'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_1/Uart_ETH_rst_ps7_0_100M_1_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_18M/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_1/Uart_ETH_rst_ps7_0_100M_1_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_18M/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_1/Uart_ETH_rst_ps7_0_100M_1.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_18M/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_1/Uart_ETH_rst_ps7_0_100M_1.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_18M/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_2/Uart_ETH_rst_ps7_0_100M_2_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_92M/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_2/Uart_ETH_rst_ps7_0_100M_2_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_92M/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_2/Uart_ETH_rst_ps7_0_100M_2.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_92M/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_2/Uart_ETH_rst_ps7_0_100M_2.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_92M/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_15/Uart_ETH_fifo_generator_0_15.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Rec_2/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_15/Uart_ETH_fifo_generator_0_15.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Rec_2/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_3/Uart_ETH_fifo_generator_0_3.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_config/Uart_Rec_Config/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_3/Uart_ETH_fifo_generator_0_3.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_config/Uart_Rec_Config/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_5/Uart_ETH_fifo_generator_0_5.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Rec_3/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_5/Uart_ETH_fifo_generator_0_5.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Rec_3/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_6/Uart_ETH_fifo_generator_0_6.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Rec_4/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_6/Uart_ETH_fifo_generator_0_6.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Rec_4/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_10/Uart_ETH_fifo_generator_0_10.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Rec_10/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_10/Uart_ETH_fifo_generator_0_10.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Rec_10/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_9/Uart_ETH_fifo_generator_0_9.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Rec_9/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_9/Uart_ETH_fifo_generator_0_9.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Rec_9/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_8/Uart_ETH_fifo_generator_0_8.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Rec_6/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_8/Uart_ETH_fifo_generator_0_8.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Rec_6/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_7/Uart_ETH_fifo_generator_0_7.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Rec_5/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_7/Uart_ETH_fifo_generator_0_7.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Rec_5/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_14/Uart_ETH_fifo_generator_0_14.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Rec_0/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_14/Uart_ETH_fifo_generator_0_14.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Rec_0/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_16/Uart_ETH_fifo_generator_0_16.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Rec_15/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_16/Uart_ETH_fifo_generator_0_16.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Rec_15/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_30/Uart_ETH_fifo_generator_0_30.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Rec_13/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_30/Uart_ETH_fifo_generator_0_30.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Rec_13/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_13/Uart_ETH_fifo_generator_0_13.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Rec_12/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_13/Uart_ETH_fifo_generator_0_13.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Rec_12/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_12/Uart_ETH_fifo_generator_0_12.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Rec_11/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_12/Uart_ETH_fifo_generator_0_12.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Rec_11/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_32/Uart_ETH_fifo_generator_0_32.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Rec_1/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_32/Uart_ETH_fifo_generator_0_32.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Rec_1/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_31/Uart_ETH_fifo_generator_0_31.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Rec_14/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_31/Uart_ETH_fifo_generator_0_31.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Rec_14/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_34/Uart_ETH_fifo_generator_0_34.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Rec_8/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_34/Uart_ETH_fifo_generator_0_34.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Rec_8/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_33/Uart_ETH_fifo_generator_0_33.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Rec_7/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_33/Uart_ETH_fifo_generator_0_33.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Rec_7/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_0/Uart_ETH_fifo_generator_0_0.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_Master_Slave/Uart_Rec_Master_Slave/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_0/Uart_ETH_fifo_generator_0_0.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_Master_Slave/Uart_Rec_Master_Slave/fifo_generator_0/U0'
+Parsing XDC File [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/constrs_1/new/UARTConfig.xdc]
+WARNING: [Vivado 12-584] No ports matched 'i_Switch_1'. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/constrs_1/new/UARTConfig.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/constrs_1/new/UARTConfig.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched '*_Switch_*'. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/constrs_1/new/UARTConfig.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/constrs_1/new/UARTConfig.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/constrs_1/new/UARTConfig.xdc]
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/Uart_ETH_clk_wiz_0_0_late.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_0/inst'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/Uart_ETH_clk_wiz_0_0_late.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_0/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 352 instances were transformed.
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 32 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 2 instances
+  RAM16X1S => RAM32X1S (RAMS32): 24 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 287 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 7 instances
+
+open_run: Time (s): cpu = 00:00:57 ; elapsed = 00:00:51 . Memory (MB): peak = 2231.809 ; gain = 846.023
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:28 ; elapsed = 00:00:15 . Memory (MB): peak = 2388.578 ; gain = 156.770
+report_utilization: Time (s): cpu = 00:00:28 ; elapsed = 00:00:15 . Memory (MB): peak = 2388.578 ; gain = 156.770
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Netlist 29-17] Analyzing 712 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. Uart_ETH_i/Clock_Managment/clk_wiz_1/inst/clkin1_ibufg 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'Uart_ETH_i/Clock_Managment/clk_wiz_1/clk_in1' is not directly connected to top level port. 'IBUF_LOW_PWR' is ignored by Vivado but preserved for implementation tool. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/.Xil/Vivado-6276-AVACO-PC2/dcp1153/Uart_ETH_clk_wiz_1_0.edf:296]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'Uart_ETH_i/IO_In_Out_Switcher_0/i_In' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/.Xil/Vivado-6276-AVACO-PC2/dcp1505/Uart_ETH_IO_In_Out_Switcher_0_1.edf:302]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'Uart_ETH_i/IO_In_Out_Switcher_0/i_In' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/.Xil/Vivado-6276-AVACO-PC2/dcp1505/Uart_ETH_IO_In_Out_Switcher_0_1.edf:303]
+WARNING: [Constraints 18-550] Could not create 'DRIVE' constraint because net 'Uart_ETH_i/IO_In_Out_Switcher_0/i_Selector' is not directly connected to top level port. 'DRIVE' is ignored by Vivado but preserved for implementation tool. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/.Xil/Vivado-6276-AVACO-PC2/dcp1505/Uart_ETH_IO_In_Out_Switcher_0_1.edf:310]
+WARNING: [Constraints 18-550] Could not create 'SLEW' constraint because net 'Uart_ETH_i/IO_In_Out_Switcher_0/i_Selector' is not directly connected to top level port. 'SLEW' is ignored by Vivado but preserved for implementation tool. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/.Xil/Vivado-6276-AVACO-PC2/dcp1505/Uart_ETH_IO_In_Out_Switcher_0_1.edf:311]
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_processing_system7_0_1/Uart_ETH_processing_system7_0_1.xdc] for cell 'Uart_ETH_i/processing_system7_0/inst'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_processing_system7_0_1/Uart_ETH_processing_system7_0_1.xdc] for cell 'Uart_ETH_i/processing_system7_0/inst'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_LED_0/Uart_ETH_axi_gpio_LED_0_board.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_LED/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_LED_0/Uart_ETH_axi_gpio_LED_0_board.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_LED/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_LED_0/Uart_ETH_axi_gpio_LED_0.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_LED/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_LED_0/Uart_ETH_axi_gpio_LED_0.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_LED/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_SW_0/Uart_ETH_axi_gpio_SW_0_board.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_SW/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_SW_0/Uart_ETH_axi_gpio_SW_0_board.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_SW/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_SW_0/Uart_ETH_axi_gpio_SW_0.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_SW/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_SW_0/Uart_ETH_axi_gpio_SW_0.xdc] for cell 'Uart_ETH_i/Axi_GPIOs/axi_gpio_SW/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_1/bd_5544_psr_aclk_0_board.xdc] for cell 'Uart_ETH_i/Uart_Blocks/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_1/bd_5544_psr_aclk_0_board.xdc] for cell 'Uart_ETH_i/Uart_Blocks/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_1/bd_5544_psr_aclk_0.xdc] for cell 'Uart_ETH_i/Uart_Blocks/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_1/bd_5544_psr_aclk_0.xdc] for cell 'Uart_ETH_i/Uart_Blocks/smartconnect_0/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/Uart_ETH_clk_wiz_0_0_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_0/inst'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/Uart_ETH_clk_wiz_0_0_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_0/inst'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/Uart_ETH_clk_wiz_0_0.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_0/inst'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/Uart_ETH_clk_wiz_0_0.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_0/inst'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/Uart_ETH_clk_wiz_1_0_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_1/inst'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/Uart_ETH_clk_wiz_1_0_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_1/inst'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/Uart_ETH_clk_wiz_1_0.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_1/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/Uart_ETH_clk_wiz_1_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/Uart_ETH_clk_wiz_1_0.xdc:57]
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/Uart_ETH_clk_wiz_1_0.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_1/inst'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_1/Uart_ETH_rst_ps7_0_100M_1_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_18M/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_1/Uart_ETH_rst_ps7_0_100M_1_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_18M/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_1/Uart_ETH_rst_ps7_0_100M_1.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_18M/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_1/Uart_ETH_rst_ps7_0_100M_1.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_18M/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_2/Uart_ETH_rst_ps7_0_100M_2_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_92M/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_2/Uart_ETH_rst_ps7_0_100M_2_board.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_92M/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_2/Uart_ETH_rst_ps7_0_100M_2.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_92M/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_2/Uart_ETH_rst_ps7_0_100M_2.xdc] for cell 'Uart_ETH_i/Clock_Managment/rst_ps7_0_92M/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_15/Uart_ETH_fifo_generator_0_15.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Rec_2/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_15/Uart_ETH_fifo_generator_0_15.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_2/Uart_Rec_2/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_3/Uart_ETH_fifo_generator_0_3.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_config/Uart_Rec_Config/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_3/Uart_ETH_fifo_generator_0_3.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_config/Uart_Rec_Config/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_5/Uart_ETH_fifo_generator_0_5.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Rec_3/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_5/Uart_ETH_fifo_generator_0_5.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_3/Uart_Rec_3/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_6/Uart_ETH_fifo_generator_0_6.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Rec_4/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_6/Uart_ETH_fifo_generator_0_6.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_4/Uart_Rec_4/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_10/Uart_ETH_fifo_generator_0_10.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Rec_10/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_10/Uart_ETH_fifo_generator_0_10.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_10/Uart_Rec_10/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_9/Uart_ETH_fifo_generator_0_9.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Rec_9/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_9/Uart_ETH_fifo_generator_0_9.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_9/Uart_Rec_9/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_8/Uart_ETH_fifo_generator_0_8.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Rec_6/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_8/Uart_ETH_fifo_generator_0_8.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_6/Uart_Rec_6/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_7/Uart_ETH_fifo_generator_0_7.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Rec_5/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_7/Uart_ETH_fifo_generator_0_7.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_5/Uart_Rec_5/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_14/Uart_ETH_fifo_generator_0_14.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Rec_0/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_14/Uart_ETH_fifo_generator_0_14.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_0/Uart_Rec_0/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_16/Uart_ETH_fifo_generator_0_16.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Rec_15/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_16/Uart_ETH_fifo_generator_0_16.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_15/Uart_Rec_15/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_30/Uart_ETH_fifo_generator_0_30.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Rec_13/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_30/Uart_ETH_fifo_generator_0_30.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_13/Uart_Rec_13/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_13/Uart_ETH_fifo_generator_0_13.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Rec_12/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_13/Uart_ETH_fifo_generator_0_13.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_12/Uart_Rec_12/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_12/Uart_ETH_fifo_generator_0_12.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Rec_11/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_12/Uart_ETH_fifo_generator_0_12.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_11/Uart_Rec_11/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_32/Uart_ETH_fifo_generator_0_32.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Rec_1/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_32/Uart_ETH_fifo_generator_0_32.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_1/Uart_Rec_1/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_31/Uart_ETH_fifo_generator_0_31.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Rec_14/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_31/Uart_ETH_fifo_generator_0_31.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_14/Uart_Rec_14/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_34/Uart_ETH_fifo_generator_0_34.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Rec_8/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_34/Uart_ETH_fifo_generator_0_34.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_8/Uart_Rec_8/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_33/Uart_ETH_fifo_generator_0_33.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Rec_7/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_33/Uart_ETH_fifo_generator_0_33.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_7/Uart_Rec_7/fifo_generator_0/U0'
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_0/Uart_ETH_fifo_generator_0_0.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_Master_Slave/Uart_Rec_Master_Slave/fifo_generator_0/U0'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_0/Uart_ETH_fifo_generator_0_0.xdc] for cell 'Uart_ETH_i/Uart_Blocks/Uart_Master_Slave/Uart_Rec_Master_Slave/fifo_generator_0/U0'
+Parsing XDC File [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/constrs_1/new/UARTConfig.xdc]
+WARNING: [Vivado 12-584] No ports matched 'i_Switch_1'. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/constrs_1/new/UARTConfig.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/constrs_1/new/UARTConfig.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched '*_Switch_*'. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/constrs_1/new/UARTConfig.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/constrs_1/new/UARTConfig.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/constrs_1/new/UARTConfig.xdc]
+Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/Uart_ETH_clk_wiz_0_0_late.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_0/inst'
+Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/Uart_ETH_clk_wiz_0_0_late.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_0/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 352 instances were transformed.
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 32 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 2 instances
+  RAM16X1S => RAM32X1S (RAMS32): 24 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 287 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 7 instances
+
+open_run: Time (s): cpu = 00:00:30 ; elapsed = 00:00:27 . Memory (MB): peak = 2498.203 ; gain = 0.000
+report_methodology -name ultrafast_methodology_1 -checks {PDRC-204 PDRC-190 TIMING-39 TIMING-38 TIMING-37 TIMING-36 TIMING-35 TIMING-34 TIMING-33 TIMING-32 TIMING-31 TIMING-30 TIMING-29 TIMING-28 TIMING-27 TIMING-26 TIMING-25 TIMING-24 TIMING-23 TIMING-22 TIMING-21 TIMING-20 TIMING-19 TIMING-18 TIMING-17 TIMING-16 TIMING-15 TIMING-14 TIMING-13 TIMING-12 TIMING-11 TIMING-10 TIMING-9 TIMING-8 TIMING-7 TIMING-6 TIMING-5 TIMING-4 TIMING-3 TIMING-2 TIMING-1 XDCV-2 XDCV-1 XDCH-2 XDCH-1 XDCC-8 XDCC-7 XDCC-6 XDCC-5 XDCC-4 XDCC-3 XDCC-2 XDCC-1 XDCB-5 XDCB-4 XDCB-3 XDCB-2 XDCB-1 CLKC-53 CLKC-9 CLKC-5 CLKC-38 CLKC-37 CLKC-36 CLKC-35 CLKC-4 CLKC-18 CLKC-3 CLKC-2 CLKC-1 HPDR-1 CKLD-2 CKLD-1 CKBF-1 SYNTH-14 SYNTH-13 SYNTH-12 SYNTH-11 SYNTH-10 SYNTH-9 SYNTH-16 SYNTH-15 SYNTH-6 SYNTH-5 SYNTH-4}
+Command: report_methodology -name ultrafast_methodology_1 -checks {PDRC-204 PDRC-190 TIMING-39 TIMING-38 TIMING-37 TIMING-36 TIMING-35 TIMING-34 TIMING-33 TIMING-32 TIMING-31 TIMING-30 TIMING-29 TIMING-28 TIMING-27 TIMING-26 TIMING-25 TIMING-24 TIMING-23 TIMING-22 TIMING-21 TIMING-20 TIMING-19 TIMING-18 TIMING-17 TIMING-16 TIMING-15 TIMING-14 TIMING-13 TIMING-12 TIMING-11 TIMING-10 TIMING-9 TIMING-8 TIMING-7 TIMING-6 TIMING-5 TIMING-4 TIMING-3 TIMING-2 TIMING-1 XDCV-2 XDCV-1 XDCH-2 XDCH-1 XDCC-8 XDCC-7 XDCC-6 XDCC-5 XDCC-4 XDCC-3 XDCC-2 XDCC-1 XDCB-5 XDCB-4 XDCB-3 XDCB-2 XDCB-1 CLKC-53 CLKC-9 CLKC-5 CLKC-38 CLKC-37 CLKC-36 CLKC-35 CLKC-4 CLKC-18 CLKC-3 CLKC-2 CLKC-1 HPDR-1 CKLD-2 CKLD-1 CKBF-1 SYNTH-14 SYNTH-13 SYNTH-12 SYNTH-11 SYNTH-10 SYNTH-9 SYNTH-16 SYNTH-15 SYNTH-6 SYNTH-5 SYNTH-4}
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 2673.082 ; gain = 156.824
+report_ssn -name ssn_1
+INFO: [Designutils 20-2100] The following ports are excluded from SSN analysis because they are either Multi-Gigabit Transceiver or Processor System I/O. This is because all MGT and PS interfaces supported by these dedicated I/O have been qualified against the interface requirements. SelectIO banks have SSN analysis support as they are fully configurable as FPGA I/O.
+    1. FIXED_IO_mio
+    2. DDR_addr
+    3. DDR_ba
+    4. DDR_dqs_n
+    5. DDR_dm
+    6. DDR_dq
+    7. DDR_dqs_p
+    8. DDR_cas_n
+    9. DDR_ck_n
+    10. DDR_ck_p
+    11. DDR_cke
+    12. DDR_cs_n
+    13. DDR_odt
+    14. DDR_ras_n
+    15. DDR_reset_n
+    16. DDR_we_n
+    17. FIXED_IO_ddr_vrn
+    18. FIXED_IO_ddr_vrp
+    19. FIXED_IO_ps_clk
+    20. FIXED_IO_ps_porb
+    21. FIXED_IO_ps_srstb
+
+INFO: [Designutils 20-1021] SSN analysis is only relevant to output and bidirectional ports.  Input ports are not used in the analysis, and are not shown in the Noise report.
+    1. sws_4bits_tri_i
+    2. i_Keypad_Row
+    3. i_UART_RX1
+    4. i_UART_RX2
+    5. i_UART_RX3
+    6. i_UART_RX4
+    7. i_UART_RX5
+    8. i_UART_RX6
+    9. i_UART_RX7
+    10. i_UART_RX8
+    11. i_UART_RX9
+    12. i_UART_RX10
+    13. i_UART_RX11
+    14. i_UART_RX12
+    15. i_UART_RX13
+    16. i_UART_RX14
+    17. i_UART_RX15
+    18. i_UART_RX16
+    19. i_Uart_Config_Rx1
+
+INFO: [Coretcl 2-1142] Start SSN Analysis...
+report_operating_conditions -grade -return_string
+CRITICAL WARNING: [Designutils 20-923] The following port(s) exceed allowable noise margins:
+    1. o_LCD_R_W
+    2. o_LCD_En
+    3. gpio_rtl_tri_o[2]
+    4. gpio_rtl_tri_o[3]
+    5. o_LED_CLK1
+    6. o_LED_CLK2
+
+Resolution: SSN margins are pessimistic on numbers, and depending on how big the negative margin is, there are ways to improve numbers:
+-In Pin Planning project: Adjust the IOStandard to one that requires a lower VCCO, (Example: LVCMOS33 to LVCMOS18), change pin location, or adjust SLEW from FAST to SLOW. 
+-In RTL/Netlist project: Adjust the IOStandard, SLEW, change pin location, or run SSN with phase by running report_ssn -phase or adjust the clock phases of the design. 
+Please refer to UG899 Vivado Design Suite User Guide I/O and Clock Planning for additional details
+report_power -name {power_1}
+Command: report_power -name power_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+1 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:19 ; elapsed = 00:00:12 . Memory (MB): peak = 2747.223 ; gain = 41.703
+close_design
+file mkdir E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk
+file copy -force E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.runs/impl_1/Uart_ETH_wrapper.sysdef E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper.hdf
+
+launch_sdk -workspace E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk -hwspec E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk -hwspec E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+set_property  ip_repo_paths  {e:/SR-System/IPs e:/ETH2SER/IPs/Extract_UART_Features_970323 E:/ETH2SER/IPs_XCZ020/HLS_IPs e:/ETH2SER/IPs/HLS_UART_Config_Register_970322/AXI_UART_Config e:/ETH2SER/IPs/HLS_FIFO_Tx_970220/ip e:/ETH2SER/IPs/970231_HLS_FIFO_Rx_Integrated/ip e:/ETH2SER/IPs/970321_HLS_FIFO_Tx_Integrated/ip e:/ETH2SER/IPs/HLS_FIFO_Rx/ip} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/SR-System/IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/Extract_UART_Features_970323'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_UART_Config_Register_970322/AXI_UART_Config'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_FIFO_Tx_970220/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/970231_HLS_FIFO_Rx_Integrated/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/970321_HLS_FIFO_Tx_Integrated/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_FIFO_Rx/ip'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:Extract_UART_Features:1.0'. The one found in IP location 'e:/ETH2SER/IPs/Extract_UART_Features_970323/Extract_UART_Features_970323.srcs/sources_1/new' will take precedence over the same IP in location e:/ETH2SER/IPs_XCZ020/HLS_IPs/Extract_UART_Features_970323/Extract_UART_Features_970323.srcs/sources_1/new
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:hls:AllDataMover:1.0'. The one found in IP location 'e:/ETH2SER/IPs_XCZ020/HLS_IPs/970301-HLS_FIFO_Rx_Integrated/axi_master_ReciveUART2/proj_axi_master/solution1/impl/ip' will take precedence over the same IP in location e:/ETH2SER/IPs/970231_HLS_FIFO_Rx_Integrated/ip
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:hls:All_Data_Sender:1.0'. The one found in IP location 'e:/ETH2SER/IPs_XCZ020/HLS_IPs/HLS_FIFO_Tx_Integrated_970321/Send_UART_AXI_Lite/solution1/impl/ip' will take precedence over the same IP in location e:/ETH2SER/IPs/970321_HLS_FIFO_Tx_Integrated/ip
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:hls:UART_Config_Register:1.0'. The one found in IP location 'e:/ETH2SER/IPs_XCZ020/HLS_IPs/HLS_UART_Config_Register_970322/AXI_UART_Config/solution1/impl/ip' will take precedence over the same IP in location e:/ETH2SER/IPs/HLS_UART_Config_Register_970322/AXI_UART_Config/solution1/impl/ip
+update_ip_catalog: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2812.770 ; gain = 0.000
+set_property  ip_repo_paths  {e:/SR-System/IPs e:/ETH2SER/IPs_XCZ020/HLS_IPs e:/ETH2SER/IPs/HLS_UART_Config_Register_970322/AXI_UART_Config e:/ETH2SER/IPs/HLS_FIFO_Tx_970220/ip e:/ETH2SER/IPs/970231_HLS_FIFO_Rx_Integrated/ip e:/ETH2SER/IPs/970321_HLS_FIFO_Tx_Integrated/ip e:/ETH2SER/IPs/HLS_FIFO_Rx/ip} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/SR-System/IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_UART_Config_Register_970322/AXI_UART_Config'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_FIFO_Tx_970220/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/970231_HLS_FIFO_Rx_Integrated/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/970321_HLS_FIFO_Tx_Integrated/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_FIFO_Rx/ip'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:hls:AllDataMover:1.0'. The one found in IP location 'e:/ETH2SER/IPs_XCZ020/HLS_IPs/970301-HLS_FIFO_Rx_Integrated/axi_master_ReciveUART2/proj_axi_master/solution1/impl/ip' will take precedence over the same IP in location e:/ETH2SER/IPs/970231_HLS_FIFO_Rx_Integrated/ip
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:hls:All_Data_Sender:1.0'. The one found in IP location 'e:/ETH2SER/IPs_XCZ020/HLS_IPs/HLS_FIFO_Tx_Integrated_970321/Send_UART_AXI_Lite/solution1/impl/ip' will take precedence over the same IP in location e:/ETH2SER/IPs/970321_HLS_FIFO_Tx_Integrated/ip
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:hls:UART_Config_Register:1.0'. The one found in IP location 'e:/ETH2SER/IPs_XCZ020/HLS_IPs/HLS_UART_Config_Register_970322/AXI_UART_Config/solution1/impl/ip' will take precedence over the same IP in location e:/ETH2SER/IPs/HLS_UART_Config_Register_970322/AXI_UART_Config/solution1/impl/ip
+set_property  ip_repo_paths  {e:/SR-System/IPs e:/ETH2SER/IPs_XCZ020/HLS_IPs e:/ETH2SER/IPs/HLS_FIFO_Tx_970220/ip e:/ETH2SER/IPs/970231_HLS_FIFO_Rx_Integrated/ip e:/ETH2SER/IPs/970321_HLS_FIFO_Tx_Integrated/ip e:/ETH2SER/IPs/HLS_FIFO_Rx/ip} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/SR-System/IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_FIFO_Tx_970220/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/970231_HLS_FIFO_Rx_Integrated/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/970321_HLS_FIFO_Tx_Integrated/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_FIFO_Rx/ip'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:hls:AllDataMover:1.0'. The one found in IP location 'e:/ETH2SER/IPs_XCZ020/HLS_IPs/970301-HLS_FIFO_Rx_Integrated/axi_master_ReciveUART2/proj_axi_master/solution1/impl/ip' will take precedence over the same IP in location e:/ETH2SER/IPs/970231_HLS_FIFO_Rx_Integrated/ip
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:hls:All_Data_Sender:1.0'. The one found in IP location 'e:/ETH2SER/IPs_XCZ020/HLS_IPs/HLS_FIFO_Tx_Integrated_970321/Send_UART_AXI_Lite/solution1/impl/ip' will take precedence over the same IP in location e:/ETH2SER/IPs/970321_HLS_FIFO_Tx_Integrated/ip
+set_property  ip_repo_paths  {e:/SR-System/IPs e:/ETH2SER/IPs_XCZ020/HLS_IPs e:/ETH2SER/IPs/HLS_FIFO_Tx_970220/ip e:/ETH2SER/IPs/970321_HLS_FIFO_Tx_Integrated/ip e:/ETH2SER/IPs/HLS_FIFO_Rx/ip} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/SR-System/IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_FIFO_Tx_970220/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/970321_HLS_FIFO_Tx_Integrated/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_FIFO_Rx/ip'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:hls:All_Data_Sender:1.0'. The one found in IP location 'e:/ETH2SER/IPs_XCZ020/HLS_IPs/HLS_FIFO_Tx_Integrated_970321/Send_UART_AXI_Lite/solution1/impl/ip' will take precedence over the same IP in location e:/ETH2SER/IPs/970321_HLS_FIFO_Tx_Integrated/ip
+set_property  ip_repo_paths  {e:/SR-System/IPs e:/ETH2SER/IPs_XCZ020/HLS_IPs e:/ETH2SER/IPs/HLS_FIFO_Tx_970220/ip e:/ETH2SER/IPs/HLS_FIFO_Rx/ip} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/SR-System/IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_FIFO_Tx_970220/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_FIFO_Rx/ip'.
+set_property  ip_repo_paths  {e:/SR-System/IPs e:/ETH2SER/IPs_XCZ020/HLS_IPs e:/ETH2SER/IPs/HLS_FIFO_Tx_970220/ip} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/SR-System/IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_FIFO_Tx_970220/ip'.
+set_property  ip_repo_paths  {e:/SR-System/IPs e:/ETH2SER/IPs_XCZ020/HLS_IPs} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/SR-System/IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'.
+validate_bd_design -force
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+validate_bd_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 2812.770 ; gain = 0.000
+save_bd_design
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/Uart_ETH.bd> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_78f24f28.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_43e7588f.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_2df4208f.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_a6db4fbf.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_93b0d580.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_4d5e61c1.ui> 
+set_property  ip_repo_paths  {e:/SR-System/IPs E:/ETH2SER/IPs_XCZ020/VHDL_IPs e:/ETH2SER/IPs_XCZ020/HLS_IPs} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/SR-System/IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/VHDL_IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:baudrate_gen:1.0'. The one found in IP location 'e:/SR-System/IPs/Baudrate-Generator/baudrate_generator/baudrate_generator.srcs' will take precedence over the same IP in location e:/ETH2SER/IPs_XCZ020/VHDL_IPs/Baudrate-Generator/baudrate_generator/baudrate_generator.srcs
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:Counter:1.0'. The one found in IP location 'e:/SR-System/IPs/Counter/Counter.srcs/sources_1/new' will take precedence over the same IP in location e:/ETH2SER/IPs_XCZ020/VHDL_IPs/Counter/Counter.srcs/sources_1/new
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:iobuf:1.0'. The one found in IP location 'e:/SR-System/IPs/IOBUF/IOBUF.srcs/sources_1/new' will take precedence over the same IP in location e:/ETH2SER/IPs_XCZ020/VHDL_IPs/IOBUF/IOBUF.srcs/sources_1/new
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:IO_In_Out_Switcher:1.0'. The one found in IP location 'e:/SR-System/IPs/IO_Input_Output_Switcher/IO_Input_Output_Switcher.srcs/sources_1/new' will take precedence over the same IP in location e:/ETH2SER/IPs_XCZ020/VHDL_IPs/IO_Input_Output_Switcher/IO_Input_Output_Switcher.srcs/sources_1/new
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:LED_Sample:1.0'. The one found in IP location 'e:/SR-System/IPs/LED_Sampling/LED_Sampling.srcs/sources_1/new' will take precedence over the same IP in location e:/ETH2SER/IPs_XCZ020/VHDL_IPs/LED_Sampling/LED_Sampling.srcs/sources_1/new
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:PISO:1.0'. The one found in IP location 'e:/SR-System/IPs/PISO/PISO.srcs/sources_1/new' will take precedence over the same IP in location e:/ETH2SER/IPs_XCZ020/VHDL_IPs/PISO/PISO.srcs/sources_1/new
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:UART_RX_Extended:1.0'. The one found in IP location 'e:/SR-System/IPs/UART_RX_Extended/UART.srcs/sources_1/new' will take precedence over the same IP in location e:/ETH2SER/IPs_XCZ020/VHDL_IPs/UART_RX_Extended/UART.srcs/sources_1/new
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:UART_TX_Extended:1.0'. The one found in IP location 'e:/SR-System/IPs/UART_TX_Extended/UART_TX.srcs/sources_1/new' will take precedence over the same IP in location e:/ETH2SER/IPs_XCZ020/VHDL_IPs/UART_TX_Extended/UART_TX.srcs/sources_1/new
+set_property  ip_repo_paths  {e:/ETH2SER/IPs_XCZ020/VHDL_IPs e:/ETH2SER/IPs_XCZ020/HLS_IPs} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/VHDL_IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'.
+update_ip_catalog: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2812.770 ; gain = 0.000
+validate_bd_design -force
+ERROR: [BD 41-1179] The following IPs in this design are locked. This command cannot be run until these IPs are unlocked. Please run report_ip_status for more details and a recommendation on how to fix this issue. 
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_8
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_9
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_10
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_0
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_11
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_12
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_1
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_2
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_13
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_14
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_3
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_4
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_5
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_6
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_7
+/Uart_Blocks/Buadrate_Generator/Baudrate_Rx/DataMuxOut4Bit_15
+/Uart_Blocks/Uart_config/Uart_Send_Config/UART_TX_Without_Baud_14
+/Uart_Blocks/Uart_config/Uart_Rec_Config/UART_RX_Without_Baud_1
+/Uart_Blocks/Uart_Master_Slave/Uart_Send_Master_Slave/UART_TX_Without_Baud_14
+/Uart_Blocks/Uart_Master_Slave/Uart_Rec_Master_Slave/UART_RX_Without_Baud_1
+/Timer_Interrupt/Tick_Timer_General_KeyPad
+/LED_Panel_diagram/LED_Panel/Register_8_Input_Tx1
+/LED_Panel_diagram/LED_Panel/Register_8_Input_Tx2
+/LED_Panel_diagram/LED_Panel/Register_8_Input_Rx1
+/LED_Panel_diagram/LED_Panel/Register_8_Input_Rx2
+/LED_Panel_diagram/LED_Panel/LED_Tester_0
+/LED_Panel_diagram/LED_Panel/Tick_Timer_General_0
+
+ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
+report_ip_status -name ip_status 
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+INFO: [BD 41-1662] The design 'Uart_ETH.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_78f24f28.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_43e7588f.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_2df4208f.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_a6db4fbf.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_93b0d580.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_4d5e61c1.ui> 
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/Uart_Blocks/smartconnect_0/S00_AXI_arlock'(1) to net 'AllDataMover_0_m_axi_DRAM_ARLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/Uart_Blocks/smartconnect_0/S00_AXI_awlock'(1) to net 'AllDataMover_0_m_axi_DRAM_AWLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/Uart_Blocks/smartconnect_0/S01_AXI_arlock'(1) to net 'All_Data_Sender_0_m_axi_DRAM_ARLOCK'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/Uart_Blocks/smartconnect_0/S01_AXI_awlock'(1) to net 'All_Data_Sender_0_m_axi_DRAM_AWLOCK'(2) - Only lower order bits will be connected.
+VHDL Output written to : E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/hdl/Uart_ETH.vhd
+VHDL Output written to : E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/hdl/Uart_ETH_wrapper.vhd
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_78f24f28.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_43e7588f.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_2df4208f.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_a6db4fbf.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_93b0d580.ui> 
+Wrote  : <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ui/bd_4d5e61c1.ui> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Axi_GPIOs/axi_gpio_LED .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Axi_GPIOs/axi_gpio_SW .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/AllDataMover_0 .
+Exporting to file e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hw_handoff/Uart_ETH_smartconnect_0_0.hwh
+Generated Block Design Tcl file e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hw_handoff/Uart_ETH_smartconnect_0_0_bd.tcl
+Generated Hardware Definition File e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/Uart_ETH_smartconnect_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/smartconnect_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/All_Data_Sender_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Clock_Managment/clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Clock_Managment/clk_wiz_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Clock_Managment/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Clock_Managment/rst_ps7_0_18M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Clock_Managment/rst_ps7_0_92M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block UART_Config_Register_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/Extract_UART_Features_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Clock_Managment/util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Buadrate_Generator/baudrate_gen_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_2/Uart_Send_2/util_vector_logic_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_2/Uart_Rec_2/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_2/Uart_Rec_2/fifo_generator_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/PISO_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/LED_Sample_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/LED_Sample_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/LED_Sample_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/LED_Panel/LED_Sample_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_Busy .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlslice_KeyPad .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD_DATA .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD_RS .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD_RST .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD_CS1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD_RW .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD_EN .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCDCS2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Timer_Interrupt/Counter_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Timer_Interrupt/xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Timer_Interrupt/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LCD_Pins/xlslice_LCD_Backlight .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_12 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_13 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_14 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_15 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_16 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_17 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_18 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_19 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_21 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_22 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_23 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_24 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_25 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_26 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_27 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_28 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_29 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_30 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block LED_Panel_diagram/Not_Block/util_vector_logic_31 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_config/Uart_Rec_Config/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_config/Uart_Rec_Config/fifo_generator_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_config/Uart_Send_Config/util_vector_logic_14 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_2/Uart_Send_2/UART_TX_Extended_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_2/Uart_Rec_2/UART_RX_Extended_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_3/Uart_Send_3/util_vector_logic_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_3/Uart_Send_3/UART_TX_Extended_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_3/Uart_Rec_3/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_3/Uart_Rec_3/fifo_generator_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_3/Uart_Rec_3/UART_RX_Extended_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_4/Uart_Send_4/util_vector_logic_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_4/Uart_Send_4/UART_TX_Extended_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_4/Uart_Rec_4/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_4/Uart_Rec_4/fifo_generator_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_4/Uart_Rec_4/UART_RX_Extended_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_10/Uart_Send_10/util_vector_logic_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_10/Uart_Send_10/UART_TX_Extended_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_10/Uart_Rec_10/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_10/Uart_Rec_10/fifo_generator_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_10/Uart_Rec_10/UART_RX_Extended_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_9/Uart_Send_9/util_vector_logic_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_9/Uart_Send_9/UART_TX_Extended_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_9/Uart_Rec_9/util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_9/Uart_Rec_9/fifo_generator_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_9/Uart_Rec_9/UART_RX_Extended_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Uart_Blocks/Uart_6/Uart_Send_6/util_vector_logic_2 .
+INFO: [Common 17-14] Message 'BD 41-1029' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_auto_pc_0/Uart_ETH_auto_pc_0_ooc.xdc'
+Exporting to file E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/hw_handoff/Uart_ETH.hwh
+CRITICAL WARNING: [#UNDEF] The current design is out-of-date/locked, so it is best to update before calling write_bd_tcl, however, a Tcl script is still generated for the current design.
+Generated Block Design Tcl file E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/hw_handoff/Uart_ETH_bd.tcl
+Generated Hardware Definition File E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/hdl/Uart_ETH.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Uart_ETH_auto_pc_0, cache-ID = 5b50ff599b9282de; cache size = 512.502 MB.
+[Sun Jul 29 13:26:10 2018] Launched synth_1...
+Run output will be captured here: E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 2855.688 ; gain = 42.918
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/VHDL_IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'.
+update_ip_catalog: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2874.707 ; gain = 10.266
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/VHDL_IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'.
+update_ip_catalog: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2954.371 ; gain = 59.602
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/VHDL_IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'.
+update_ip_catalog: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 3010.750 ; gain = 49.242
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/VHDL_IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'.
+update_ip_catalog: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 3018.840 ; gain = 0.000
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/VHDL_IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'.
+update_ip_catalog: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 3039.914 ; gain = 0.000
+report_ip_status -name ip_status 
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Sun Jul 29 13:57:25 2018] Launched impl_1...
+Run output will be captured here: E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.runs/impl_1/runme.log
+file mkdir E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk
+file copy -force E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.runs/impl_1/Uart_ETH_wrapper.sysdef E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper.hdf
+
+launch_sdk -workspace E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk -hwspec E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk -hwspec E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jul 29 15:10:37 2018...

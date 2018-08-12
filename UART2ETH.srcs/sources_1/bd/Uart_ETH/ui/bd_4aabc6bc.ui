@@ -1,0 +1,115 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port i_Reset -pg 1 -y 40 -defaultsOSRD
+preplace port o_Data -pg 1 -y 380 -defaultsOSRD
+preplace port o_CLK -pg 1 -y 360 -defaultsOSRD
+preplace port i_CLK -pg 1 -y 20 -defaultsOSRD
+preplace port o_Latch -pg 1 -y 400 -defaultsOSRD
+preplace portBus Op31 -pg 1 -y 690 -defaultsOSRD
+preplace portBus Op19 -pg 1 -y 450 -defaultsOSRD
+preplace portBus Op32 -pg 1 -y 710 -defaultsOSRD
+preplace portBus Op20 -pg 1 -y 470 -defaultsOSRD
+preplace portBus Op1 -pg 1 -y 90 -defaultsOSRD
+preplace portBus Op21 -pg 1 -y 490 -defaultsOSRD
+preplace portBus Op2 -pg 1 -y 110 -defaultsOSRD
+preplace portBus Op22 -pg 1 -y 510 -defaultsOSRD
+preplace portBus Op10 -pg 1 -y 270 -defaultsOSRD
+preplace portBus Op3 -pg 1 -y 130 -defaultsOSRD
+preplace portBus Op23 -pg 1 -y 530 -defaultsOSRD
+preplace portBus Op11 -pg 1 -y 290 -defaultsOSRD
+preplace portBus Op4 -pg 1 -y 150 -defaultsOSRD
+preplace portBus Op24 -pg 1 -y 550 -defaultsOSRD
+preplace portBus Op12 -pg 1 -y 310 -defaultsOSRD
+preplace portBus Op5 -pg 1 -y 170 -defaultsOSRD
+preplace portBus Op25 -pg 1 -y 570 -defaultsOSRD
+preplace portBus Op13 -pg 1 -y 330 -defaultsOSRD
+preplace portBus Op6 -pg 1 -y 190 -defaultsOSRD
+preplace portBus Op26 -pg 1 -y 590 -defaultsOSRD
+preplace portBus Op14 -pg 1 -y 350 -defaultsOSRD
+preplace portBus Op7 -pg 1 -y 210 -defaultsOSRD
+preplace portBus Op27 -pg 1 -y 610 -defaultsOSRD
+preplace portBus Op15 -pg 1 -y 370 -defaultsOSRD
+preplace portBus Op8 -pg 1 -y 230 -defaultsOSRD
+preplace portBus Op28 -pg 1 -y 630 -defaultsOSRD
+preplace portBus Op16 -pg 1 -y 390 -defaultsOSRD
+preplace portBus Op9 -pg 1 -y 250 -defaultsOSRD
+preplace portBus Op29 -pg 1 -y 650 -defaultsOSRD
+preplace portBus Op17 -pg 1 -y 410 -defaultsOSRD
+preplace portBus Op30 -pg 1 -y 670 -defaultsOSRD
+preplace portBus Op18 -pg 1 -y 430 -defaultsOSRD
+preplace inst Not_Block -pg 1 -lvl 1 -y 400 -defaultsOSRD
+preplace inst LED_Panel -pg 1 -lvl 2 -y 380 -defaultsOSRD
+preplace netloc Uart_Blocks_o_TXD1 1 0 1 NJ
+preplace netloc Not_Block_Res19 1 1 1 N
+preplace netloc util_vector_logic_8_Res 1 1 1 330
+preplace netloc Uart_Blocks_o_TXD2 1 0 1 NJ
+preplace netloc i_UART_RX13_1 1 0 1 NJ
+preplace netloc clk_wiz_0_clk_92M 1 0 2 NJ 20 250J
+preplace netloc util_vector_logic_0_Res 1 1 1 250
+preplace netloc Uart_Blocks_o_TXD3 1 0 1 NJ
+preplace netloc Uart_Blocks_o_TXD4 1 0 1 NJ
+preplace netloc i_UART_RX3_1 1 0 1 NJ
+preplace netloc Uart_Blocks_o_TXD5 1 0 1 NJ
+preplace netloc Not_Block_Res30 1 1 1 N
+preplace netloc Not_Block_Res31 1 1 1 N
+preplace netloc Uart_Blocks_o_TXD6 1 0 1 NJ
+preplace netloc util_vector_logic_5_Res 1 1 1 300
+preplace netloc Uart_Blocks_o_TXD7 1 0 1 NJ
+preplace netloc i_in13_1 1 1 1 N
+preplace netloc Uart_Blocks_o_TXD8 1 0 1 NJ
+preplace netloc Uart_Blocks_o_TXD9 1 0 1 NJ
+preplace netloc i_UART_RX10_1 1 0 1 NJ
+preplace netloc Uart_Blocks_o_TXD 1 0 1 NJ
+preplace netloc i_UART_RX14_1 1 0 1 NJ
+preplace netloc i_UART_RX1_1 1 0 1 NJ
+preplace netloc util_vector_logic_7_Res 1 1 1 320
+preplace netloc PISO_0_o_CLK 1 2 1 NJ
+preplace netloc i_UART_RX6_1 1 0 1 NJ
+preplace netloc i_Reset_Periph_1 1 0 2 20J 30 240J
+preplace netloc i_UART_RX9_1 1 0 1 NJ
+preplace netloc util_vector_logic_6_Res 1 1 1 310
+preplace netloc i_UART_RX15_1 1 0 1 NJ
+preplace netloc i_UART_RX16_1 1 0 1 NJ
+preplace netloc i_UART_RX7_1 1 0 1 NJ
+preplace netloc i_UART_RX5_1 1 0 1 NJ
+preplace netloc i_in15_1 1 1 1 N
+preplace netloc i_UART_RX4_1 1 0 1 NJ
+preplace netloc Uart_Blocks_o_TXD10 1 0 1 NJ
+preplace netloc Uart_Blocks_o_TXD11 1 0 1 NJ
+preplace netloc Uart_Blocks_o_TXD12 1 0 1 NJ
+preplace netloc Uart_Blocks_o_TXD13 1 0 1 NJ
+preplace netloc Uart_Blocks_o_TXD14 1 0 1 NJ
+preplace netloc Uart_Blocks_o_TXD15 1 0 1 NJ
+preplace netloc Not_Block_Res20 1 1 1 N
+preplace netloc util_vector_logic_1_Res 1 1 1 260
+preplace netloc i_in14_1 1 1 1 N
+preplace netloc util_vector_logic_10_Res 1 1 1 240
+preplace netloc Not_Block_Res21 1 1 1 N
+preplace netloc util_vector_logic_11_Res 1 1 1 N
+preplace netloc util_vector_logic_3_Res 1 1 1 280
+preplace netloc Not_Block_Res22 1 1 1 N
+preplace netloc Not_Block_Res23 1 1 1 N
+preplace netloc i_UART_RX8_1 1 0 1 NJ
+preplace netloc Not_Block_Res24 1 1 1 N
+preplace netloc PISO_0_o_Data 1 2 1 NJ
+preplace netloc Not_Block_Res25 1 1 1 N
+preplace netloc util_vector_logic_2_Res 1 1 1 270
+preplace netloc Not_Block_Res26 1 1 1 N
+preplace netloc Not_Block_Res27 1 1 1 N
+preplace netloc Not_Block_Res28 1 1 1 N
+preplace netloc Not_Block_Res29 1 1 1 N
+preplace netloc i_UART_RX11_1 1 0 1 NJ
+preplace netloc util_vector_logic_4_Res 1 1 1 290
+preplace netloc Not_Block_Res15 1 1 1 N
+preplace netloc i_UART_RX12_1 1 0 1 NJ
+preplace netloc util_vector_logic_9_Res 1 1 1 340
+preplace netloc Not_Block_Res16 1 1 1 N
+preplace netloc i_UART_RX2_1 1 0 1 NJ
+preplace netloc Not_Block_Res17 1 1 1 N
+preplace netloc Not_Block_Res18 1 1 1 N
+preplace netloc PISO_0_o_Latch 1 2 1 NJ
+levelinfo -pg 1 0 130 430 540 -top -10 -bot 760
+",
+}
+

@@ -1,0 +1,25 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port i_Reset -pg 1 -y 60 -defaultsOSRD
+preplace port i_CLK -pg 1 -y 40 -defaultsOSRD
+preplace port o_Tic_1ms -pg 1 -y 220 -defaultsOSRD
+preplace port o_Valid -pg 1 -y 110 -defaultsOSRD
+preplace portBus o_Count -pg 1 -y 130 -defaultsOSRD
+preplace portBus dout -pg 1 -y 20 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -y 190 -defaultsOSRD
+preplace inst Tick_Timer_General_KeyPad -pg 1 -lvl 1 -y 290 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 1 -y 100 -defaultsOSRD
+preplace inst Counter_0 -pg 1 -lvl 2 -y 120 -defaultsOSRD
+preplace netloc Counter_0_o_Valid 1 2 1 NJ
+preplace netloc util_vector_logic_0_Res 1 1 1 330J
+preplace netloc clk_wiz_0_clk_92M 1 0 2 20 30 360J
+preplace netloc xlconstant_0_dout 1 1 2 340 20 NJ
+preplace netloc Tick_Timer_General_KeyPad_o_Tic_1ms 1 1 2 350 220 NJ
+preplace netloc Tick_Timer_General_KeyPad_o_Tic_1us 1 1 1 360
+preplace netloc Counter_0_o_Count 1 2 1 NJ
+preplace netloc i_Reset_Periph_1 1 0 2 30 40 350J
+levelinfo -pg 1 0 180 490 640 -top 0 -bot 350
+",
+}
+0

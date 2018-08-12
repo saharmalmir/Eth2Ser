@@ -1,0 +1,152 @@
+/*
+ * ports_features.h
+ *
+ *  Created on: Apr 15, 2018
+ *      Author: AVA.CO
+ */
+
+#ifndef SRC_PORTS_FEATURES_H_
+#define SRC_PORTS_FEATURES_H_
+
+#include "xil_printf.h"
+#include "stdbool.h"
+#include "protocol.h"
+#include "xuart_config_register.h"
+#include "main_config.h"
+//#include "Redundancy.h"
+//#include "eth_protocol.h"
+
+#define parity_none							0
+#define parity_even							1
+#define parity_odd							2
+
+#define stop_bit_val_1						0
+#define stop_bit_val_1_5					1
+#define stop_bit_val_2						2
+
+#define uart_config_preamble_size			7
+#define uart_M_S_preamble_size				7
+
+#define uart_config_packet_size				159
+#define uart_get_config_packet_size			93
+#define Set_Config_Response_size			9
+#define slave_response_packet_size			11
+
+#define Default_Baudrate					19200
+#define Default_protocol_type				Protocol_1_DDCMP
+#define Default_preamble_size				5
+#define Default_Header_size					12
+
+#define Diagnostics_Buffer_Size				80
+
+
+#define Packet_ID_Set_Config				21
+#define Packet_ID_Get_Config				22
+#define Packet_ID_Get_Config_Response		24
+#define Packet_ID_Set_Config_Response		23
+#define Packet_ID_Send_Data_Request			25
+#define Packet_ID_Send_Data_Response		26
+#define Packet_ID_Stop_Send_Data_Request	27
+#define Packet_ID_Diagnostics				28
+
+
+#define Packet_ID_M2S_Set_Config					41
+#define Packet_ID_S2M_Set_Config_Response			42
+#define Packet_ID_M2S_Get_Status					43
+#define Packet_ID_M2S_Get_Status_Response			44
+
+struct Activity_structure{
+	bool serial_port_activity[16];
+	u16  serial_port_activity_u16;
+	bool ethernet_activity;
+};
+
+struct slave_struct{
+	bool start_timer;
+};
+
+struct Master_struct{
+	bool slave_set_config_response;
+	bool slave_get_status_response;
+};
+struct protocol{
+	bool protocol_type_flag;
+	int  protocol_type_val;
+};
+
+struct baudrate{
+	bool baudrate_flag;
+	int baudrate_val;
+};
+
+struct stopbit{
+	bool stop_bit_flag;
+	int stop_bit_val;
+};
+
+struct parity{
+	bool parity_flag;
+	int parity_val;
+};
+struct CRC{
+	int Body_CRC_Size;
+	int Header_CRC_Size;
+};
+struct send_data_to_monitoring_port{
+	bool flag;
+	int port_num;
+};
+struct uart_port_features{
+	struct protocol protocol;
+	bool send_with_wrong_CRC;
+	int preabmle_size;
+	int headr_size;
+	struct CRC CRC;
+	u8  preabmle_val[10];
+	struct baudrate baudrate;
+	struct stopbit stopbit;
+	struct parity parity;
+	bool activity_status;
+	struct send_data_to_monitoring_port send_data_to_monitoring_port;
+	bool port_enable;
+};
+
+struct ip_address{
+	bool ip_addr_flag;
+	int ip_addr_val[4];
+};
+
+struct packet_size{
+	bool packet_size_flag;
+	int packet_size_val;
+};
+
+struct ethernet_port_features{
+	struct ip_address ip_addr;
+	int port_number;
+	struct packet_size packet_size;
+	struct protocol protocol;
+	bool send_with_wrong_CRC;
+};
+
+
+
+
+
+void init_ports_features(int Board_ID , struct uart_port_features* uart_port_features , struct ethernet_port_features* ethernet_port_features , int Ethernet_Packet_ZSize);
+int check_extract_features(struct uart_port_features* uart_port_features , struct ethernet_port_features* ethernet_port_features , u8* Rcv_Buff_config, int* index_config , u8* uart_config_port_preamble);
+int Extract_Baudrate_from_input(int data , struct uart_port_features* uart_port_features , int port_number , u16* baudrate_config_register);
+int Extract_packet_size_from_input(u8* TempRecvBuffer_config , struct ethernet_port_features* ethernet_port_features);
+int Display_packet_size(u8* TempRecvBuffer_config);
+void assign_user_initials_to_ports(XUart_config_register *config ,struct uart_port_features * uart_port_features , struct Protocol_Structure* DDCMP , struct Protocol_Structure* Asterix);
+int extract_baudrate_Indexes(int BaudValue);
+int extract_baudrate_values(int baudrate_index);
+int Send_Diagnostics_packet(struct status_structure* status_structure , struct uart_port_features* uart_port_features , struct Diagnostics* Diagnostics , struct Master_struct* Master);
+int check_extract_features_from_GUI(struct uart_port_features* uart_port_features , struct ethernet_port_features* ethernet_port_features , u8* Rcv_Buff_config , u8* M2S_Buff_config , int* index_config , u8* uart_config_port_preamble, int* ethernet_packet_size  , bool* slave_config_flag);
+void change_UART_Baudrate(XUart_config_register *config, int port_number ,  int baudrate_val);
+void change_UART_Parity(XUart_config_register *config , int port_number ,  u8 Parity);
+void change_UART_Stop_Bit(XUart_config_register *config , int port_number ,  u8 Stop_Bit);
+void slave_extract_data(u8* Rcv_Buff_M_S , int* index_Slave , u8* uart_M_S_port_preamble , struct uart_port_features* uart_port_features , struct ethernet_port_features* ethernet_port_features);
+void master_extract_data(u8* Rcv_Buff_M_S , int* index_Master , u8* uart_M_S_port_preamble , struct Master_struct* Master , struct Activity_structure* Slave_Activity);
+
+#endif /* SRC_PORTS_FEATURES_H_ */

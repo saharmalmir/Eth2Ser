@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.sdk\FSBL\Debug\FSBL.elf
+	E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.sdk\Uart_ETH_wrapper_hw_platform_0\Uart_ETH_wrapper.bit
+	E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.sdk\Eth2Ser\Debug\Eth2Ser.elf
+}

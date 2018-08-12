@@ -1,0 +1,183 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 3180
+License: Customer
+
+Current time: 	5/7/18 11:28:39 AM IRDT
+Time zone: 	Iran Standard Time (Asia/Tehran)
+
+OS: Windows 7
+OS Version: 6.1
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 28 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o;C:/Windows/Sun/Java/bin;C:/Windows/system32;C:/Windows;C:/Xilinx/Vivado/2017.2/bin;C:/Xilinx/Vivado/2017.2/lib/win64.o;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin;C:/Xilinx/SDK/2017.2/bin;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado_HLS/2017.2/bin;C:/Windows/system32;C:/Windows;C:/Windows/System32/Wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Program Files (x86)/Cypress/EZ-USB FX3 SDK/1.3/ARM GCC/bin/;C:/Program Files (x86)/Cypress/EZ-USB FX3 SDK/1.3/eclipse/jre/bin/;C:/Aldec/Active-HDL 8.3/BIN;C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/;C:/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/;C:/Program Files/Microsoft SQL Server/120/Tools/Binn/;C:/Program Files/Microsoft SQL Server/120/DTS/Binn/;C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/;C:/Program Files/PuTTY/;C:/Windows/system32/config/systemprofile/.dnx/bin;C:/Program Files/Microsoft DNX/Dnvm/;C:/Program Files/Microsoft SQL Server/130/Tools/Binn/;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	AVA.CO
+User home directory: C:/Users/AVA.CO
+User working directory: E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.2
+RDI_DATADIR: C:/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.2/bin
+
+User preferences location: C:/Users/AVA.CO/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/AVA.CO/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/AVA.CO/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	C:/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/.Xil/Vivado-3180-AVACO-PC2
+
+GUI allocated memory:	120 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 492 MB
+
+*/
+
+// [GUI Memory]: 26 MB (+25023kb) [00:00:05]
+// [Engine Memory]: 296 MB (+158616kb) [00:00:05]
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 34 MB (+7065kb) [00:00:39]
+// [Engine Memory]: 475 MB (+172094kb) [00:00:39]
+// bs:g (cg:JFrame):  Open Project : addNotify
+// Opening Vivado Project: E:\ETH2SER\SoftwareProjects\UART2ETH970217-UART16550_Rx_FIFO_16_Port\UART2ETH.xpr. Version: Vivado v2017.2 
+// Tcl Message: open_project E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// [GUI Memory]: 61 MB (+25726kb) [00:00:43]
+// [Engine Memory]: 514 MB (+15888kb) [00:00:43]
+// HMemoryUtils.trashcanNow. Engine heap size: 528 MB. GUI used memory: 31 MB. Current time: 5/7/18 11:28:41 AM IRDT
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 547 MB. GUI used memory: 31 MB. Current time: 5/7/18 11:28:56 AM IRDT
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 570 MB (+32231kb) [00:01:03]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 594 MB. GUI used memory: 31 MB. Current time: 5/7/18 11:29:11 AM IRDT
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 623 MB (+25290kb) [00:01:23]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 643 MB. GUI used memory: 31 MB. Current time: 5/7/18 11:29:26 AM IRDT
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 689 MB (+37259kb) [00:01:43]
+// HMemoryUtils.trashcanNow. Engine heap size: 696 MB. GUI used memory: 31 MB. Current time: 5/7/18 11:29:41 AM IRDT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 750 MB (+27848kb) [00:01:48]
+// [GUI Memory]: 84 MB (+21691kb) [00:01:51]
+// [GUI Memory]: 96 MB (+7309kb) [00:01:52]
+// [Engine Memory]: 792 MB (+4139kb) [00:01:52]
+// [GUI Memory]: 105 MB (+5061kb) [00:01:53]
+// [Engine Memory]: 837 MB (+5363kb) [00:01:53]
+// [Engine Memory]: 887 MB (+8690kb) [00:01:56]
+// [GUI Memory]: 112 MB (+1434kb) [00:01:58]
+// Tcl Message: open_project E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/SR-System/IPs'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs/HLS_FIFO_Rx/ip'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 894 MB. GUI used memory: 81 MB. Current time: 5/7/18 11:29:57 AM IRDT
+// Tcl Message: open_project: Time (s): cpu = 00:01:07 ; elapsed = 00:01:20 . Memory (MB): peak = 1098.098 ; gain = 418.672 
+// Project name: UART2ETH; location: E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// [GUI Memory]: 123 MB (+6348kb) [00:02:03]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a:a (cg:JFrame): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cg:JFrame)
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Uart_ETH_wrapper(STRUCTURE) (Uart_ETH_wrapper.vhd)]", 2); // B:i (D:JPanel, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X:p (cg:JFrame): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g:JCheckBox (JPanel:JComponent, X:p): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:p)
+dismissDialog("Export Hardware"); // X:p (cg:JFrame)
+// Tcl Message: file mkdir E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.sdk 
+// Tcl Message: file copy -force E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.runs/impl_1/Uart_ETH_wrapper.sysdef E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.sdk/Uart_ETH_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa:p (cg:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aa:p)
+dismissDialog("Launch SDK"); // aa:p (cg:JFrame)
+// Tcl Message: launch_sdk -workspace E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.sdk -hwspec E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.sdk/Uart_ETH_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.sdk -hwspec E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.sdk/Uart_ETH_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 915 MB. GUI used memory: 81 MB. Current time: 5/7/18 11:30:21 AM IRDT
+// [GUI Memory]: 131 MB (+1220kb) [00:14:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 915 MB. GUI used memory: 81 MB. Current time: 5/7/18 12:00:22 PM IRDT
+// [GUI Memory]: 138 MB (+190kb) [00:34:13]
+// Elapsed time: 2361 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X:p (cg:JFrame): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:p)
+dismissDialog("Export Hardware"); // X:p (cg:JFrame)
+// Tcl Message: file mkdir E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.sdk 
+// Tcl Message: file copy -force E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.runs/impl_1/Uart_ETH_wrapper.sysdef E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.sdk/Uart_ETH_wrapper.hdf  
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa:p (cg:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aa:p)
+dismissDialog("Launch SDK"); // aa:p (cg:JFrame)
+// Tcl Message: launch_sdk -workspace E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.sdk -hwspec E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.sdk/Uart_ETH_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.sdk -hwspec E:/ETH2SER/SoftwareProjects/UART2ETH970217-UART16550_Rx_FIFO_16_Port/UART2ETH.sdk/Uart_ETH_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 145 MB (+364kb) [00:42:24]
+// HMemoryUtils.trashcanNow. Engine heap size: 936 MB. GUI used memory: 82 MB. Current time: 5/7/18 12:15:02 PM IRDT
+// [Engine Memory]: 936 MB (+5271kb) [00:47:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 949 MB. GUI used memory: 77 MB. Current time: 5/7/18 12:45:02 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 949 MB. GUI used memory: 77 MB. Current time: 5/7/18 1:15:02 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 949 MB. GUI used memory: 78 MB. Current time: 5/7/18 1:45:02 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 949 MB. GUI used memory: 77 MB. Current time: 5/7/18 2:15:03 PM IRDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.

@@ -1,0 +1,35 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace portBus backlight -pg 1 -y 630 -defaultsOSRD
+preplace portBus EN -pg 1 -y 280 -defaultsOSRD
+preplace portBus CS1 -pg 1 -y 120 -defaultsOSRD
+preplace portBus CS2 -pg 1 -y 40 -defaultsOSRD
+preplace portBus RST -pg 1 -y 440 -defaultsOSRD
+preplace portBus RS -pg 1 -y 360 -defaultsOSRD
+preplace portBus Din -pg 1 -y 40 -defaultsOSRD
+preplace portBus Data -pg 1 -y 200 -defaultsOSRD
+preplace portBus RW -pg 1 -y 520 -defaultsOSRD
+preplace inst xlslice_LCDCS2 -pg 1 -lvl 2 -y 0 -defaultsOSRD
+preplace inst xlslice_LCD_DATA -pg 1 -lvl 2 -y 180 -defaultsOSRD
+preplace inst xlslice_LCD_Backlight -pg 1 -lvl 2 -y 630 -defaultsOSRD
+preplace inst xlslice_LCD -pg 1 -lvl 1 -y 40 -defaultsOSRD
+preplace inst xlslice_LCD_RS -pg 1 -lvl 2 -y 360 -defaultsOSRD
+preplace inst xlslice_LCD_RST -pg 1 -lvl 2 -y 450 -defaultsOSRD
+preplace inst xlslice_LCD_CS1 -pg 1 -lvl 2 -y 90 -defaultsOSRD
+preplace inst xlslice_LCD_EN -pg 1 -lvl 2 -y 270 -defaultsOSRD
+preplace inst xlslice_LCD_RW -pg 1 -lvl 2 -y 540 -defaultsOSRD
+preplace netloc xlslice_LCD4_Dout 1 2 1 NJ
+preplace netloc xlslice_LCD1_Dout 1 2 1 450J
+preplace netloc Din_1 1 0 1 N
+preplace netloc xlslice_LCD2_Dout 1 2 1 450J
+preplace netloc xlslice_LCD_RS3_Dout 1 2 1 450J
+preplace netloc xlslice_LCD_RS2_Dout 1 2 1 450J
+preplace netloc xlslice_LCD_Dout 1 1 1 230
+preplace netloc xlslice_LCD3_Dout 1 2 1 450J
+preplace netloc xlslice_LCD_Backlight_Dout 1 2 1 N
+preplace netloc xlslice_LCD_RS1_Dout 1 2 1 450J
+levelinfo -pg 1 0 130 350 480 -top -50 -bot 680
+",
+}
+0

@@ -1,0 +1,42 @@
+
+*** Running vivado
+    with args -log UARTConfigTest_m17_data_fifo_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source UARTConfigTest_m17_data_fifo_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source UARTConfigTest_m17_data_fifo_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 373.336 ; gain = 80.883
+INFO: [Synth 8-638] synthesizing module 'UARTConfigTest_m17_data_fifo_0' [e:/ETH2SER/SoftwareProjects/UART2ETH961206/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ip/UARTConfigTest_m17_data_fifo_0/synth/UARTConfigTest_m17_data_fifo_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'axi_data_fifo_v2_1_12_axi_data_fifo' [e:/ETH2SER/SoftwareProjects/UART2ETH961206/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:1283]
+INFO: [Synth 8-256] done synthesizing module 'axi_data_fifo_v2_1_12_axi_data_fifo' (1#1) [e:/ETH2SER/SoftwareProjects/UART2ETH961206/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ipshared/95b9/hdl/axi_data_fifo_v2_1_vl_rfs.v:1283]
+INFO: [Synth 8-256] done synthesizing module 'UARTConfigTest_m17_data_fifo_0' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH961206/UART2ETH.srcs/sources_1/bd/UARTConfigTest/ip/UARTConfigTest_m17_data_fifo_0/synth/UARTConfigTest_m17_data_fifo_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 493.422 ; gain = 200.969
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:34 . Memory (MB): peak = 493.422 ; gain = 200.969
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 645.328 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:42 ; elapsed = 00:01:10 . Memory (MB): peak = 645.328 ; gain = 352.875
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:42 ; elapsed = 00:01:10 . Memory (MB): peak = 645.328 ; gain = 352.875
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:01:11 . Memory (MB): peak = 645.328 ; gain = 352.875
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:42 ; elapsed = 00:01:11 . Memory (MB): peak = 645.328 ; gain = 352.875
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:13 . Memory (MB): peak = 645.328 ; gain = 352.875
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:01 ; elapsed = 00:01:46 . Memory (MB): peak = 676.387 ; gain = 383.934
+Finished Timing Optimization : Time (s): cpu = 00:01:01 ; elapsed = 00:01:46 . Memory (MB): peak = 676.387 ; gain = 383.934
+Finished Technology Mapping : Time (s): cpu = 00:01:01 ; elapsed = 00:01:46 . Memory (MB): peak = 685.527 ; gain = 393.074
+Finished IO Insertion : Time (s): cpu = 00:01:02 ; elapsed = 00:01:49 . Memory (MB): peak = 685.527 ; gain = 393.074
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:02 ; elapsed = 00:01:49 . Memory (MB): peak = 685.527 ; gain = 393.074
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:02 ; elapsed = 00:01:49 . Memory (MB): peak = 685.527 ; gain = 393.074
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:02 ; elapsed = 00:01:49 . Memory (MB): peak = 685.527 ; gain = 393.074
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:02 ; elapsed = 00:01:49 . Memory (MB): peak = 685.527 ; gain = 393.074
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:02 ; elapsed = 00:01:49 . Memory (MB): peak = 685.527 ; gain = 393.074
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:02 ; elapsed = 00:01:49 . Memory (MB): peak = 685.527 ; gain = 393.074
+synth_design: Time (s): cpu = 00:01:05 ; elapsed = 00:01:54 . Memory (MB): peak = 706.184 ; gain = 422.488

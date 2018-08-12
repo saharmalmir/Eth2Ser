@@ -1,0 +1,29 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port i_Reset -pg 1 -y 290 -defaultsOSRD
+preplace port i_CLK -pg 1 -y 60 -defaultsOSRD
+preplace port i_RXD -pg 1 -y 310 -defaultsOSRD
+preplace port ap_rst_n -pg 1 -y 80 -defaultsOSRD
+preplace port m_axi_a -pg 1 -y 40 -defaultsOSRD
+preplace inst DataMove_Config -pg 1 -lvl 2 -y 80 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -y 10 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 3 -y 160 -defaultsOSRD
+preplace inst fifo_generator_0 -pg 1 -lvl 3 -y 330 -defaultsOSRD
+preplace inst UART_RX_0 -pg 1 -lvl 2 -y 320 -defaultsOSRD
+preplace netloc DataMove_Config_uart_V_read 1 2 1 540
+preplace netloc i_CLK_1 1 0 3 N 60 160 240 520
+preplace netloc ap_rst_n_1 1 0 2 NJ 80 N
+preplace netloc i_RXD_1 1 0 2 NJ 310 150
+preplace netloc util_vector_logic_0_Res 1 2 2 NJ 100 950
+preplace netloc UART_RX_0_o_Valid 1 2 1 550
+preplace netloc UART_RX_0_o_Data 1 2 1 530
+preplace netloc xlconstant_0_dout 1 1 1 150
+preplace netloc fifo_generator_0_empty 1 2 1 570
+preplace netloc fifo_generator_0_dout 1 2 1 560
+preplace netloc i_Reset_1 1 0 3 N 290 170J 250 510J
+preplace netloc DataMove_Config_m_axi_a 1 2 2 NJ 40 NJ
+levelinfo -pg 1 -20 80 340 760 970 -top -40 -bot 460
+",
+}
+0

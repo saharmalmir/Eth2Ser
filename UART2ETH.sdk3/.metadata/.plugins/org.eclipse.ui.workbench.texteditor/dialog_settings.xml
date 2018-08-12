@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="&gt;=0" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="true" key="wholeword"/>
+		<list key="findhistory">
+			<item value="&gt;=0"/>
+			<item value="--"/>
+			<item value="check_serial_master_slave_input"/>
+			<item value="TIMER_Master_Check_Ports"/>
+			<item value="IntcInitFunction"/>
+			<item value="serial_port_activity"/>
+			<item value="TMR_StartTimer"/>
+			<item value="Master_Board_Master_Activity"/>
+		</list>
+		<list key="replacehistory">
+			<item value="TIMER_Port[port_number]"/>
+			<item value="Master_Board_Master_Activity"/>
+			<item value="Master_Board_Slave_Activity"/>
+			<item value="Activity"/>
+			<item value="Timer_struct"/>
+			<item value="TIM_INT_ID"/>
+			<item value="Timer_intr_Handler"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="284" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="390" key="DIALOG_HEIGHT"/>
+		<item value="727" key="DIALOG_X_ORIGIN"/>
+		<item value="332" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

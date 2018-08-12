@@ -1,0 +1,5 @@
+09:36:19 INFO  : Registering command handlers for SDK TCF services
+09:36:19 INFO  : Launching XSCT server: xsct.bat -interactive E:\ETH2SER\SoftwareProjects\UART2ETH970115_Uart16550_Multi\temp_xsdb_launch_script.tcl
+09:36:21 INFO  : XSCT server has started successfully.
+09:36:23 INFO  : Successfully done setting XSCT server connection channel  
+09:36:23 INFO  : Successfully done setting SDK workspace  

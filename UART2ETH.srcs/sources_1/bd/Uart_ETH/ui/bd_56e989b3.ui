@@ -1,0 +1,33 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port i_Reset -pg 1 -y 90 -defaultsOSRD
+preplace port s_axi_aclk -pg 1 -y 50 -defaultsOSRD
+preplace port o_TXD -pg 1 -y 270 -defaultsOSRD
+preplace port i_Send -pg 1 -y 280 -defaultsOSRD
+preplace port i_Baud16x -pg 1 -y 130 -defaultsOSRD
+preplace port i_Baud -pg 1 -y 300 -defaultsOSRD
+preplace port i_RXD -pg 1 -y 70 -defaultsOSRD
+preplace port rd_en_14 -pg 1 -y 110 -defaultsOSRD
+preplace portBus dout_14 -pg 1 -y 80 -defaultsOSRD
+preplace portBus empty_14 -pg 1 -y 100 -defaultsOSRD
+preplace portBus n_Busy -pg 1 -y 250 -defaultsOSRD
+preplace portBus i_Data -pg 1 -y 260 -defaultsOSRD
+preplace inst Uart_Rec_Config -pg 1 -lvl 1 -y 90 -defaultsOSRD
+preplace inst Uart_Send_Config -pg 1 -lvl 1 -y 260 -defaultsOSRD
+preplace netloc i_Baud_1 1 0 1 NJ
+preplace netloc i_RXD_1 1 0 1 NJ
+preplace netloc i_Baud_2 1 0 1 NJ
+preplace netloc Uart_Send_4_n_Busy 1 1 1 NJ
+preplace netloc i_Data_1 1 0 1 NJ
+preplace netloc Uart_Send_4_o_TXD 1 1 1 NJ
+preplace netloc rd_en_0_1 1 0 1 NJ
+preplace netloc Uart_Rec_2_empty_0 1 1 1 NJ
+preplace netloc Uart_Rec_2_dout_0 1 1 1 NJ
+preplace netloc i_Reset_1 1 0 1 20
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 1 30
+preplace netloc i_Send_1 1 0 1 NJ
+levelinfo -pg 1 0 150 290 -top -10 -bot 350
+",
+}
+0

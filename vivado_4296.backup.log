@@ -1,0 +1,361 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Aug  1 15:39:30 2018
+# Process ID: 4296
+# Current directory: E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2756 E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.xpr
+# Log file: E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/vivado.log
+# Journal file: E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/UARTConfigTest/hdl/UARTConfigTest_wrapper.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/VHDL_IPs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_axi_gpio_LED_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_LED_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_axi_gpio_SW_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_axi_gpio_SW_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_smartconnect_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_clk_wiz_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_clk_wiz_1_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_rst_ps7_0_100M_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_rst_ps7_0_100M_2' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_rst_ps7_0_100M_2/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_2' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_2/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_1_14' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_1_14/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_10_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_10_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_0_3' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_0_3/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_2' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_2/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_3' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_3/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_4' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_4/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_5' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_5/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_6' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_6/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_7' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_7/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_8' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_8/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_9' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_9/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_10' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_10/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_11' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_11/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_12' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_12/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_DataMuxOut4Bit_1_13' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_DataMuxOut4Bit_1_13/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_4' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_4/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_fifo_generator_0_15' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_15/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_14' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_14/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_Register_8_Input_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Register_8_Input_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_Register_8_Input_1_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Register_8_Input_1_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_Register_8_Input_Rx1_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Register_8_Input_Rx1_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_Register_8_Input_Rx2_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Register_8_Input_Rx2_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_LED_Sample_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_LED_Sample_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_LED_Sample_0_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_LED_Sample_0_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_LED_Sample_1_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_LED_Sample_1_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_LED_Sample_1_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_LED_Sample_1_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_Tick_Timer_General_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Tick_Timer_General_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_Tick_Timer_General_0_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_Tick_Timer_General_0_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_xlconstant_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xlconstant_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_18' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_18/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_19' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_19/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_20' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_20/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_21' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_21/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_22' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_22/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_23' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_23/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_24' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_24/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_25' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_25/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_26' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_26/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_27' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_27/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_28' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_28/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_29' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_29/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_30' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_30/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_11_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_11_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_11_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_11_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_2' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_2/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_3' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_3/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_4' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_4/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_5' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_5/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_6' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_6/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_12_7' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_12_7/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_1' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_1/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_2' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_2/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_3' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_3/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_4' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_4/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_5' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_5/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_6' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_6/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_7' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_7/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_21_8' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_21_8/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_30_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_30_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_37' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_37/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_fifo_generator_0_3' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_3/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_RX_Without_Baud_1_17' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_RX_Without_Baud_1_17/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_14_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_14_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_TX_Without_Baud_14_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_TX_Without_Baud_14_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_TX_Extended_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_TX_Extended_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_RX_Extended_0_0' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_RX_Extended_0_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_2_5' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_2_5/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_TX_Extended_0_4' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_TX_Extended_0_4/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_36' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_36/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_fifo_generator_0_5' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_5/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_RX_Extended_0_4' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_RX_Extended_0_4/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_2_6' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_2_6/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_TX_Extended_0_5' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_TX_Extended_0_5/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_38' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_38/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_fifo_generator_0_6' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_6/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_RX_Extended_0_5' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_RX_Extended_0_5/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_2_10' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_2_10/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_TX_Extended_0_9' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_TX_Extended_0_9/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_42' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_42/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_fifo_generator_0_10' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_10/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_RX_Extended_0_9' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_RX_Extended_0_9/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_2_9' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_2_9/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_TX_Extended_0_8' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_TX_Extended_0_8/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_util_vector_logic_0_41' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_util_vector_logic_0_41/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_fifo_generator_0_9' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_fifo_generator_0_9/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'Uart_ETH_UART_RX_Extended_0_8' generated file not found 'e:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_UART_RX_Extended_0_8/stats.txt'. Please regenerate to continue.
+INFO: [Common 17-14] Message 'IP_Flow 19-3664' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+open_project: Time (s): cpu = 00:00:41 ; elapsed = 00:01:31 . Memory (MB): peak = 918.207 ; gain = 221.828
+update_compile_order -fileset sources_1
+open_bd_design {E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/Uart_ETH.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_Busy
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_KeyPad
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:hls:UART_Config_Register:1.0 - UART_Config_Register_0
+Adding cell -- xilinx.com:user:IO_In_Out_Switcher:1.0 - IO_In_Out_Switcher_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:ip:xlslice:1.0 - Master_Slave_Pin_Selector
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_10
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_3
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_4
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_5
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_6
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_7
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_8
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_9
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_11
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_12
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_13
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_14
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_15
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_16
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_17
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_18
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_19
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_20
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_21
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_22
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_23
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_24
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_25
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_26
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_27
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_28
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_29
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_30
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_31
+Adding cell -- xilinx.com:user:LED_Sample:1.0 - LED_Sample_1
+Adding cell -- xilinx.com:user:LED_Sample:1.0 - LED_Sample_2
+Adding cell -- xilinx.com:user:LED_Sample:1.0 - LED_Sample_3
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:user:Register_8_Input:1.0 - Register_8_Input_Tx1
+Adding cell -- xilinx.com:user:Register_8_Input:1.0 - Register_8_Input_Tx2
+Adding cell -- xilinx.com:user:Register_8_Input:1.0 - Register_8_Input_Rx1
+Adding cell -- xilinx.com:user:PISO:1.0 - PISO_0
+Adding cell -- xilinx.com:user:LED_Sample:1.0 - LED_Sample_0
+Adding cell -- xilinx.com:user:Register_8_Input:1.0 - Register_8_Input_Rx2
+Adding cell -- xilinx.com:user:LED_Tester:1.0 - LED_Tester_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:user:Tick_Timer_General:1.0 - Tick_Timer_General_0
+Adding cell -- xilinx.com:user:Tick_Timer_General:1.0 - Tick_Timer_General_KeyPad
+Adding cell -- xilinx.com:user:Counter:1.0 - Counter_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD_DATA
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD_RS
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD_RST
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD_CS1
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD_RW
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD_EN
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCDCS2
+Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_LCD_Backlight
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_1
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_92M
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_18M
+Adding cell -- xilinx.com:ip:clk_wiz:5.4 - clk_wiz_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding cell -- xilinx.com:hls:All_Data_Sender:1.0 - All_Data_Sender_0
+Adding cell -- xilinx.com:hls:AllDataMover:1.0 - AllDataMover_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_Master_Slave/Uart_Rec_Master_Slave/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Without_Baud:1.0 - UART_RX_Without_Baud_1
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_Master_Slave/Uart_Rec_Master_Slave/i_Reset(rst) and /Uart_Blocks/Uart_Master_Slave/Uart_Rec_Master_Slave/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_14
+Adding cell -- xilinx.com:user:UART_TX_Without_Baud:1.0 - UART_TX_Without_Baud_14
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_config/Uart_Rec_Config/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Without_Baud:1.0 - UART_RX_Without_Baud_1
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_config/Uart_Rec_Config/i_Reset(rst) and /Uart_Blocks/Uart_config/Uart_Rec_Config/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_14
+Adding cell -- xilinx.com:user:UART_TX_Without_Baud:1.0 - UART_TX_Without_Baud_14
+Adding cell -- xilinx.com:user:baudrate_gen:1.0 - baudrate_gen_0
+Adding cell -- xilinx.com:user:Extract_UART_Features:1.0 - Extract_UART_Features_0
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_8
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_9
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_10
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_0
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_11
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_12
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_1
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_2
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_13
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_14
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_3
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_4
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_5
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_6
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_7
+Adding cell -- xilinx.com:user:DataMuxOut4Bit:1.0 - DataMuxOut4Bit_15
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_1/Uart_Rec_1/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_1/Uart_Rec_1/i_Reset(rst) and /Uart_Blocks/Uart_1/Uart_Rec_1/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_0/Uart_Rec_0/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_0/Uart_Rec_0/i_Reset(rst) and /Uart_Blocks/Uart_0/Uart_Rec_0/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_15/Uart_Rec_15/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_15/Uart_Rec_15/i_Reset(rst) and /Uart_Blocks/Uart_15/Uart_Rec_15/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_14/Uart_Rec_14/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_14/Uart_Rec_14/i_Reset(rst) and /Uart_Blocks/Uart_14/Uart_Rec_14/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_13/Uart_Rec_13/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_13/Uart_Rec_13/i_Reset(rst) and /Uart_Blocks/Uart_13/Uart_Rec_13/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_12/Uart_Rec_12/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_12/Uart_Rec_12/i_Reset(rst) and /Uart_Blocks/Uart_12/Uart_Rec_12/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_11/Uart_Rec_11/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_11/Uart_Rec_11/i_Reset(rst) and /Uart_Blocks/Uart_11/Uart_Rec_11/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_10/Uart_Rec_10/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_10/Uart_Rec_10/i_Reset(rst) and /Uart_Blocks/Uart_10/Uart_Rec_10/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_9/Uart_Rec_9/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_9/Uart_Rec_9/i_Reset(rst) and /Uart_Blocks/Uart_9/Uart_Rec_9/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_8/Uart_Rec_8/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_8/Uart_Rec_8/i_Reset(rst) and /Uart_Blocks/Uart_8/Uart_Rec_8/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_7/Uart_Rec_7/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_7/Uart_Rec_7/i_Reset(rst) and /Uart_Blocks/Uart_7/Uart_Rec_7/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_6/Uart_Rec_6/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_6/Uart_Rec_6/i_Reset(rst) and /Uart_Blocks/Uart_6/Uart_Rec_6/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_5/Uart_Rec_5/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_5/Uart_Rec_5/i_Reset(rst) and /Uart_Blocks/Uart_5/Uart_Rec_5/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_4/Uart_Rec_4/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_4/Uart_Rec_4/i_Reset(rst) and /Uart_Blocks/Uart_4/Uart_Rec_4/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_3/Uart_Rec_3/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_3/Uart_Rec_3/i_Reset(rst) and /Uart_Blocks/Uart_3/Uart_Rec_3/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_2/Uart_Rec_2/fifo_generator_0Executing the post_config_ip from bd
+Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /Uart_Blocks/Uart_2/Uart_Rec_2/i_Reset(rst) and /Uart_Blocks/Uart_2/Uart_Rec_2/fifo_generator_0/srst(undef)
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2
+Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_LED
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_SW
+Successfully read diagram <Uart_ETH> from BD file <E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.srcs/sources_1/bd/Uart_ETH/Uart_ETH.bd>
+open_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1057.168 ; gain = 133.082
+file mkdir E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk
+file copy -force E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.runs/impl_1/Uart_ETH_wrapper.sysdef E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper.hdf
+
+launch_sdk -workspace E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk -hwspec E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk -hwspec E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Aug  1 20:13:19 2018...

@@ -1,0 +1,26 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port i_Reset -pg 1 -y 310 -defaultsOSRD
+preplace port o_TXD -pg 1 -y 300 -defaultsOSRD
+preplace port ap_clk -pg 1 -y 20 -defaultsOSRD
+preplace port s_axi_AXILiteS -pg 1 -y 0 -defaultsOSRD
+preplace port ap_rst_n -pg 1 -y 40 -defaultsOSRD
+preplace port m_axi_DRAM -pg 1 -y 60 -defaultsOSRD
+preplace inst DMA_Send_Config -pg 1 -lvl 1 -y 20 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 1 -y 180 -defaultsOSRD
+preplace inst UART_TX_0 -pg 1 -lvl 1 -y 320 -defaultsOSRD
+preplace netloc Conn1 1 0 1 N
+preplace netloc Conn2 1 1 1 N
+preplace netloc ap_rst_n_1 1 0 1 N
+preplace netloc DMA_Send_Config_uart_V_din 1 0 2 -70 110 320
+preplace netloc util_vector_logic_0_Res 1 1 1 330
+preplace netloc ap_clk_1 1 0 1 -80
+preplace netloc UART_TX_0_o_TX_Busy 1 0 2 -50 240 310
+preplace netloc i_Reset_1 1 0 1 N
+preplace netloc DMA_Send_Config_uart_V_write 1 0 2 -60 120 310
+preplace netloc UART_TX_0_o_TXD 1 1 1 N
+levelinfo -pg 1 -100 130 350 -top -70 -bot 1040
+",
+}
+0

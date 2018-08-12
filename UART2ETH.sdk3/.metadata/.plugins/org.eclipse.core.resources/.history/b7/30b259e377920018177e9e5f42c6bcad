@@ -1,0 +1,35 @@
+/*
+ * Redundancy.c
+ *
+ *  Created on: Jul 17, 2018
+ *      Author: AVA.CO
+ */
+
+#include "Redundancy.h"
+
+
+
+void Send_Configuration_to_Slave_Board(u8* Buffer , struct uart_port_features* uart_port_features){
+	u8 port_number[3] = {0x00 , 0x00 , 0x02};
+	int indx = 0;
+	for(int i=0; i<M2S_Preamble_Size ; i++){
+		Buffer[i] = 'M' + i;
+	}
+	Buffer[M2S_Preamble_Size] = ID_M2S_Send_Config;
+	indx = Cache_Write_Uart_send(port_number , Master_to_Slave_Buffer_Size , indx , Buffer , uart_port_features);
+	serial_send_data(port_number , indx , uart_port_features);
+	//Send Bufferto Slave board through uart
+}
+
+
+void Send_Port_status_to_Slave_Board(struct slave_port_status* slave_port_status){
+	u8 buffer[Master_to_Slave_Buffer_Size];
+	u8 port_number[3] = {0x00 , 0x00 , 0x02};
+	int indx = 0;
+	for(int i=0; i<M2S_Preamble_Size ; i++){
+		buffer[i] = 'M' + i;
+	}
+	buffer[M2S_Preamble_Size] = ID_M2S_Send_Port_Status;
+
+
+}

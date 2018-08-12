@@ -1,0 +1,287 @@
+/*****************************************************************************
+ *   timer.c:  Timer C file for NXP LPC230x Family Microprocessors
+ *
+ *   Copyright(C) 2006, NXP Semiconductor
+ *   All rights reserved.
+ *
+ *   History
+ *   2006.09.01  ver 1.00    Prelimnary version, first Release
+ *
+******************************************************************************/
+#include "Timers.h"
+#include "stdint.h"
+//#include "stm32f4xx_hal.h"
+
+//extern TIM_HandleTypeDef htim2;
+
+
+volatile uint32_t timer_counter = 0;
+
+struct Timer_Var
+{
+	uint8_t Ticks;
+	uint8_t Propotion;
+
+	uint8_t F_Do   : 1;
+	uint8_t F_Done : 1;
+}GL_Timer_Struct[TIMER_BUFFER_SIZE];
+
+/******************************************************************************
+** Function name:   Timer0Handler
+**
+** Descriptions:    Timer/Counter 0 interrupt handler
+**        executes each 10ms @ 60 MHz CPU Clock
+**
+** parameters:      None
+** Returned value:    None
+**
+******************************************************************************/
+void Timer7Handler(void)
+{
+	static  uint8_t
+		count_5ms		= 0,
+		count_10ms		= 0,
+		count_100ms		= 0,
+		count_1s		= 0,
+		count_1min		= 0,
+		count_5min		= 0,
+		count_1H		= 0,
+		count_1day		= 0;
+	
+  uint8_t index = 0;
+  uint8_t TMR_Overflows[TIMER_OVERFLOWFLAGS_SIZE] = {0};
+
+  timer_counter++;
+
+  //Check for Overflow Flags
+  TMR_Overflows[TMR_1MS] = TRUE;
+    if(++count_5ms == 5)
+    {
+	  count_5ms = 0;
+	  TMR_Overflows[TMR_5MS] = TRUE;
+	  if(++count_10ms == 2)
+	  {
+		count_10ms = 0;
+		TMR_Overflows[TMR_10MS] = TRUE;
+		if(++count_100ms == 10)
+		{
+		  count_100ms = 0;
+		  TMR_Overflows[TMR_100MS] = TRUE;
+		  if(++count_1s == 10)
+		  {
+			count_1s = 0;
+			TMR_Overflows[TMR_1S] = TRUE;
+			if(++count_1min == 60)
+			{
+			  count_1min = 0;
+			  TMR_Overflows[TMR_1MIN] = TRUE;
+			  if(++count_5min == 5)
+			  {
+				count_5min = 0;
+				TMR_Overflows[TMR_5MIN] = TRUE;
+				if(++count_1H == 12)
+				{
+				  count_1H = 0;
+				  TMR_Overflows[TMR_1H] = TRUE;
+				  if(++count_1day == 24)
+				  {
+					count_1day = 0;
+					TMR_Overflows[TMR_1DAY] = TRUE;
+				  }
+				}
+			  }
+			}
+		  }
+		}
+	  }
+    }
+  //for every entry: 1) Check if the Do Flag is Enabled
+  //                 2) Check if the corresponding Propotion Flag is Set
+  //                 3) Take one tick
+  //                 4) If no ticks left set the Done Flag and unset the do flag
+  //NOTE: when writing new numbers to these registers, first write the ticks then
+  //Enable the Do Flag
+  for(index = 0; index < TIMER_BUFFER_SIZE; index++)
+  {
+    if(GL_Timer_Struct[index].F_Do == TRUE)
+    {
+      if(TMR_Overflows[GL_Timer_Struct[index].Propotion] == TRUE)
+      {
+        GL_Timer_Struct[index].Ticks--;
+        if(GL_Timer_Struct[index].Ticks == 0)
+        {
+          GL_Timer_Struct[index].F_Do 	= FALSE;
+          GL_Timer_Struct[index].F_Done	= TRUE;
+        }
+      }
+    }
+  }
+
+//	if(TMR_IsTimerDone(TIMER_BUFFER_INDEX_PROFIBUS))
+//		Timer_Profi_Interrupt();
+
+//  VICADDRESS = 0;   /* Acknowledge Interrupt */
+}
+
+/******************************************************************************
+** Function name:   enable_timer
+**
+** Descriptions:    Enable timer
+**
+** parameters:      timer number: 0 or 1
+** Returned value:    None
+**
+******************************************************************************/
+void enable_timer( uint8_t timer_num )
+{
+//  if ( timer_num == 0 )
+//  {
+//    T0TCR = 1;
+//  }
+//  else
+//  {
+//    T1TCR = 1;
+//  }
+//  return;
+}
+
+/******************************************************************************
+** Function name:   disable_timer
+**
+** Descriptions:    Disable timer
+**
+** parameters:      timer number: 0 or 1
+** Returned value:    None
+**
+******************************************************************************/
+void disable_timer( uint8_t timer_num )
+{
+//  if ( timer_num == 0 )
+//  {
+//    T0TCR = 0;
+//  }
+//  else
+//  {
+//    T1TCR = 0;
+//  }
+//  return;
+}
+
+/******************************************************************************
+** Function name:   reset_timer
+**
+** Descriptions:    Reset timer
+**
+** parameters:      timer number: 0 or 1
+** Returned value:    None
+**
+******************************************************************************/
+void reset_timer( uint8_t timer_num )
+{
+//  uint32_t regVal;
+
+//  if ( timer_num == 0 )
+//  {
+//    regVal = T0TCR;
+//    regVal |= 0x02;
+//    T0TCR = regVal;
+//  }
+//  else
+//  {
+//    regVal = T1TCR;
+//    regVal |= 0x02;
+//    T1TCR = regVal;
+//  }
+//  return;
+}
+
+/******************************************************************************
+** Function name:   init_timer
+**
+** Descriptions:    Initialize timer, set timer interval, reset timer,
+**            install timer interrupt handler
+**
+** parameters:      None
+** Returned value:    true or false, if the interrupt handler can't be
+**            installed, return false.
+**
+******************************************************************************/
+uint32_t init_timer ( uint32_t TimerInterval )
+{
+//  timer_counter = 0;
+//  T0MR0 = TimerInterval;
+//  T0MCR = 3;        /* Interrupt and Reset on MR0 */
+//  if ( install_irq( TIMER0_INT, (void *)Timer0Handler, HIGHEST_PRIORITY ) == FALSE )
+//  {
+//    return (FALSE);
+//  }
+//  else
+//  {
+    return (TRUE);
+//  }
+}
+
+
+//*******************************************************************************************
+void TMR_StartTimer(uint16_t BufferIndex, uint8_t Ticks, uint8_t Propotion)
+{
+//  __istate_t s = __get_interrupt_state(); __disable_interrupt();
+//	/* Stop Timer2 Interrupt */
+//	HAL_TIM_Base_Stop_IT(&htim2);
+
+  GL_Timer_Struct[BufferIndex].Ticks			=	Ticks;
+  GL_Timer_Struct[BufferIndex].Propotion	=	Propotion;
+  GL_Timer_Struct[BufferIndex].F_Do				=	TRUE;
+  GL_Timer_Struct[BufferIndex].F_Done			=	FALSE;
+//  __set_interrupt_state(s);
+//	/* Start Timer2 Interrupt */
+//	HAL_TIM_Base_Start_IT(&htim2);
+}
+//*******************************************************************************************
+void TMR_StopTimer(uint16_t BufferIndex)
+{
+//  __istate_t s = __get_interrupt_state(); __disable_interrupt();
+//	/* Stop Timer2 Interrupt */
+//	HAL_TIM_Base_Stop_IT(&htim2);
+  
+	GL_Timer_Struct[BufferIndex].F_Do				=	FALSE;
+//  __set_interrupt_state(s);
+//	/* Start Timer2 Interrupt */
+//	HAL_TIM_Base_Start_IT(&htim2);
+}
+//*******************************************************************************************
+void TMR_ReStartTimer(uint16_t BufferIndex)
+{
+// __istate_t s = __get_interrupt_state(); __disable_interrupt();
+//	/* Stop Timer2 Interrupt */
+//	HAL_TIM_Base_Stop_IT(&htim2);
+
+	GL_Timer_Struct[BufferIndex].F_Do				=	TRUE;
+// __set_interrupt_state(s);
+//	/* Start Timer2 Interrupt */
+//	HAL_TIM_Base_Start_IT(&htim2);
+}
+//*******************************************************************************************
+uint8_t TMR_IsTimerDone(uint16_t BufferIndex)
+{
+ return (GL_Timer_Struct[BufferIndex].F_Done);
+}
+//*******************************************************************************************
+void TMR_ResetTimer(uint16_t BufferIndex)
+{
+//  __istate_t s = __get_interrupt_state(); __disable_interrupt();
+//	/* Stop Timer2 Interrupt */
+//	HAL_TIM_Base_Stop_IT(&htim2);
+	
+  GL_Timer_Struct[BufferIndex].Ticks			=	0;
+  GL_Timer_Struct[BufferIndex].Propotion	=	0;
+  GL_Timer_Struct[BufferIndex].F_Do				=	FALSE;
+  GL_Timer_Struct[BufferIndex].F_Done			=	FALSE;
+//  __set_interrupt_state(s);
+//	/* Start Timer2 Interrupt */
+//	HAL_TIM_Base_Start_IT(&htim2);
+}
+//*******************************************************************************************
+/******************************************************************************
+**                            End Of File
+******************************************************************************/

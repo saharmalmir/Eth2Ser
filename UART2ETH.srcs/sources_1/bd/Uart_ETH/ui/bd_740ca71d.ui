@@ -1,0 +1,161 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port i_in13 -pg 1 -y 920 -defaultsOSRD
+preplace port i_in2 -pg 1 -y 100 -defaultsOSRD
+preplace port i_Reset -pg 1 -y 60 -defaultsOSRD
+preplace port i_in20 -pg 1 -y 640 -defaultsOSRD
+preplace port i_in14 -pg 1 -y 940 -defaultsOSRD
+preplace port i_in3 -pg 1 -y 120 -defaultsOSRD
+preplace port o_Data -pg 1 -y 360 -defaultsOSRD
+preplace port o_CLK -pg 1 -y 340 -defaultsOSRD
+preplace port i_in21 -pg 1 -y 660 -defaultsOSRD
+preplace port i_in15 -pg 1 -y 960 -defaultsOSRD
+preplace port i_in4 -pg 1 -y 140 -defaultsOSRD
+preplace port i_CLK -pg 1 -y 40 -defaultsOSRD
+preplace port i_in22 -pg 1 -y 680 -defaultsOSRD
+preplace port i_in16 -pg 1 -y 980 -defaultsOSRD
+preplace port i_in5 -pg 1 -y 160 -defaultsOSRD
+preplace port i_in23 -pg 1 -y 700 -defaultsOSRD
+preplace port i_in17 -pg 1 -y 580 -defaultsOSRD
+preplace port i_in6 -pg 1 -y 180 -defaultsOSRD
+preplace port i_in30 -pg 1 -y 1220 -defaultsOSRD
+preplace port i_in24 -pg 1 -y 720 -defaultsOSRD
+preplace port i_in18 -pg 1 -y 600 -defaultsOSRD
+preplace port i_in7 -pg 1 -y 200 -defaultsOSRD
+preplace port i_in31 -pg 1 -y 1240 -defaultsOSRD
+preplace port i_in25 -pg 1 -y 1120 -defaultsOSRD
+preplace port i_in19 -pg 1 -y 620 -defaultsOSRD
+preplace port i_in8 -pg 1 -y 220 -defaultsOSRD
+preplace port i_in32 -pg 1 -y 1260 -defaultsOSRD
+preplace port i_in26 -pg 1 -y 1140 -defaultsOSRD
+preplace port i_in9 -pg 1 -y 840 -defaultsOSRD
+preplace port i_in27 -pg 1 -y 1160 -defaultsOSRD
+preplace port i_in28 -pg 1 -y 1180 -defaultsOSRD
+preplace port i_in29 -pg 1 -y 1200 -defaultsOSRD
+preplace port i_in10 -pg 1 -y 860 -defaultsOSRD
+preplace port i_in11 -pg 1 -y 880 -defaultsOSRD
+preplace port o_Latch -pg 1 -y 380 -defaultsOSRD
+preplace port i_in12 -pg 1 -y 900 -defaultsOSRD
+preplace port i_in1 -pg 1 -y 80 -defaultsOSRD
+preplace inst Register_8_Input_Rx2 -pg 1 -lvl 1 -y 1170 -defaultsOSRD
+preplace inst LED_Sample_0 -pg 1 -lvl 2 -y 560 -defaultsOSRD
+preplace inst LED_Sample_1 -pg 1 -lvl 2 -y 1140 -defaultsOSRD
+preplace inst LED_Sample_2 -pg 1 -lvl 2 -y 210 -defaultsOSRD
+preplace inst LED_Sample_3 -pg 1 -lvl 2 -y 850 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 3 -y 420 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -y 820 -defaultsOSRD
+preplace inst Register_8_Input_Tx1 -pg 1 -lvl 1 -y 110 -defaultsOSRD
+preplace inst Register_8_Input_Tx2 -pg 1 -lvl 1 -y 890 -defaultsOSRD
+preplace inst LED_Tester_0 -pg 1 -lvl 1 -y 300 -defaultsOSRD
+preplace inst PISO_0 -pg 1 -lvl 4 -y 380 -defaultsOSRD
+preplace inst Tick_Timer_General_0 -pg 1 -lvl 1 -y 420 -defaultsOSRD
+preplace inst Register_8_Input_Rx1 -pg 1 -lvl 1 -y 620 -defaultsOSRD
+preplace netloc Uart_Blocks_o_TXD1 1 0 1 0J
+preplace netloc LED_Sample_3_o_out8 1 2 1 730
+preplace netloc Register_8_Input_Rx1_o_out6 1 1 1 310
+preplace netloc Uart_Blocks_o_TXD2 1 0 1 0J
+preplace netloc i_UART_RX13_1 1 0 1 NJ
+preplace netloc Register_8_Input_Rx1_o_out7 1 1 1 320
+preplace netloc util_vector_logic_0_Res 1 3 1 1180J
+preplace netloc Uart_Blocks_o_TXD3 1 0 1 0J
+preplace netloc clk_wiz_0_clk_92M 1 0 4 -60 1030 340 360 610J 350 NJ
+preplace netloc Register_8_Input_Rx1_o_out8 1 1 1 330
+preplace netloc LED_Sample_2_o_out1 1 2 1 720
+preplace netloc Uart_Blocks_o_TXD4 1 0 1 NJ
+preplace netloc i_UART_RX3_1 1 0 1 -10J
+preplace netloc LED_Sample_2_o_out2 1 2 1 710
+preplace netloc Uart_Blocks_o_TXD5 1 0 1 NJ
+preplace netloc LED_Sample_2_o_out3 1 2 1 700
+preplace netloc Uart_Blocks_o_TXD6 1 0 1 NJ
+preplace netloc LED_Sample_2_o_out4 1 2 1 690
+preplace netloc Uart_Blocks_o_TXD7 1 0 1 NJ
+preplace netloc LED_Sample_2_o_out5 1 2 1 680
+preplace netloc Uart_Blocks_o_TXD8 1 0 1 30J
+preplace netloc LED_Sample_2_o_out6 1 2 1 670
+preplace netloc Uart_Blocks_o_TXD9 1 0 1 10J
+preplace netloc i_UART_RX10_1 1 0 1 0J
+preplace netloc xlconcat_0_dout 1 3 1 1190
+preplace netloc LED_Sample_2_o_out7 1 2 1 660
+preplace netloc Uart_Blocks_o_TXD 1 0 1 0J
+preplace netloc LED_Sample_2_o_out8 1 2 1 650
+preplace netloc i_UART_RX1_1 1 0 1 -10J
+preplace netloc i_UART_RX14_1 1 0 1 NJ
+preplace netloc Register_8_Input_Tx1_o_out1 1 1 1 390
+preplace netloc Register_8_Input_Tx1_o_out2 1 1 1 380
+preplace netloc PISO_0_o_CLK 1 4 1 NJ
+preplace netloc Register_8_Input_Tx1_o_out3 1 1 1 370
+preplace netloc Register_8_Input_Tx1_o_out4 1 1 1 360
+preplace netloc i_UART_RX6_1 1 0 1 NJ
+preplace netloc Register_8_Input_Tx1_o_out5 1 1 1 290
+preplace netloc Register_8_Input_Tx1_o_out6 1 1 1 280
+preplace netloc Register_8_Input_Tx1_o_out7 1 1 1 270
+preplace netloc Register_8_Input_Tx1_o_out8 1 1 1 250
+preplace netloc i_UART_RX9_1 1 0 1 20J
+preplace netloc i_Reset_Periph_1 1 0 4 -50 360 260 370 880 360 1180J
+preplace netloc i_UART_RX7_1 1 0 1 NJ
+preplace netloc i_UART_RX16_1 1 0 1 NJ
+preplace netloc i_UART_RX15_1 1 0 1 NJ
+preplace netloc Register_8_Input_Rx2_o_out1 1 1 1 N
+preplace netloc i_UART_RX5_1 1 0 1 NJ
+preplace netloc Register_8_Input_Rx2_o_out2 1 1 1 N
+preplace netloc Register_8_Input_Rx2_o_out3 1 1 1 N
+preplace netloc i_UART_RX4_1 1 0 1 -10J
+preplace netloc Uart_Blocks_o_TXD10 1 0 1 -10J
+preplace netloc LED_Sample_0_o_out1 1 2 1 860
+preplace netloc Register_8_Input_Rx2_o_out4 1 1 1 N
+preplace netloc Uart_Blocks_o_TXD11 1 0 1 -30J
+preplace netloc Register_8_Input_Rx2_o_out5 1 1 1 N
+preplace netloc LED_Sample_0_o_out2 1 2 1 840
+preplace netloc Uart_Blocks_o_TXD12 1 0 1 NJ
+preplace netloc Register_8_Input_Rx2_o_out6 1 1 1 N
+preplace netloc LED_Sample_0_o_out3 1 2 1 820
+preplace netloc Uart_Blocks_o_TXD13 1 0 1 NJ
+preplace netloc Register_8_Input_Rx2_o_out7 1 1 1 N
+preplace netloc LED_Sample_0_o_out4 1 2 1 800
+preplace netloc Uart_Blocks_o_TXD14 1 0 1 NJ
+preplace netloc Register_8_Input_Rx2_o_out8 1 1 1 N
+preplace netloc LED_Sample_0_o_out5 1 2 1 780
+preplace netloc Uart_Blocks_o_TXD15 1 0 1 NJ
+preplace netloc LED_Sample_0_o_out6 1 2 1 760
+preplace netloc LED_Sample_0_o_out7 1 2 1 740
+preplace netloc LED_Sample_1_o_out1 1 2 1 610
+preplace netloc LED_Sample_0_o_out8 1 2 1 610
+preplace netloc Register_8_Input_Tx2_o_out1 1 1 1 390
+preplace netloc Register_8_Input_Tx2_o_out2 1 1 1 390
+preplace netloc LED_Sample_1_o_out2 1 2 1 620
+preplace netloc i_UART_RX8_1 1 0 1 NJ
+preplace netloc Register_8_Input_Tx2_o_out3 1 1 1 390
+preplace netloc LED_Sample_1_o_out3 1 2 1 630
+preplace netloc Register_8_Input_Tx2_o_out4 1 1 1 390
+preplace netloc Tick_Timer_General_0_o_Tic_1ms 1 1 1 350
+preplace netloc LED_Sample_1_o_out4 1 2 1 640
+preplace netloc PISO_0_o_Data 1 4 1 NJ
+preplace netloc Register_8_Input_Tx2_o_out5 1 1 1 390
+preplace netloc LED_Sample_1_o_out5 1 2 1 760
+preplace netloc Register_8_Input_Tx2_o_out6 1 1 1 390
+preplace netloc LED_Sample_3_o_out1 1 2 1 870
+preplace netloc LED_Sample_1_o_out6 1 2 1 780
+preplace netloc Register_8_Input_Tx2_o_out7 1 1 1 390
+preplace netloc LED_Sample_3_o_out2 1 2 1 850
+preplace netloc LED_Sample_1_o_out7 1 2 1 800
+preplace netloc Register_8_Input_Tx2_o_out8 1 1 1 390
+preplace netloc Register_8_Input_Rx1_o_out1 1 1 1 250
+preplace netloc LED_Sample_3_o_out3 1 2 1 830
+preplace netloc LED_Sample_1_o_out8 1 2 1 820
+preplace netloc i_UART_RX11_1 1 0 1 -20J
+preplace netloc Register_8_Input_Rx1_o_out2 1 1 1 270
+preplace netloc LED_Sample_3_o_out4 1 2 1 810
+preplace netloc i_UART_RX12_1 1 0 1 -40J
+preplace netloc Register_8_Input_Rx1_o_out3 1 1 1 280
+preplace netloc LED_Sample_3_o_out5 1 2 1 790
+preplace netloc i_UART_RX2_1 1 0 1 -10J
+preplace netloc Register_8_Input_Rx1_o_out4 1 1 1 290
+preplace netloc LED_Sample_3_o_out6 1 2 1 770
+preplace netloc PISO_0_o_Latch 1 4 1 NJ
+preplace netloc LED_Sample_3_o_out7 1 2 1 750
+preplace netloc Register_8_Input_Rx1_o_out5 1 1 1 300
+levelinfo -pg 1 -80 140 500 1030 1300 1430 -top -30 -bot 1310
+",
+}
+

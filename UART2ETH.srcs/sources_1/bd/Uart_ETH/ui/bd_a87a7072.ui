@@ -1,0 +1,29 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port i_Reset -pg 1 -y 290 -defaultsOSRD
+preplace port ap_clk -pg 1 -y 60 -defaultsOSRD
+preplace port i_RXD -pg 1 -y 310 -defaultsOSRD
+preplace port ap_rst_n -pg 1 -y 80 -defaultsOSRD
+preplace port m_axi_a -pg 1 -y 40 -defaultsOSRD
+preplace portBus busy_V -pg 1 -y 100 -defaultsOSRD
+preplace inst DataMove_2 -pg 1 -lvl 1 -y 80 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 2 -y 160 -defaultsOSRD
+preplace inst UART_RX_2 -pg 1 -lvl 1 -y 290 -defaultsOSRD
+preplace inst fifo_generator_2 -pg 1 -lvl 2 -y 330 -defaultsOSRD
+preplace netloc DataMove_0_uart_V_read 1 1 1 360
+preplace netloc i_RXD_1 1 0 1 NJ
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 1 NJ
+preplace netloc util_vector_logic_0_Res 1 1 2 NJ 100 770
+preplace netloc UART_RX_1_o_Valid 1 1 1 N
+preplace netloc busy_V_1 1 0 1 NJ
+preplace netloc fifo_generator_0_dout 1 1 1 370
+preplace netloc fifo_generator_0_empty 1 1 1 380
+preplace netloc DataMove_0_m_axi_a 1 1 2 NJ 40 NJ
+preplace netloc i_Reset_1 1 0 2 10 410 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 2 20 390 N
+preplace netloc UART_RX_1_o_Data 1 1 1 N
+levelinfo -pg 1 -10 190 580 790 -top -10 -bot 460
+",
+}
+

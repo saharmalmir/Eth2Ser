@@ -1,0 +1,167 @@
+12:13:56 **** Auto Build of configuration Debug for project Eth2Ser ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Eth2Ser_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/protocol.h:19:0,
+                 from ../src/eth_protocol.h:12,
+                 from ../src/main.c:45:
+../src/ports_features.h:142:123: warning: 'struct Protocol_Structure' declared inside parameter list will not be visible outside of this definition or declaration
+ void assign_user_initials_to_ports(XUart_config_register *config ,struct uart_port_features * uart_port_features , struct Protocol_Structure* DDCMP , struct Protocol_Structure* Asterix);
+                                                                                                                           ^~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:56:0:
+../src/main.h:13:0: warning: "INTC_DEVICE_ID" redefined
+ #define INTC_DEVICE_ID    XPAR_PS7_SCUGIC_0_DEVICE_ID
+ 
+In file included from ../src/protocol.h:18:0,
+                 from ../src/eth_protocol.h:12,
+                 from ../src/main.c:45:
+../src/uart.h:63:0: note: this is the location of the previous definition
+ #define INTC_DEVICE_ID  XPAR_SCUGIC_SINGLE_DEVICE_ID
+ 
+In file included from ../src/LCD_Keypad_User_Init.h:12:0,
+                 from ../src/main.c:64:
+../src/stdutiles.h:47:0: warning: ignoring #pragma OT  [-Wunknown-pragmas]
+ #pragma OT(9)       /* Selcet highest level of optimization */
+ 
+In file included from ../src/main.c:67:0:
+../src/Timers.h:24:0: warning: "TRUE" redefined
+ #define TRUE  1
+ 
+In file included from ../../Eth2Ser_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../src/main.c:39:
+../../Eth2Ser_bsp/ps7_cortexa9_0/include/xil_types.h:65:0: note: this is the location of the previous definition
+ #  define TRUE  1U
+ 
+In file included from ../src/main.c:67:0:
+../src/Timers.h:25:0: warning: "FALSE" redefined
+ #define FALSE 0
+ 
+In file included from ../../Eth2Ser_bsp/ps7_cortexa9_0/include/xil_printf.h:11:0,
+                 from ../src/main.c:39:
+../../Eth2Ser_bsp/ps7_cortexa9_0/include/xil_types.h:69:0: note: this is the location of the previous definition
+ #  define FALSE  0U
+ 
+../src/main.c:98:0: warning: "INTC_DEVICE_ID" redefined
+ #define INTC_DEVICE_ID  XPAR_SCUGIC_SINGLE_DEVICE_ID
+ 
+In file included from ../src/main.c:56:0:
+../src/main.h:13:0: note: this is the location of the previous definition
+ #define INTC_DEVICE_ID    XPAR_PS7_SCUGIC_0_DEVICE_ID
+ 
+../src/main.c: In function 'main':
+../src/main.c:341:3: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   usleep(2000);
+   ^~~~~~
+../src/main.c:640:63: warning: passing argument 3 of 'assign_user_initials_to_ports' from incompatible pointer type [-Wincompatible-pointer-types]
+   assign_user_initials_to_ports(&config ,uart_port_features , &DDCMP , &Asterix);
+                                                               ^
+In file included from ../src/protocol.h:19:0,
+                 from ../src/eth_protocol.h:12,
+                 from ../src/main.c:45:
+../src/ports_features.h:142:6: note: expected 'struct Protocol_Structure *' but argument is of type 'struct Protocol_Structure *'
+ void assign_user_initials_to_ports(XUart_config_register *config ,struct uart_port_features * uart_port_features , struct Protocol_Structure* DDCMP , struct Protocol_Structure* Asterix);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:640:72: warning: passing argument 4 of 'assign_user_initials_to_ports' from incompatible pointer type [-Wincompatible-pointer-types]
+   assign_user_initials_to_ports(&config ,uart_port_features , &DDCMP , &Asterix);
+                                                                        ^
+In file included from ../src/protocol.h:19:0,
+                 from ../src/eth_protocol.h:12,
+                 from ../src/main.c:45:
+../src/ports_features.h:142:6: note: expected 'struct Protocol_Structure *' but argument is of type 'struct Protocol_Structure *'
+ void assign_user_initials_to_ports(XUart_config_register *config ,struct uart_port_features * uart_port_features , struct Protocol_Structure* DDCMP , struct Protocol_Structure* Asterix);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:689:63: warning: passing argument 3 of 'assign_user_initials_to_ports' from incompatible pointer type [-Wincompatible-pointer-types]
+   assign_user_initials_to_ports(&config ,uart_port_features , &DDCMP , &Asterix);
+                                                               ^
+In file included from ../src/protocol.h:19:0,
+                 from ../src/eth_protocol.h:12,
+                 from ../src/main.c:45:
+../src/ports_features.h:142:6: note: expected 'struct Protocol_Structure *' but argument is of type 'struct Protocol_Structure *'
+ void assign_user_initials_to_ports(XUart_config_register *config ,struct uart_port_features * uart_port_features , struct Protocol_Structure* DDCMP , struct Protocol_Structure* Asterix);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:689:72: warning: passing argument 4 of 'assign_user_initials_to_ports' from incompatible pointer type [-Wincompatible-pointer-types]
+   assign_user_initials_to_ports(&config ,uart_port_features , &DDCMP , &Asterix);
+                                                                        ^
+In file included from ../src/protocol.h:19:0,
+                 from ../src/eth_protocol.h:12,
+                 from ../src/main.c:45:
+../src/ports_features.h:142:6: note: expected 'struct Protocol_Structure *' but argument is of type 'struct Protocol_Structure *'
+ void assign_user_initials_to_ports(XUart_config_register *config ,struct uart_port_features * uart_port_features , struct Protocol_Structure* DDCMP , struct Protocol_Structure* Asterix);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:972:159: warning: passing argument 6 of 'Serial2Eth_Set_Ethernet_Header_Values' makes integer from pointer without a cast [-Wint-conversion]
+      Serial2Eth_Set_Ethernet_Header_Values( true , Serial2Eth_Ethernet_Header , Serial2Eth_Ethernet_Preamble_Size ,  Port_Specifications  ,  Ports_Protocol , uart_port_features , i , &Ethernet_Port_spec);
+                                                                                                                                                               ^~~~~~~~~~~~~~~~~~
+In file included from ../src/main.c:45:0:
+../src/eth_protocol.h:126:5: note: expected 'int' but argument is of type 'struct uart_port_features *'
+ int Serial2Eth_Set_Ethernet_Header_Values(bool default_setting , u8* Eth_Header , int Eth_Preamble_Size , struct port_specifications* Port_Specifications , struct Protocol_Structure* Ports_Protocol , int Port_number, struct uart_port_features* uart_port_features, struct Ethernet_Port_spec* Ethernet_Port_spec);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:972:180: warning: passing argument 7 of 'Serial2Eth_Set_Ethernet_Header_Values' makes pointer from integer without a cast [-Wint-conversion]
+      Serial2Eth_Set_Ethernet_Header_Values( true , Serial2Eth_Ethernet_Header , Serial2Eth_Ethernet_Preamble_Size ,  Port_Specifications  ,  Ports_Protocol , uart_port_features , i , &Ethernet_Port_spec);
+                                                                                                                                                                                    ^
+In file included from ../src/main.c:45:0:
+../src/eth_protocol.h:126:5: note: expected 'struct uart_port_features *' but argument is of type 'int'
+ int Serial2Eth_Set_Ethernet_Header_Values(bool default_setting , u8* Eth_Header , int Eth_Preamble_Size , struct port_specifications* Port_Specifications , struct Protocol_Structure* Ports_Protocol , int Port_number, struct uart_port_features* uart_port_features, struct Ethernet_Port_spec* Ethernet_Port_spec);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:1111:4: warning: implicit declaration of function 'Eth_Check_Input_Data' [-Wimplicit-function-declaration]
+    Eth_Check_Input_Data( Eth_RcvBuff , &Ethernet_Port_spec , &referenced_protocols , &Diagnostics);
+    ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:282:8: warning: variable 'err' set but not used [-Wunused-but-set-variable]
+  err_t err;
+        ^~~
+../src/main.c: In function 'Rcv_callbck':
+../src/main.c:1362:7: warning: unused variable 'status' [-Wunused-variable]
+  bool status = true;
+       ^~~~~~
+../src/main.c: In function 'serial_send_data':
+../src/main.c:1764:6: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+  int status;
+      ^~~~~~
+../src/main.c: In function 'check_serial_input_fifo':
+../src/main.c:2409:6: warning: variable 'write_new_data' set but not used [-Wunused-but-set-variable]
+ bool write_new_data[16];
+      ^~~~~~~~~~~~~~
+../src/main.c:2405:5: warning: variable 'error_count' set but not used [-Wunused-but-set-variable]
+ int error_count;
+     ^~~~~~~~~~~
+../src/main.c: In function 'DataAbortIntrHandler':
+../src/main.c:3195:23: warning: unknown escape sequence: '\l'
+  __asm__ __volatile__("\n\ldr %0, [sp,#44]"  : "=r" (addr));
+                       ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'check_timer_overflows':
+../src/main.c:3215:3: warning: unused variable 'count_10ms' [-Wunused-variable]
+   count_10ms  = 0,
+   ^~~~~~~~~~
+../src/main.c:3214:3: warning: unused variable 'count_5ms' [-Wunused-variable]
+   count_5ms  = 0,
+   ^~~~~~~~~
+At top level:
+../src/main.c:3214:3: warning: 'count_5ms' defined but not used [-Wunused-variable]
+../src/main.c:3215:3: warning: 'count_10ms' defined but not used [-Wunused-variable]
+   count_10ms  = 0,
+   ^~~~~~~~~~
+../src/main.c:1417:14: warning: 'client_connected' defined but not used [-Wunused-function]
+ static err_t client_connected(void *arg, struct tcp_pcb *pcb, err_t err)
+              ^~~~~~~~~~~~~~~~
+In file included from ../src/main.c:56:0:
+../src/main.h:128:13: warning: 'Pointer_Send' defined but not used [-Wunused-variable]
+ static int *Pointer_Send;
+             ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Eth2Ser.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Eth2Ser_bsp/ps7_cortexa9_0/lib -o "Eth2Ser.elf"  ./src/Keypad.o ./src/LCD_Keypad_User_Init.o ./src/Redundancy.o ./src/Timers.o ./src/crc.o ./src/echo.o ./src/eth_protocol.o ./src/glcd.o ./src/gpio.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/ports_features.o ./src/protocol.o ./src/sfp.o ./src/si5324.o ./src/uart.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Eth2Ser.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Eth2Ser.elf  |tee "Eth2Ser.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 312524	   4392	3266848	3583764	 36af14	Eth2Ser.elf
+'Finished building: Eth2Ser.elf.size'
+' '
+
+12:14:01 Build Finished (took 4s.743ms)
+

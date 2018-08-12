@@ -1,0 +1,107 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 788
+License: Customer
+
+Current time: 	2/27/18 9:14:58 AM IRST
+Time zone: 	Iran Standard Time (Asia/Tehran)
+
+OS: Windows 7
+OS Version: 6.1
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 23 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o;C:/Windows/Sun/Java/bin;C:/Windows/system32;C:/Windows;C:/Xilinx/Vivado/2017.2/bin;C:/Xilinx/Vivado/2017.2/lib/win64.o;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin;C:/Xilinx/SDK/2017.2/bin;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado_HLS/2017.2/bin;C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common;C:/Windows/system32;C:/Windows;C:/Windows/System32/Wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Program Files (x86)/Cypress/EZ-USB FX3 SDK/1.3/ARM GCC/bin/;C:/Program Files (x86)/Cypress/EZ-USB FX3 SDK/1.3/eclipse/jre/bin/;C:/Aldec/Active-HDL 8.3/BIN;C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/;C:/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/;C:/Program Files/Microsoft SQL Server/120/Tools/Binn/;C:/Program Files/Microsoft SQL Server/120/DTS/Binn/;C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/;C:/Program Files/PuTTY/;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	AVA.CO
+User home directory: C:/Users/AVA.CO
+User working directory: E:/ETH2SER/SoftwareProjects/UART2ETH961208OnePort
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.2
+RDI_DATADIR: C:/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.2/bin
+
+User preferences location: C:/Users/AVA.CO/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/AVA.CO/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/AVA.CO/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	C:/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	E:/ETH2SER/SoftwareProjects/UART2ETH961208OnePort/.Xil/Vivado-788-AVACO-PC2
+
+GUI allocated memory:	171 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 517 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 35 MB (+34194kb) [00:00:11]
+// [Engine Memory]: 451 MB (+321255kb) [00:00:11]
+// bs:g (cg:JFrame):  Open Project : addNotify
+// Opening Vivado Project: E:\ETH2SER\SoftwareProjects\UART2ETH961208OnePort\UART2ETH.xpr. Version: Vivado v2017.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/ETH2SER/SoftwareProjects/UART2ETH961208OnePort/UART2ETH.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 47 MB (+10738kb) [00:00:13]
+// [Engine Memory]: 517 MB (+45309kb) [00:00:13]
+// HMemoryUtils.trashcanNow. Engine heap size: 519 MB. GUI used memory: 32 MB. Current time: 2/27/18 9:15:00 AM IRST
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 574 MB (+33214kb) [00:00:23]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 654 MB (+53369kb) [00:00:30]
+// [GUI Memory]: 54 MB (+4725kb) [00:00:31]
+// [GUI Memory]: 69 MB (+13450kb) [00:00:32]
+// [Engine Memory]: 687 MB (+87kb) [00:00:34]
+// [GUI Memory]: 76 MB (+2987kb) [00:00:34]
+// Tcl Message: open_project E:/ETH2SER/SoftwareProjects/UART2ETH961208OnePort/UART2ETH.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/ETH2SER/SoftwareProjects/UART2ETH961206' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/SR-System/IPs'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 699 MB. GUI used memory: 54 MB. Current time: 2/27/18 9:15:21 AM IRST
+// Tcl Message: open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:24 . Memory (MB): peak = 912.852 ; gain = 195.605 
+// Project name: UART2ETH; location: E:/ETH2SER/SoftwareProjects/UART2ETH961208OnePort; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 82 MB (+2218kb) [00:00:53]
+// [Engine Memory]: 732 MB (+11524kb) [00:02:29]
+// HMemoryUtils.trashcanNow. Engine heap size: 732 MB. GUI used memory: 53 MB. Current time: 2/27/18 9:17:16 AM IRST
+// [GUI Memory]: 86 MB (+236kb) [00:03:04]
+// [GUI Memory]: 92 MB (+1571kb) [00:05:00]
+// [GUI Memory]: 97 MB (+479kb) [00:08:10]
+// [GUI Memory]: 102 MB (+131kb) [00:17:30]
+// [GUI Memory]: 107 MB (+140kb) [00:21:40]
+// HMemoryUtils.trashcanNow. Engine heap size: 732 MB. GUI used memory: 52 MB. Current time: 2/27/18 9:47:16 AM IRST
+// HMemoryUtils.trashcanNow. Engine heap size: 732 MB. GUI used memory: 50 MB. Current time: 2/27/18 10:17:16 AM IRST
+// HMemoryUtils.trashcanNow. Engine heap size: 732 MB. GUI used memory: 49 MB. Current time: 2/27/18 10:47:16 AM IRST
+// HMemoryUtils.trashcanNow. Engine heap size: 732 MB. GUI used memory: 49 MB. Current time: 2/27/18 11:17:16 AM IRST
+// HMemoryUtils.trashcanNow. Engine heap size: 732 MB. GUI used memory: 49 MB. Current time: 2/27/18 11:47:16 AM IRST
+// HMemoryUtils.trashcanNow. Engine heap size: 732 MB. GUI used memory: 49 MB. Current time: 2/27/18 12:17:16 PM IRST

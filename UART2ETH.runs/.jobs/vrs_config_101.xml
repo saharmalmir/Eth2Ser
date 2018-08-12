@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="Uart_ETH_UART_TX_Extended_0_19_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_19_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_19_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_19_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_TX_Extended_0_18_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_18_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_16_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_16_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_Config_Register_0_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_Config_Register_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_Extract_UART_Features_0_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_Extract_UART_Features_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_18_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_18_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_TX_Extended_0_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_4_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_TX_Extended_0_4_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_TX_Extended_0_5_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_5_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_TX_Extended_0_9_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_9_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_TX_Extended_0_8_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_8_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_TX_Extended_0_7_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_7_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_TX_Extended_0_6_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_6_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_TX_Extended_0_13_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_13_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_13_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_13_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_TX_Extended_0_14_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_14_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_14_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_14_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_TX_Extended_0_15_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_15_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_15_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_15_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_TX_Extended_0_12_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_12_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_12_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_12_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_TX_Extended_0_11_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_11_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_11_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_11_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_TX_Extended_0_17_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_17_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_RX_Extended_0_17_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_RX_Extended_0_17_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="Uart_ETH_UART_TX_Extended_0_16_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/Uart_ETH_UART_TX_Extended_0_16_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_19_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_19_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_18_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_16_synth_1"/>
+		<Parent Id="Uart_ETH_UART_Config_Register_0_0_synth_1"/>
+		<Parent Id="Uart_ETH_Extract_UART_Features_0_0_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_18_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_0_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_4_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_4_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_0_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_5_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_5_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_9_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_9_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_8_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_8_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_7_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_7_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_6_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_6_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_13_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_13_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_14_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_14_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_15_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_15_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_12_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_12_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_11_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_11_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_17_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_17_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_16_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH970413_UART_Tx_Extended/UART2ETH.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_19_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_19_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_18_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_16_synth_1"/>
+		<Parent Id="Uart_ETH_UART_Config_Register_0_0_synth_1"/>
+		<Parent Id="Uart_ETH_Extract_UART_Features_0_0_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_18_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_0_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_4_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_4_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_0_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_5_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_5_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_9_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_9_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_8_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_8_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_7_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_7_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_6_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_6_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_13_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_13_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_14_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_14_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_15_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_15_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_12_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_12_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_11_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_11_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_17_synth_1"/>
+		<Parent Id="Uart_ETH_UART_RX_Extended_0_17_synth_1"/>
+		<Parent Id="Uart_ETH_UART_TX_Extended_0_16_synth_1"/>
+	</Run>
+</Runs>
+

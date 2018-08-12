@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="UARTConfigTest_processing_system7_0_1_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_processing_system7_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_0_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_0_1_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_1_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_2_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_3_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_3_1_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_3_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_5_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_5_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_5_1_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_5_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_7_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_7_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_7_1_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_7_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_9_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_9_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_9_1_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_9_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_11_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_11_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_11_1_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_11_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_13_0_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_13_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_axi_uart16550_13_1_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_axi_uart16550_13_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_xbar_1_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_xbar_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_tier2_xbar_0_1_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_tier2_xbar_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="UARTConfigTest_tier2_xbar_1_1_synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/UARTConfigTest_tier2_xbar_1_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="UARTConfigTest_processing_system7_0_1_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_0_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_0_1_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_1_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_2_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_3_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_3_1_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_5_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_5_1_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_7_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_7_1_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_9_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_9_1_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_11_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_11_1_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_13_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_13_1_synth_1"/>
+		<Parent Id="UARTConfigTest_xbar_1_synth_1"/>
+		<Parent Id="UARTConfigTest_tier2_xbar_0_1_synth_1"/>
+		<Parent Id="UARTConfigTest_tier2_xbar_1_1_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="E:/ETH2SER/SoftwareProjects/UART2ETH961222_withUart16550/UART2ETH.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="UARTConfigTest_processing_system7_0_1_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_0_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_0_1_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_1_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_2_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_3_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_3_1_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_5_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_5_1_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_7_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_7_1_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_9_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_9_1_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_11_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_11_1_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_13_0_synth_1"/>
+		<Parent Id="UARTConfigTest_axi_uart16550_13_1_synth_1"/>
+		<Parent Id="UARTConfigTest_xbar_1_synth_1"/>
+		<Parent Id="UARTConfigTest_tier2_xbar_0_1_synth_1"/>
+		<Parent Id="UARTConfigTest_tier2_xbar_1_1_synth_1"/>
+	</Run>
+</Runs>
+

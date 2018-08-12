@@ -1,0 +1,57 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace portBus Dout1 -pg 1 -y 1220 -defaultsOSRD
+preplace portBus Dout10 -pg 1 -y 950 -defaultsOSRD
+preplace portBus Dout2 -pg 1 -y 50 -defaultsOSRD
+preplace portBus Dout11 -pg 1 -y 1040 -defaultsOSRD
+preplace portBus Dout3 -pg 1 -y 140 -defaultsOSRD
+preplace portBus Dout -pg 1 -y 1310 -defaultsOSRD
+preplace portBus Dout12 -pg 1 -y 860 -defaultsOSRD
+preplace portBus Dout4 -pg 1 -y 230 -defaultsOSRD
+preplace portBus Dout13 -pg 1 -y 770 -defaultsOSRD
+preplace portBus Dout5 -pg 1 -y 320 -defaultsOSRD
+preplace portBus Dout14 -pg 1 -y 1130 -defaultsOSRD
+preplace portBus Dout6 -pg 1 -y 410 -defaultsOSRD
+preplace portBus Dout15 -pg 1 -y 1400 -defaultsOSRD
+preplace portBus Dout7 -pg 1 -y 500 -defaultsOSRD
+preplace portBus Dout8 -pg 1 -y 590 -defaultsOSRD
+preplace portBus Dout9 -pg 1 -y 680 -defaultsOSRD
+preplace portBus Din -pg 1 -y 50 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 1 -y 50 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 1 -y 140 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 1 -y 230 -defaultsOSRD
+preplace inst xlslice_3 -pg 1 -lvl 1 -y 320 -defaultsOSRD
+preplace inst xlslice_10 -pg 1 -lvl 1 -y 950 -defaultsOSRD
+preplace inst xlslice_4 -pg 1 -lvl 1 -y 410 -defaultsOSRD
+preplace inst xlslice_11 -pg 1 -lvl 1 -y 1040 -defaultsOSRD
+preplace inst xlslice_5 -pg 1 -lvl 1 -y 500 -defaultsOSRD
+preplace inst xlslice_12 -pg 1 -lvl 1 -y 1130 -defaultsOSRD
+preplace inst xlslice_6 -pg 1 -lvl 1 -y 590 -defaultsOSRD
+preplace inst xlslice_13 -pg 1 -lvl 1 -y 1400 -defaultsOSRD
+preplace inst xlslice_7 -pg 1 -lvl 1 -y 680 -defaultsOSRD
+preplace inst xlslice_8 -pg 1 -lvl 1 -y 770 -defaultsOSRD
+preplace inst xlslice_14 -pg 1 -lvl 1 -y 1220 -defaultsOSRD
+preplace inst xlslice_9 -pg 1 -lvl 1 -y 860 -defaultsOSRD
+preplace inst xlslice_15 -pg 1 -lvl 1 -y 1310 -defaultsOSRD
+preplace netloc xlslice_12_Dout 1 1 1 NJ
+preplace netloc xlslice_9_Dout 1 1 1 NJ
+preplace netloc xlslice_4_Dout 1 1 1 NJ
+preplace netloc xlslice_3_Dout 1 1 1 NJ
+preplace netloc xlslice_1_Dout 1 1 1 NJ
+preplace netloc xlslice_14_Dout 1 1 1 NJ
+preplace netloc processing_system7_0_GPIO_O 1 0 1 10
+preplace netloc xlslice_13_Dout 1 1 1 NJ
+preplace netloc xlslice_7_Dout 1 1 1 NJ
+preplace netloc xlslice_5_Dout 1 1 1 NJ
+preplace netloc xlslice_15_Dout 1 1 1 NJ
+preplace netloc xlslice_10_Dout 1 1 1 NJ
+preplace netloc xlslice_2_Dout 1 1 1 NJ
+preplace netloc xlslice_11_Dout 1 1 1 NJ
+preplace netloc xlslice_8_Dout 1 1 1 NJ
+preplace netloc xlslice_6_Dout 1 1 1 NJ
+preplace netloc xlslice_0_Dout 1 1 1 NJ
+levelinfo -pg 1 -10 120 250 -top 0 -bot 1450
+",
+}
+0

@@ -1,0 +1,33 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port i_Reset -pg 1 -y 330 -defaultsOSRD
+preplace port o_Error -pg 1 -y 450 -defaultsOSRD
+preplace port i_Baud16x -pg 1 -y 440 -defaultsOSRD
+preplace port ap_clk -pg 1 -y 310 -defaultsOSRD
+preplace port i_RXD -pg 1 -y 420 -defaultsOSRD
+preplace port rd_en_0 -pg 1 -y 530 -defaultsOSRD
+preplace portBus i_Parity -pg 1 -y 460 -defaultsOSRD
+preplace portBus dout_0 -pg 1 -y 120 -defaultsOSRD
+preplace portBus i_Stop_Bit -pg 1 -y 480 -defaultsOSRD
+preplace portBus empty_0 -pg 1 -y 60 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -y 60 -defaultsOSRD
+preplace inst fifo_generator_0 -pg 1 -lvl 2 -y 250 -defaultsOSRD
+preplace inst UART_RX_Extended_0 -pg 1 -lvl 1 -y 430 -defaultsOSRD
+preplace netloc UART_RX_Extended_0_o_Data 1 1 1 270
+preplace netloc i_Baud_1 1 0 1 NJ
+preplace netloc i_RXD_1 1 0 1 NJ
+preplace netloc util_vector_logic_0_Res 1 2 1 NJ
+preplace netloc UART_RX_Extended_0_o_Valid 1 1 1 280
+preplace netloc i_Parity_1 1 0 1 NJ
+preplace netloc UART_RX_Extended_0_o_Error 1 1 2 NJ 450 NJ
+preplace netloc i_Stop_Bit_1 1 0 1 NJ
+preplace netloc rd_en_1 1 0 2 NJ 530 290J
+preplace netloc fifo_generator_0_dout 1 1 2 300 120 NJ
+preplace netloc fifo_generator_0_empty 1 1 1 290
+preplace netloc i_Reset_1 1 0 2 10 330 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 2 20 310 NJ
+levelinfo -pg 1 -10 150 490 700 -top 0 -bot 550
+",
+}
+0

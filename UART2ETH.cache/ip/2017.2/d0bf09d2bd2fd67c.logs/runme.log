@@ -1,0 +1,221 @@
+
+*** Running vivado
+    with args -log Uart_ETH_smartconnect_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Uart_ETH_smartconnect_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source Uart_ETH_smartconnect_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 432.234 ; gain = 87.133
+INFO: [Synth 8-638] synthesizing module 'Uart_ETH_smartconnect_0_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/synth/Uart_ETH_smartconnect_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'bd_5544' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:13]
+INFO: [Synth 8-638] synthesizing module 'clk_map_imp_NFQSI8' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:1367]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_one_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_0/synth/bd_5544_one_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlconstant_v1_1_3_xlconstant' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/45df/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'xlconstant_v1_1_3_xlconstant' (1#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/45df/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_one_0' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_0/synth/bd_5544_one_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_psr_aclk_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_1/synth/bd_5544_psr_aclk_0.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-638] synthesizing module 'lpf' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'SRL16' [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43657]
+INFO: [Synth 8-256] done synthesizing module 'SRL16' (3#1) [C:/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:43657]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (4#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (5#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (6#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (7#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (8#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_psr_aclk_0' (9#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_1/synth/bd_5544_psr_aclk_0.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'clk_map_imp_NFQSI8' (10#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:1367]
+INFO: [Synth 8-638] synthesizing module 'm00_exit_pipeline_imp_1BYGAA3' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:1417]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_m00e_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_31/synth/bd_5544_m00e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_m00e_0' (25#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_31/synth/bd_5544_m00e_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm00_exit_pipeline_imp_1BYGAA3' (26#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:1417]
+INFO: [Synth 8-638] synthesizing module 'm00_nodes_imp_1Y5ZRJB' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:1788]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_m00arn_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_26/synth/bd_5544_m00arn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base' (32#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized0' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized0' (35#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_m00arn_0' (41#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_26/synth/bd_5544_m00arn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_m00awn_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_28/synth/bd_5544_m00awn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_m00awn_0' (42#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_28/synth/bd_5544_m00awn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_m00bn_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_30/synth/bd_5544_m00bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized1' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized1' (42#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized2' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized2' (42#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_m00bn_0' (43#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_30/synth/bd_5544_m00bn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_m00rn_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_27/synth/bd_5544_m00rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized3' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized3' (43#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_m00rn_0' (44#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_27/synth/bd_5544_m00rn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_m00wn_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_29/synth/bd_5544_m00wn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized4' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized4' (44#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized5' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized5' (44#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_m00wn_0' (45#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_29/synth/bd_5544_m00wn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'm00_nodes_imp_1Y5ZRJB' (46#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:1788]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_m00s2a_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_25/synth/bd_5544_m00s2a_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_m00s2a_0' (48#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_25/synth/bd_5544_m00s2a_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_s00a2s_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_10/synth/bd_5544_s00a2s_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_s00a2s_0' (50#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_10/synth/bd_5544_s00a2s_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 's00_entry_pipeline_imp_DBF1U0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:2093]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_s00mmu_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_7/synth/bd_5544_s00mmu_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_s00mmu_0' (54#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_7/synth/bd_5544_s00mmu_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_s00sic_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_9/synth/bd_5544_s00sic_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_s00sic_0' (57#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_9/synth/bd_5544_s00sic_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_s00tr_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_8/synth/bd_5544_s00tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_s00tr_0' (60#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_8/synth/bd_5544_s00tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's00_entry_pipeline_imp_DBF1U0' (61#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:2093]
+INFO: [Synth 8-638] synthesizing module 's00_nodes_imp_G657GY' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:2698]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_sarn_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_11/synth/bd_5544_sarn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized6' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized6' (61#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized7' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized7' (61#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_sarn_0' (62#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_11/synth/bd_5544_sarn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_sawn_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_13/synth/bd_5544_sawn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_sawn_0' (63#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_13/synth/bd_5544_sawn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_sbn_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_15/synth/bd_5544_sbn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized8' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized8' (63#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_sbn_0' (64#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_15/synth/bd_5544_sbn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_srn_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_12/synth/bd_5544_srn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized9' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized9' (65#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_srn_0' (66#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_12/synth/bd_5544_srn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_swn_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_14/synth/bd_5544_swn_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'xpm_memory_base__parameterized10' [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'xpm_memory_base__parameterized10' (68#1) [C:/Xilinx/Vivado/2017.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_swn_0' (69#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_14/synth/bd_5544_swn_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's00_nodes_imp_G657GY' (70#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:2698]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_s01a2s_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_19/synth/bd_5544_s01a2s_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_s01a2s_0' (71#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_19/synth/bd_5544_s01a2s_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 's01_entry_pipeline_imp_1E3H4NW' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:2994]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_s01mmu_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_16/synth/bd_5544_s01mmu_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_s01mmu_0' (72#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_16/synth/bd_5544_s01mmu_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_s01sic_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_18/synth/bd_5544_s01sic_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_s01sic_0' (73#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_18/synth/bd_5544_s01sic_0.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_s01tr_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_17/synth/bd_5544_s01tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_s01tr_0' (74#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_17/synth/bd_5544_s01tr_0.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's01_entry_pipeline_imp_1E3H4NW' (75#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:2994]
+INFO: [Synth 8-638] synthesizing module 's01_nodes_imp_1AEXTNO' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:3599]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_sarn_1' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_20/synth/bd_5544_sarn_1.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_sarn_1' (76#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_20/synth/bd_5544_sarn_1.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_sawn_1' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_22/synth/bd_5544_sawn_1.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_sawn_1' (77#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_22/synth/bd_5544_sawn_1.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_sbn_1' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_24/synth/bd_5544_sbn_1.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_sbn_1' (78#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_24/synth/bd_5544_sbn_1.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_srn_1' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_21/synth/bd_5544_srn_1.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_srn_1' (79#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_21/synth/bd_5544_srn_1.sv:58]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_swn_1' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_23/synth/bd_5544_swn_1.sv:58]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_swn_1' (80#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_23/synth/bd_5544_swn_1.sv:58]
+INFO: [Synth 8-256] done synthesizing module 's01_nodes_imp_1AEXTNO' (81#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:3599]
+INFO: [Synth 8-638] synthesizing module 'switchboards_imp_MNYMME' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:3895]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_arsw_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_2/synth/bd_5544_arsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_arsw_0' (84#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_2/synth/bd_5544_arsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_awsw_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_4/synth/bd_5544_awsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_awsw_0' (85#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_4/synth/bd_5544_awsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_bsw_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_6/synth/bd_5544_bsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_bsw_0' (86#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_6/synth/bd_5544_bsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_rsw_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_3/synth/bd_5544_rsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_rsw_0' (87#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_3/synth/bd_5544_rsw_0.sv:57]
+INFO: [Synth 8-638] synthesizing module 'bd_5544_wsw_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_5/synth/bd_5544_wsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544_wsw_0' (88#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/ip/ip_5/synth/bd_5544_wsw_0.sv:57]
+INFO: [Synth 8-256] done synthesizing module 'switchboards_imp_MNYMME' (89#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:3895]
+INFO: [Synth 8-256] done synthesizing module 'bd_5544' (90#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/bd_0/hdl/bd_5544.v:13]
+INFO: [Synth 8-256] done synthesizing module 'Uart_ETH_smartconnect_0_0' (91#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970328_TxRx_FIFO_Integrated-UART-Config/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_smartconnect_0_0/synth/Uart_ETH_smartconnect_0_0.v:57]
+Finished RTL Elaboration : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 575.539 ; gain = 230.438
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 575.539 ; gain = 230.438
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1359.758 ; gain = 53.105
+Finished Constraint Validation : Time (s): cpu = 00:01:46 ; elapsed = 00:01:57 . Memory (MB): peak = 1359.758 ; gain = 1014.656
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:46 ; elapsed = 00:01:57 . Memory (MB): peak = 1359.758 ; gain = 1014.656
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:46 ; elapsed = 00:01:57 . Memory (MB): peak = 1359.758 ; gain = 1014.656
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:53 ; elapsed = 00:02:04 . Memory (MB): peak = 1359.758 ; gain = 1014.656
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:49 ; elapsed = 00:03:05 . Memory (MB): peak = 1359.758 ; gain = 1014.656
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|Module Name                                                                                                                                                                        | RTL Object                       | Inference      | Size (Depth x Width) | Primitives     | 
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|inst/i_2/\m00_nodes/m00_ar_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory         | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_2/\m00_nodes/m00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 158             | RAM32M x 27    | 
+|inst/i_2/\m00_nodes/m00_aw_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory         | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_2/\m00_nodes/m00_aw_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 158             | RAM32M x 27    | 
+|inst/i_2/\m00_nodes/m00_b_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                      | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 19              | RAM32M x 4     | 
+|inst/i_2/\m00_nodes/m00_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 7               | RAM32M x 2     | 
+|inst/i_2/\m00_nodes/m00_r_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                      | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 19              | RAM32M x 4     | 
+|inst/i_2/\m00_nodes/m00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 85              | RAM32M x 15    | 
+|inst/i_2/\m00_nodes/m00_w_node/inst /\inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 4 x 1                | RAM16X1D x 1   | 
+|inst/i_2/\m00_nodes/m00_w_node/inst /\inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory  | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 4 x 1                | RAM16X1D x 1   | 
+|inst/i_2/\m00_nodes/m00_w_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory          | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_2/\m00_nodes/m00_w_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 106             | RAM32M x 18    | 
+|inst/i_2/\s00_nodes/s00_ar_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                     | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 18              | RAM32M x 3     | 
+|inst/i_2/\s00_nodes/s00_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 140             | RAM32M x 24    | 
+|inst/i_2/\s00_nodes/s00_aw_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                     | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 18              | RAM32M x 3     | 
+|inst/i_2/\s00_nodes/s00_aw_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 140             | RAM32M x 24    | 
+|inst/i_2/\s00_nodes/s00_b_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory          | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_2/\s00_nodes/s00_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 25              | RAM32M x 5     | 
+|inst/i_2/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory          | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_2/\s00_nodes/s00_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 103             | RAM32M x 18    | 
+|inst/i_2/\s00_nodes/s00_w_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                      | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 18              | RAM32M x 3     | 
+|inst/i_2/\s00_nodes/s00_w_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 88              | RAM32M x 15    | 
+|inst/i_2/\s01_nodes/s01_ar_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                     | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 18              | RAM32M x 3     | 
+|inst/i_2/\s01_nodes/s01_ar_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 140             | RAM32M x 24    | 
+|inst/i_2/\s01_nodes/s01_aw_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                     | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 18              | RAM32M x 3     | 
+|inst/i_2/\s01_nodes/s01_aw_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                           | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 140             | RAM32M x 24    | 
+|inst/i_2/\s01_nodes/s01_b_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory          | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_2/\s01_nodes/s01_b_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 25              | RAM32M x 5     | 
+|inst/i_2/\s01_nodes/s01_r_node/inst /\inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory          | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 1               | RAM32X1D x 1   | 
+|inst/i_2/\s01_nodes/s01_r_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 103             | RAM32M x 18    | 
+|inst/i_2/\s01_nodes/s01_w_node/inst /\inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                      | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 18              | RAM32M x 3     | 
+|inst/i_2/\s01_nodes/s01_w_node/inst /\inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory                            | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 32 x 88              | RAM32M x 15    | 
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:06 ; elapsed = 00:03:23 . Memory (MB): peak = 1359.758 ; gain = 1014.656
+Finished Timing Optimization : Time (s): cpu = 00:03:26 ; elapsed = 00:03:45 . Memory (MB): peak = 1359.758 ; gain = 1014.656
+Finished Technology Mapping : Time (s): cpu = 00:03:36 ; elapsed = 00:03:56 . Memory (MB): peak = 1359.758 ; gain = 1014.656
+Finished IO Insertion : Time (s): cpu = 00:03:38 ; elapsed = 00:03:58 . Memory (MB): peak = 1359.758 ; gain = 1014.656
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:38 ; elapsed = 00:03:58 . Memory (MB): peak = 1359.758 ; gain = 1014.656
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:41 ; elapsed = 00:04:01 . Memory (MB): peak = 1359.758 ; gain = 1014.656
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:41 ; elapsed = 00:04:01 . Memory (MB): peak = 1359.758 ; gain = 1014.656
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:42 ; elapsed = 00:04:02 . Memory (MB): peak = 1359.758 ; gain = 1014.656
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:42 ; elapsed = 00:04:02 . Memory (MB): peak = 1359.758 ; gain = 1014.656
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    16|
+|2     |LUT1     |   178|
+|3     |LUT2     |   423|
+|4     |LUT3     |   601|
+|5     |LUT4     |  1209|
+|6     |LUT5     |   426|
+|7     |LUT6     |  1021|
+|8     |RAM16X1D |     2|
+|9     |RAM32M   |   287|
+|10    |RAM32X1D |     7|
+|11    |SRL16    |     1|
+|12    |SRLC32E  |    58|
+|13    |FDR      |     4|
+|14    |FDRE     |  3488|
+|15    |FDSE     |   143|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:42 ; elapsed = 00:04:02 . Memory (MB): peak = 1359.758 ; gain = 1014.656
+synth_design: Time (s): cpu = 00:03:52 ; elapsed = 00:04:14 . Memory (MB): peak = 1359.758 ; gain = 1023.418

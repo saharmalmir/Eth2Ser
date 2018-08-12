@@ -1,0 +1,650 @@
+14:54:06 INFO  : Registering command handlers for SDK TCF services
+14:54:06 INFO  : Launching XSCT server: xsct.bat -interactive E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.sdk\temp_xsdb_launch_script.tcl
+14:54:11 INFO  : XSCT server has started successfully.
+14:54:12 INFO  : Successfully done setting XSCT server connection channel  
+14:54:12 INFO  : Processing command line option -hwspec E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper.hdf.
+14:54:12 INFO  : Successfully done setting SDK workspace  
+14:56:57 INFO  : Refreshed build settings on project Eth2Ser
+15:08:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:08:38 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251511274' is selected.
+15:08:38 INFO  : 'jtag frequency' command is executed.
+15:08:38 INFO  : Sourcing of 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/ps7_init.tcl' is done.
+15:08:38 INFO  : Context for 'APU' is selected.
+15:08:38 INFO  : System reset is completed.
+15:08:41 INFO  : 'after 3000' command is executed.
+15:08:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274" && level==0} -index 1' command is executed.
+15:08:44 INFO  : FPGA configured successfully with bitstream "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/Uart_ETH_wrapper.bit"
+15:08:44 INFO  : Context for 'APU' is selected.
+15:08:44 INFO  : Hardware design information is loaded from 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf'.
+15:08:44 INFO  : 'configparams force-mem-access 1' command is executed.
+15:08:44 INFO  : Context for 'APU' is selected.
+15:08:45 INFO  : 'ps7_init' command is executed.
+15:08:45 INFO  : 'ps7_post_config' command is executed.
+15:08:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:08:46 INFO  : The application 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Eth2Ser/Debug/Eth2Ser.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:08:46 INFO  : 'configparams force-mem-access 0' command is executed.
+15:08:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274" && level==0} -index 1
+fpga -file E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/Uart_ETH_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+loadhw -hw E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+dow E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Eth2Ser/Debug/Eth2Ser.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:08:46 INFO  : Memory regions updated for context APU
+15:08:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:08:46 INFO  : 'con' command is executed.
+15:08:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+con
+----------------End of Script----------------
+
+15:08:46 INFO  : Launch script is exported to file 'E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+17:33:24 INFO  : Registering command handlers for SDK TCF services
+17:33:25 INFO  : Launching XSCT server: xsct.bat -interactive E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.sdk\temp_xsdb_launch_script.tcl
+17:33:31 INFO  : XSCT server has started successfully.
+17:33:50 INFO  : Successfully done setting XSCT server connection channel  
+17:33:50 INFO  : Successfully done setting SDK workspace  
+17:35:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:35:11 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251511274' is selected.
+17:35:11 INFO  : 'jtag frequency' command is executed.
+17:35:11 INFO  : Sourcing of 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/ps7_init.tcl' is done.
+17:35:12 INFO  : Context for 'APU' is selected.
+17:35:12 INFO  : System reset is completed.
+17:35:15 INFO  : 'after 3000' command is executed.
+17:35:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274" && level==0} -index 1' command is executed.
+17:35:18 INFO  : FPGA configured successfully with bitstream "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/Uart_ETH_wrapper.bit"
+17:35:18 INFO  : Context for 'APU' is selected.
+17:35:18 INFO  : Hardware design information is loaded from 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf'.
+17:35:18 INFO  : 'configparams force-mem-access 1' command is executed.
+17:35:18 INFO  : Context for 'APU' is selected.
+17:35:18 INFO  : 'ps7_init' command is executed.
+17:35:19 INFO  : 'ps7_post_config' command is executed.
+17:35:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:35:19 INFO  : The application 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Eth2Ser/Debug/Eth2Ser.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:35:19 INFO  : 'configparams force-mem-access 0' command is executed.
+17:35:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274" && level==0} -index 1
+fpga -file E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/Uart_ETH_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+loadhw -hw E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+dow E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Eth2Ser/Debug/Eth2Ser.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:35:20 INFO  : Memory regions updated for context APU
+17:35:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:35:20 INFO  : 'con' command is executed.
+17:35:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+con
+----------------End of Script----------------
+
+17:35:20 INFO  : Launch script is exported to file 'E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+10:54:11 INFO  : Disconnected from the channel tcfchan#1.
+10:54:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:54:12 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251511274' is selected.
+10:54:12 INFO  : 'jtag frequency' command is executed.
+10:54:12 INFO  : Sourcing of 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:54:12 INFO  : Context for 'APU' is selected.
+10:54:12 INFO  : System reset is completed.
+10:54:15 INFO  : 'after 3000' command is executed.
+10:54:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274" && level==0} -index 1' command is executed.
+10:54:18 INFO  : FPGA configured successfully with bitstream "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/Uart_ETH_wrapper.bit"
+10:54:18 INFO  : Context for 'APU' is selected.
+10:54:21 INFO  : Hardware design information is loaded from 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf'.
+10:54:21 INFO  : 'configparams force-mem-access 1' command is executed.
+10:54:21 INFO  : Context for 'APU' is selected.
+10:54:21 INFO  : 'ps7_init' command is executed.
+10:54:21 INFO  : 'ps7_post_config' command is executed.
+10:54:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:54:22 INFO  : The application 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Eth2Ser/Debug/Eth2Ser.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:54:22 INFO  : 'configparams force-mem-access 0' command is executed.
+10:54:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274" && level==0} -index 1
+fpga -file E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/Uart_ETH_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+loadhw -hw E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+dow E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Eth2Ser/Debug/Eth2Ser.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:54:22 INFO  : Memory regions updated for context APU
+10:54:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:54:23 INFO  : 'con' command is executed.
+10:54:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+con
+----------------End of Script----------------
+
+10:54:23 INFO  : Launch script is exported to file 'E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+10:55:03 INFO  : Disconnected from the channel tcfchan#2.
+10:55:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:55:07 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251511274' is selected.
+10:55:07 INFO  : 'jtag frequency' command is executed.
+10:55:07 INFO  : Sourcing of 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/ps7_init.tcl' is done.
+10:55:07 INFO  : Context for 'APU' is selected.
+10:55:07 INFO  : System reset is completed.
+10:55:10 INFO  : 'after 3000' command is executed.
+10:55:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274" && level==0} -index 1' command is executed.
+10:55:13 INFO  : FPGA configured successfully with bitstream "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/Uart_ETH_wrapper.bit"
+10:55:13 INFO  : Context for 'APU' is selected.
+10:55:15 INFO  : Hardware design information is loaded from 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf'.
+10:55:15 INFO  : 'configparams force-mem-access 1' command is executed.
+10:55:15 INFO  : Context for 'APU' is selected.
+10:55:16 INFO  : 'ps7_init' command is executed.
+10:55:16 INFO  : 'ps7_post_config' command is executed.
+10:55:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:55:17 INFO  : The application 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Eth2Ser/Debug/Eth2Ser.elf' is downloaded to processor 'ps7_cortexa9_0'.
+10:55:17 INFO  : 'configparams force-mem-access 0' command is executed.
+10:55:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274" && level==0} -index 1
+fpga -file E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/Uart_ETH_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+loadhw -hw E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+dow E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Eth2Ser/Debug/Eth2Ser.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+10:55:17 INFO  : Memory regions updated for context APU
+10:55:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+10:55:17 INFO  : 'con' command is executed.
+10:55:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+con
+----------------End of Script----------------
+
+10:55:17 INFO  : Launch script is exported to file 'E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+11:15:30 INFO  : Disconnected from the channel tcfchan#3.
+11:15:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:15:34 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251511274' is selected.
+11:15:34 INFO  : 'jtag frequency' command is executed.
+11:15:34 INFO  : Sourcing of 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:15:34 INFO  : Context for 'APU' is selected.
+11:15:34 INFO  : System reset is completed.
+11:15:37 INFO  : 'after 3000' command is executed.
+11:15:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274" && level==0} -index 1' command is executed.
+11:15:40 INFO  : FPGA configured successfully with bitstream "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/Uart_ETH_wrapper.bit"
+11:15:40 INFO  : Context for 'APU' is selected.
+11:15:42 INFO  : Hardware design information is loaded from 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf'.
+11:15:42 INFO  : 'configparams force-mem-access 1' command is executed.
+11:15:42 INFO  : Context for 'APU' is selected.
+11:15:43 INFO  : 'ps7_init' command is executed.
+11:15:43 INFO  : 'ps7_post_config' command is executed.
+11:15:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:15:44 INFO  : The application 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Eth2Ser/Debug/Eth2Ser.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:15:44 INFO  : 'configparams force-mem-access 0' command is executed.
+11:15:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274" && level==0} -index 1
+fpga -file E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/Uart_ETH_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+loadhw -hw E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+dow E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Eth2Ser/Debug/Eth2Ser.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:15:44 INFO  : Memory regions updated for context APU
+11:15:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:15:44 INFO  : 'con' command is executed.
+11:15:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+con
+----------------End of Script----------------
+
+11:15:44 INFO  : Launch script is exported to file 'E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+11:19:52 INFO  : Disconnected from the channel tcfchan#4.
+11:19:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:19:57 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251511274' is selected.
+11:19:57 INFO  : 'jtag frequency' command is executed.
+11:19:57 INFO  : Sourcing of 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:19:57 INFO  : Context for 'APU' is selected.
+11:19:57 INFO  : System reset is completed.
+11:20:00 INFO  : 'after 3000' command is executed.
+11:20:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274" && level==0} -index 1' command is executed.
+11:20:03 INFO  : FPGA configured successfully with bitstream "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/Uart_ETH_wrapper.bit"
+11:20:03 INFO  : Context for 'APU' is selected.
+11:20:05 INFO  : Hardware design information is loaded from 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf'.
+11:20:05 INFO  : 'configparams force-mem-access 1' command is executed.
+11:20:05 INFO  : Context for 'APU' is selected.
+11:20:06 INFO  : 'ps7_init' command is executed.
+11:20:06 INFO  : 'ps7_post_config' command is executed.
+11:20:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:20:07 INFO  : The application 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Eth2Ser/Debug/Eth2Ser.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:20:07 INFO  : 'configparams force-mem-access 0' command is executed.
+11:20:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274" && level==0} -index 1
+fpga -file E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/Uart_ETH_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+loadhw -hw E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+dow E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Eth2Ser/Debug/Eth2Ser.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:20:07 INFO  : Memory regions updated for context APU
+11:20:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:20:07 INFO  : 'con' command is executed.
+11:20:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+con
+----------------End of Script----------------
+
+11:20:07 INFO  : Launch script is exported to file 'E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+11:24:02 INFO  : Disconnected from the channel tcfchan#5.
+11:24:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:24:06 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251511274' is selected.
+11:24:06 INFO  : 'jtag frequency' command is executed.
+11:24:06 INFO  : Sourcing of 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/ps7_init.tcl' is done.
+11:24:06 INFO  : Context for 'APU' is selected.
+11:24:06 INFO  : System reset is completed.
+11:24:09 INFO  : 'after 3000' command is executed.
+11:24:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274" && level==0} -index 1' command is executed.
+11:24:11 INFO  : FPGA configured successfully with bitstream "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/Uart_ETH_wrapper.bit"
+11:24:11 INFO  : Context for 'APU' is selected.
+11:24:14 INFO  : Hardware design information is loaded from 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf'.
+11:24:14 INFO  : 'configparams force-mem-access 1' command is executed.
+11:24:14 INFO  : Context for 'APU' is selected.
+11:24:14 INFO  : 'ps7_init' command is executed.
+11:24:14 INFO  : 'ps7_post_config' command is executed.
+11:24:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:24:15 INFO  : The application 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Eth2Ser/Debug/Eth2Ser.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:24:15 INFO  : 'configparams force-mem-access 0' command is executed.
+11:24:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274" && level==0} -index 1
+fpga -file E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/Uart_ETH_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+loadhw -hw E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+dow E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Eth2Ser/Debug/Eth2Ser.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:24:15 INFO  : Memory regions updated for context APU
+11:24:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:24:15 INFO  : 'con' command is executed.
+11:24:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251511274"} -index 0
+con
+----------------End of Script----------------
+
+11:24:15 INFO  : Launch script is exported to file 'E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+19:12:33 INFO  : Disconnected from the channel tcfchan#6.
+15:23:52 INFO  : Registering command handlers for SDK TCF services
+15:23:53 INFO  : Launching XSCT server: xsct.bat -interactive E:\ETH2SER\SoftwareProjects\UART2ETH970507_Master_Slave_OK\UART2ETH.sdk\temp_xsdb_launch_script.tcl
+15:26:53 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+15:26:57 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:26:57 ERROR : Failed to call init_repo
+Reason: xsct server communication channel is not established.
+15:26:57 ERROR : Exception raised in executing the command =Failed to call init_repo
+Reason: xsct server communication channel is not established. 
+15:27:01 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:27:01 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:27:02 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:27:02 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:27:03 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:27:03 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:27:03 INFO  : Project Uart_ETH_wrapper_hw_platform_0's source hardware specification location will not be monitored anymore.
+15:31:17 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:31:17 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:31:18 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:31:18 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:31:19 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:31:19 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:31:21 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:31:21 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:31:24 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:31:24 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:31:27 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:31:27 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:31:32 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:31:32 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:31:35 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:31:35 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:31:36 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:31:36 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:31:38 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:31:38 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:31:39 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:31:39 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:31:54 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:31:54 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:31:57 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:31:57 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:31:59 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:31:59 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:02 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:02 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:07 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:07 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:09 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:09 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:14 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:14 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:19 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:19 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:21 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:21 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:24 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:24 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:25 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:25 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:30 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:30 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:32 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:32 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:36 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:36 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:38 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:38 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:41 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:41 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:44 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:44 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:45 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:45 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:46 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:46 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:49 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:49 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:50 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:50 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:53 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:53 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.
+15:32:54 ERROR : xsct server communication channel has closed unexpectedly.
+java.net.SocketException: Malformed reply from SOCKS server
+	at java.net.SocksSocketImpl.readSocksReply(SocksSocketImpl.java:129)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:502)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.tcf.core.ChannelTCP$1$1.run(ChannelTCP.java:61)
+15:32:54 ERROR : Failed to openhw "E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK/UART2ETH.sdk/Uart_ETH_wrapper_hw_platform_0/system.hdf"
+Reason: xsct server communication channel is not established.

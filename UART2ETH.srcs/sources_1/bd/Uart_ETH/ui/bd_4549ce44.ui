@@ -1,0 +1,24 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port i_Reset -pg 1 -y 70 -defaultsOSRD
+preplace port o_TXD -pg 1 -y 30 -defaultsOSRD
+preplace port i_Send -pg 1 -y 130 -defaultsOSRD
+preplace port i_CLK -pg 1 -y 50 -defaultsOSRD
+preplace port i_Baud -pg 1 -y 90 -defaultsOSRD
+preplace portBus n_Busy -pg 1 -y 90 -defaultsOSRD
+preplace portBus i_Data -pg 1 -y 110 -defaultsOSRD
+preplace inst UART_TX_Without_Baud_5 -pg 1 -lvl 1 -y 90 -defaultsOSRD
+preplace inst util_vector_logic_5 -pg 1 -lvl 2 -y 90 -defaultsOSRD
+preplace netloc UART_TX_Without_Baud_0_o_TXD 1 1 2 240J 30 NJ
+preplace netloc All_Data_Sender_0_uart2_V_din 1 0 1 NJ
+preplace netloc i_Baud_1 1 0 1 NJ
+preplace netloc All_Data_Sender_0_uart2_V_write 1 0 1 NJ
+preplace netloc rst_ps7_0_100M_peripheral_reset 1 0 1 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 1 NJ
+preplace netloc util_vector_logic_1_Res 1 2 1 NJ
+preplace netloc UART_TX_Without_Baud_0_o_TX_Busy 1 1 1 NJ
+levelinfo -pg 1 0 130 390 560 -top 0 -bot 180
+",
+}
+0

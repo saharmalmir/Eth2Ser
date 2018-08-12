@@ -1,0 +1,39 @@
+
+*** Running vivado
+    with args -log UARTConfigTest_xlconstant_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source UARTConfigTest_xlconstant_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source UARTConfigTest_xlconstant_0_0.tcl -notrace
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 363.328 ; gain = 79.313
+INFO: [Synth 8-638] synthesizing module 'UARTConfigTest_xlconstant_0_0' [e:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/ip/UARTConfigTest_xlconstant_0_0/synth/UARTConfigTest_xlconstant_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlconstant_v1_1_3_xlconstant' [e:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/ipshared/45df/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'xlconstant_v1_1_3_xlconstant' (1#1) [e:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/ipshared/45df/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'UARTConfigTest_xlconstant_0_0' (2#1) [e:/ETH2SER/SoftwareProjects/UARTConfigTestEXP-961126/UARTConfigTestEXP-961126.srcs/sources_1/bd/UARTConfigTest/ip/UARTConfigTest_xlconstant_0_0/synth/UARTConfigTest_xlconstant_0_0.v:57]
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 403.406 ; gain = 119.391
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 403.406 ; gain = 119.391
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 403.406 ; gain = 119.391
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 403.406 ; gain = 119.391
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 528.367 ; gain = 244.352
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 528.367 ; gain = 244.352
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 532.285 ; gain = 248.270
+Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 532.285 ; gain = 248.270
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 532.285 ; gain = 248.270
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 532.285 ; gain = 248.270
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 532.285 ; gain = 248.270
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 532.285 ; gain = 248.270
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 532.285 ; gain = 248.270
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 532.285 ; gain = 248.270
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 637.797 ; gain = 355.406
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1010.906 ; gain = 373.109

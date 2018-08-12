@@ -1,0 +1,113 @@
+
+*** Running vivado
+    with args -log Uart_ETH_xbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Uart_ETH_xbar_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source Uart_ETH_xbar_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 397.734 ; gain = 83.785
+INFO: [Synth 8-638] synthesizing module 'Uart_ETH_xbar_0' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xbar_0/synth/Uart_ETH_xbar_0.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_axi_crossbar' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_crossbar_sasd' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_addr_decoder' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_carry_and' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (1#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized3' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized3' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized4' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized4' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized5' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized5' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized6' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized6' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized7' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized7' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized8' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized8' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized9' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized9' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized10' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized10' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized11' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized11' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized12' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized12' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized13' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized13' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized14' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized14' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized15' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized15' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized16' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized16' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized17' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized17' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized18' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized18' (2#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_addr_decoder' (3#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_decerr_slave' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_decerr_slave' (4#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_addr_arbiter_sasd' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_addr_arbiter_sasd' (5#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_splitter' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_splitter' (6#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_14_splitter__parameterized0' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_splitter__parameterized0' (6#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (7#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (7#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (7#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_13_axic_register_slice' (8#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/55c0/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (8#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_crossbar_sasd' (9#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_14_axi_crossbar' (10#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ipshared/f582/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-256] done synthesizing module 'Uart_ETH_xbar_0' (11#1) [e:/ETH2SER/SoftwareProjects/UART2ETH970206-UART16550_Rx_FIFO_1_Port/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_xbar_0/synth/Uart_ETH_xbar_0.v:60]
+Finished RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 517.113 ; gain = 203.164
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 517.113 ; gain = 203.164
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 762.137 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 762.137 ; gain = 448.188
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 762.137 ; gain = 448.188
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 762.137 ; gain = 448.188
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 762.137 ; gain = 448.188
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 762.137 ; gain = 448.188
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:00 ; elapsed = 00:01:04 . Memory (MB): peak = 762.137 ; gain = 448.188
+Finished Timing Optimization : Time (s): cpu = 00:01:01 ; elapsed = 00:01:05 . Memory (MB): peak = 762.137 ; gain = 448.188
+Finished Technology Mapping : Time (s): cpu = 00:01:02 ; elapsed = 00:01:05 . Memory (MB): peak = 762.137 ; gain = 448.188
+Finished IO Insertion : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 762.137 ; gain = 448.188
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 762.137 ; gain = 448.188
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 762.137 ; gain = 448.188
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 762.137 ; gain = 448.188
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 762.137 ; gain = 448.188
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 762.137 ; gain = 448.188
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |    12|
+|3     |LUT3 |     6|
+|4     |LUT4 |    50|
+|5     |LUT5 |    56|
+|6     |LUT6 |    58|
+|7     |FDRE |   131|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 762.137 ; gain = 448.188
+synth_design: Time (s): cpu = 00:01:05 ; elapsed = 00:01:11 . Memory (MB): peak = 762.137 ; gain = 452.754

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1532854569">
+  <File Type="RDS-PROPCONSTRS" Name="Uart_ETH_wrapper_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="Uart_ETH_wrapper.tcl"/>
+  <File Type="RDS-RDS" Name="Uart_ETH_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="Uart_ETH_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Uart_ETH_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Uart_ETH_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Uart_ETH_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Uart_ETH_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/Uart_ETH/Uart_ETH.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/Uart_ETH/hdl/Uart_ETH_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/UART_Rx_Side.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/UART_Rx_Side.vhd"/>
+        <Attr Name="ImportTime" Val="1524310010"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/UARTConfigTest/hdl/UARTConfigTest_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Uart_ETH_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/UARTConfig.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/UARTConfig.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Uart_ETH_xlslice_KeyPad_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Uart_ETH_processing_system7_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Uart_ETH_IO_In_Out_Switcher_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Uart_ETH_xlslice_KeyPad_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Uart_ETH_xlslice_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Uart_ETH_xlconcat_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="Uart_ETH_xlslice_0_1"/>
+</GenRun>

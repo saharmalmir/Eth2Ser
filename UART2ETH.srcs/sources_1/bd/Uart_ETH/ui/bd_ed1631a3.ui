@@ -1,0 +1,107 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port o_Out14 -pg 1 -y 6510 -defaultsOSRD
+preplace port o_Out8 -pg 1 -y 4830 -defaultsOSRD
+preplace port i_In4 -pg 1 -y 5860 -defaultsOSRD
+preplace port o_Out15 -pg 1 -y 2310 -defaultsOSRD
+preplace port o_Out9 -pg 1 -y 3570 -defaultsOSRD
+preplace port i_In5 -pg 1 -y 5880 -defaultsOSRD
+preplace port i_In6 -pg 1 -y 5900 -defaultsOSRD
+preplace port i_CLK -pg 1 -y 1660 -defaultsOSRD
+preplace port i_In7 -pg 1 -y 5920 -defaultsOSRD
+preplace port i_In8 -pg 1 -y 5940 -defaultsOSRD
+preplace port i_In9 -pg 1 -y 5960 -defaultsOSRD
+preplace port o_Out1 -pg 1 -y 4410 -defaultsOSRD
+preplace port o_Out2 -pg 1 -y 210 -defaultsOSRD
+preplace port o_Out3 -pg 1 -y 630 -defaultsOSRD
+preplace port o_Out10 -pg 1 -y 3990 -defaultsOSRD
+preplace port o_Out4 -pg 1 -y 1050 -defaultsOSRD
+preplace port o_Out11 -pg 1 -y 5250 -defaultsOSRD
+preplace port o_Out5 -pg 1 -y 1470 -defaultsOSRD
+preplace port i_In1 -pg 1 -y 1680 -defaultsOSRD
+preplace port o_Out12 -pg 1 -y 5670 -defaultsOSRD
+preplace port o_Out6 -pg 1 -y 1890 -defaultsOSRD
+preplace port o_Out -pg 1 -y 2730 -defaultsOSRD
+preplace port i_In2 -pg 1 -y 2080 -defaultsOSRD
+preplace port o_Out13 -pg 1 -y 6090 -defaultsOSRD
+preplace port o_Out7 -pg 1 -y 3150 -defaultsOSRD
+preplace port i_In3 -pg 1 -y 3340 -defaultsOSRD
+preplace portBus i_Select14 -pg 1 -y 6680 -defaultsOSRD
+preplace portBus i_Select8 -pg 1 -y 5000 -defaultsOSRD
+preplace portBus i_Select15 -pg 1 -y 2480 -defaultsOSRD
+preplace portBus i_Select9 -pg 1 -y 3740 -defaultsOSRD
+preplace portBus i_Select1 -pg 1 -y 4580 -defaultsOSRD
+preplace portBus i_Select2 -pg 1 -y 380 -defaultsOSRD
+preplace portBus i_Select -pg 1 -y 2900 -defaultsOSRD
+preplace portBus i_Select3 -pg 1 -y 800 -defaultsOSRD
+preplace portBus i_Select10 -pg 1 -y 4160 -defaultsOSRD
+preplace portBus i_Select4 -pg 1 -y 1220 -defaultsOSRD
+preplace portBus i_Select11 -pg 1 -y 5420 -defaultsOSRD
+preplace portBus i_Select5 -pg 1 -y 1640 -defaultsOSRD
+preplace portBus i_Select12 -pg 1 -y 5840 -defaultsOSRD
+preplace portBus i_Select6 -pg 1 -y 2060 -defaultsOSRD
+preplace portBus i_Select13 -pg 1 -y 6260 -defaultsOSRD
+preplace portBus i_Select7 -pg 1 -y 3320 -defaultsOSRD
+preplace inst DataMuxOut4Bit_6 -pg 1 -lvl 1 -y 6210 -defaultsOSRD
+preplace inst DataMuxOut4Bit_7 -pg 1 -lvl 1 -y 6640 -defaultsOSRD
+preplace inst DataMuxOut4Bit_8 -pg 1 -lvl 1 -y 2770 -defaultsOSRD
+preplace inst DataMuxOut4Bit_9 -pg 1 -lvl 1 -y 4490 -defaultsOSRD
+preplace inst DataMuxOut4Bit_10 -pg 1 -lvl 1 -y 190 -defaultsOSRD
+preplace inst DataMuxOut4Bit_0 -pg 1 -lvl 1 -y 2340 -defaultsOSRD
+preplace inst DataMuxOut4Bit_11 -pg 1 -lvl 1 -y 620 -defaultsOSRD
+preplace inst DataMuxOut4Bit_12 -pg 1 -lvl 1 -y 1480 -defaultsOSRD
+preplace inst DataMuxOut4Bit_1 -pg 1 -lvl 1 -y 1050 -defaultsOSRD
+preplace inst DataMuxOut4Bit_2 -pg 1 -lvl 1 -y 3200 -defaultsOSRD
+preplace inst DataMuxOut4Bit_13 -pg 1 -lvl 1 -y 1910 -defaultsOSRD
+preplace inst DataMuxOut4Bit_14 -pg 1 -lvl 1 -y 3630 -defaultsOSRD
+preplace inst DataMuxOut4Bit_3 -pg 1 -lvl 1 -y 4920 -defaultsOSRD
+preplace inst DataMuxOut4Bit_4 -pg 1 -lvl 1 -y 5350 -defaultsOSRD
+preplace inst DataMuxOut4Bit_15 -pg 1 -lvl 1 -y 4060 -defaultsOSRD
+preplace inst DataMuxOut4Bit_5 -pg 1 -lvl 1 -y 5780 -defaultsOSRD
+preplace netloc DataMuxOut4Bit_0_o_Out6 1 1 1 320J
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_12 1 0 1 110J
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_13 1 0 1 40J
+preplace netloc DataMuxOut4Bit_0_o_Out7 1 1 1 320J
+preplace netloc baudrate_gen_0_o_Baud_4800 1 0 1 70
+preplace netloc baudrate_gen_0_o_Baud_115200 1 0 1 10
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_14 1 0 1 -10J
+preplace netloc DataMuxOut4Bit_0_o_Out8 1 1 1 320J
+preplace netloc baudrate_gen_0_o_Baud_2400 1 0 1 80
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_0 1 0 1 110J
+preplace netloc DataMuxOut4Bit_0_o_Out 1 1 1 320J
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_15 1 0 1 -10J
+preplace netloc DataMuxOut4Bit_0_o_Out9 1 1 1 320J
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_1 1 0 1 NJ
+preplace netloc baudrate_gen_0_o_Baud_38400 1 0 1 30
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_2 1 0 1 110J
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_3 1 0 1 -10J
+preplace netloc baudrate_gen_0_o_Baud_9600 1 0 1 60
+preplace netloc baudrate_gen_0_o_Baud_57600 1 0 1 20
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_4 1 0 1 -10J
+preplace netloc baudrate_gen_0_o_Baud_19200 1 0 1 50
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_5 1 0 1 -10J
+preplace netloc DataMuxOut4Bit_0_o_Out1 1 1 1 320J
+preplace netloc DataMuxOut4Bit_0_o_Out10 1 1 1 320J
+preplace netloc baudrate_gen_0_o_Baud_300 1 0 1 100
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_6 1 0 1 -10J
+preplace netloc DataMuxOut4Bit_0_o_Out2 1 1 1 320J
+preplace netloc DataMuxOut4Bit_0_o_Out11 1 1 1 320J
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_7 1 0 1 10J
+preplace netloc DataMuxOut4Bit_0_o_Out3 1 1 1 320J
+preplace netloc DataMuxOut4Bit_0_o_Out12 1 1 1 320J
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 1 0
+preplace netloc DataMuxOut4Bit_0_o_Out4 1 1 1 320J
+preplace netloc DataMuxOut4Bit_0_o_Out13 1 1 1 320J
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_10 1 0 1 -10J
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_8 1 0 1 -10J
+preplace netloc DataMuxOut4Bit_0_o_Out5 1 1 1 320J
+preplace netloc DataMuxOut4Bit_0_o_Out14 1 1 1 320J
+preplace netloc DataMuxOut4Bit_1_o_Out 1 1 1 NJ
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_11 1 0 1 110J
+preplace netloc Extract_UART_Features_0_o_Baudrate_select_9 1 0 1 -10J
+preplace netloc baudrate_gen_0_o_Baud_1200 1 0 1 90
+levelinfo -pg 1 -30 220 350 -top -30 -bot 6860
+",
+}
+0

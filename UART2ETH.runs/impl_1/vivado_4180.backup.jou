@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Apr  4 13:23:40 2018
+# Process ID: 4180
+# Current directory: E:/ETH2SER/SoftwareProjects/UART2ETH970115_Uart16550_Multi/UART2ETH.runs/impl_1
+# Command line: vivado.exe -log Uart_ETH_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Uart_ETH_wrapper.tcl -notrace
+# Log file: E:/ETH2SER/SoftwareProjects/UART2ETH970115_Uart16550_Multi/UART2ETH.runs/impl_1/Uart_ETH_wrapper.vdi
+# Journal file: E:/ETH2SER/SoftwareProjects/UART2ETH970115_Uart16550_Multi/UART2ETH.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Uart_ETH_wrapper.tcl -notrace

@@ -1,0 +1,977 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 8432
+License: Customer
+
+Current time: 	8/12/18 1:20:40 PM IRDT
+Time zone: 	Iran Standard Time (Asia/Tehran)
+
+OS: Windows 7
+OS Version: 6.1
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 0 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o;C:/Windows/Sun/Java/bin;C:/Windows/system32;C:/Windows;C:/Xilinx/Vivado/2017.2/bin;C:/Xilinx/Vivado/2017.2/lib/win64.o;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin;C:/Xilinx/SDK/2017.2/bin;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado_HLS/2017.2/bin;C:/Windows/system32;C:/Windows;C:/Windows/System32/Wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Program Files (x86)/Cypress/EZ-USB FX3 SDK/1.3/ARM GCC/bin/;C:/Program Files (x86)/Cypress/EZ-USB FX3 SDK/1.3/eclipse/jre/bin/;C:/Aldec/Active-HDL 8.3/BIN;C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/;C:/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/;C:/Program Files/Microsoft SQL Server/120/Tools/Binn/;C:/Program Files/Microsoft SQL Server/120/DTS/Binn/;C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/;C:/Program Files/PuTTY/;C:/Windows/system32/config/systemprofile/.dnx/bin;C:/Program Files/Microsoft DNX/Dnvm/;C:/Program Files/Microsoft SQL Server/130/Tools/Binn/;C:/Program Files/nodejs/;C:/Program Files/Git/cmd;C:/Users/AVA.CO/AppData/Roaming/npm;C:/Users/AVA.CO/AppData/Local/GitHubDesktop/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	AVA.CO
+User home directory: C:/Users/AVA.CO
+User working directory: E:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.2
+RDI_DATADIR: C:/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.2/bin
+
+User preferences location: C:/Users/AVA.CO/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/AVA.CO/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/AVA.CO/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	C:/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	E:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy/.Xil/Vivado-8432-AVACO-PC2
+
+GUI allocated memory:	159 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 532 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 36 MB (+35525kb) [00:00:13]
+// [Engine Memory]: 474 MB (+345287kb) [00:00:13]
+// bs:g (cg:JFrame):  Open Project : addNotify
+// Opening Vivado Project: E:\ETH2SER\SoftwareProjects\UART2ETH970521_Redundancy\UART2ETH.xpr. Version: Vivado v2017.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy/UART2ETH.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 49 MB (+11287kb) [00:00:15]
+// [Engine Memory]: 532 MB (+35867kb) [00:00:15]
+// HMemoryUtils.trashcanNow. Engine heap size: 538 MB. GUI used memory: 32 MB. Current time: 8/12/18 1:20:42 PM IRDT
+// [Engine Memory]: 564 MB (+5686kb) [00:00:25]
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 596 MB (+3900kb) [00:00:30]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 606 MB. GUI used memory: 31 MB. Current time: 8/12/18 1:20:57 PM IRDT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 56 MB (+4740kb) [00:00:41]
+// [Engine Memory]: 726 MB (+105261kb) [00:00:41]
+// [GUI Memory]: 60 MB (+1663kb) [00:00:42]
+// [GUI Memory]: 66 MB (+2958kb) [00:00:43]
+// [GUI Memory]: 72 MB (+3016kb) [00:00:46]
+// Tcl Message: open_project E:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy/UART2ETH.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/ETH2SER/SoftwareProjects/UART2ETH970507_Master_Slave_OK' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/VHDL_IPs'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ETH2SER/IPs_XCZ020/HLS_IPs'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'. 
+// Tcl Message: INFO: [Common 17-14] Message 'IP_Flow 19-3664' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:33 . Memory (MB): peak = 969.727 ; gain = 251.395 
+// HMemoryUtils.trashcanNow. Engine heap size: 764 MB. GUI used memory: 48 MB. Current time: 8/12/18 1:21:13 PM IRDT
+// [Engine Memory]: 764 MB (+2183kb) [00:00:48]
+// Project name: UART2ETH; location: E:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a:a (cg:JFrame): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 79 MB (+3024kb) [00:00:54]
+// Elapsed time: 28 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cg:JFrame)
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Uart_ETH_wrapper(STRUCTURE) (Uart_ETH_wrapper.vhd)]", 2); // B:i (D:JPanel, cg:JFrame)
+// PAPropertyPanels.initPanels (Uart_ETH.bd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Uart_ETH_wrapper(STRUCTURE) (Uart_ETH_wrapper.vhd), Uart_ETH_i : Uart_ETH (Uart_ETH.bd)]", 3, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Uart_ETH_wrapper(STRUCTURE) (Uart_ETH_wrapper.vhd), Uart_ETH_i : Uart_ETH (Uart_ETH.bd)]", 3, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+// bs:g (cg:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {E:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy/UART2ETH.srcs/sources_1/bd/Uart_ETH/Uart_ETH.bd} 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [GUI Memory]: 84 MB (+1171kb) [00:01:24]
+// [Engine Memory]: 805 MB (+3131kb) [00:01:24]
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_Master_Slave/Uart_Rec_Master_Slave/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Without_Baud:1.0 - UART_RX_Without_Baud_1 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_14 Adding cell -- xilinx.com:user:UART_TX_Without_Baud:1.0 - UART_TX_Without_Baud_14 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_config/Uart_Rec_Config/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Without_Baud:1.0 - UART_RX_Without_Baud_1 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_1/Uart_Rec_1/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2 Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_0/Uart_Rec_0/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2 Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_15/Uart_Rec_15/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2 Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_14/Uart_Rec_14/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2 Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_13/Uart_Rec_13/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2 Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_12/Uart_Rec_12/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2 Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_11/Uart_Rec_11/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2 Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_10/Uart_Rec_10/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2 Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_9/Uart_Rec_9/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2 Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_8/Uart_Rec_8/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2 Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_7/Uart_Rec_7/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2 Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_6/Uart_Rec_6/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2 Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_5/Uart_Rec_5/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2 Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_4/Uart_Rec_4/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2 Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0 Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_3/Uart_Rec_3/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0 Adding cell -- xilinx.com:ip:fifo_generator:13.1 - fifo_generator_0 
+// Tcl Message: INFO: [xilinx.com:ip:fifo_generator:13.1-5968] /Uart_Blocks/Uart_2/Uart_Rec_2/fifo_generator_0Executing the post_config_ip from bd 
+// Tcl Message: Adding cell -- xilinx.com:user:UART_RX_Extended:1.0 - UART_RX_Extended_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_2 Adding cell -- xilinx.com:user:UART_TX_Extended:1.0 - UART_TX_Extended_0 Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_LED Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_SW Successfully read diagram <Uart_ETH> from BD file <E:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy/UART2ETH.srcs/sources_1/bd/Uart_ETH/Uart_ETH.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 856 MB (+10956kb) [00:01:29]
+// [GUI Memory]: 88 MB (+208kb) [00:01:30]
+// PAPropertyPanels.initPanels (Uart_ETH.bd) elapsed time: 0.2s
+// TclEventType: RSB_CONNECTION_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 891 MB. GUI used memory: 55 MB. Current time: 8/12/18 1:21:56 PM IRDT
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1076.539 ; gain = 103.789 
+// [Engine Memory]: 901 MB (+1943kb) [00:01:32]
+// Elapsed time: 11 seconds
+dismissDialog("Open Block Design"); // bs:g (cg:JFrame)
+selectButton(PAResourceQtoS.SystemTab_REPORT_IP_STATUS, "Report IP Status"); // h:k (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// [GUI Memory]: 95 MB (+2550kb) [00:01:37]
+// Tcl Message: report_ip_status -name ip_status  
+// bs:g (cg:JFrame):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // bs:g (cg:JFrame)
+// PAPropertyPanels.initPanels (Net) elapsed time: 0.2s
+// [GUI Memory]: 101 MB (+1546kb) [00:03:31]
+// [GUI Memory]: 108 MB (+1318kb) [00:04:02]
+// [GUI Memory]: 114 MB (+1037kb) [00:22:31]
+// HMemoryUtils.trashcanNow. Engine heap size: 935 MB. GUI used memory: 63 MB. Current time: 8/12/18 1:48:52 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 935 MB. GUI used memory: 58 MB. Current time: 8/12/18 2:18:52 PM IRDT
+// Elapsed time: 4936 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 941 MB. GUI used memory: 60 MB. Current time: 8/12/18 2:48:52 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 941 MB. GUI used memory: 59 MB. Current time: 8/12/18 3:18:52 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 941 MB. GUI used memory: 58 MB. Current time: 8/12/18 3:48:53 PM IRDT
+// Elapsed time: 4722 seconds
+selectButton(PAResourceQtoS.SystemTab_SHOW_IP_STATUS, "Show IP Status"); // h:k (JPanel:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// [Engine Memory]: 949 MB (+2815kb) [02:42:39]
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// bs:g (cg:JFrame):  Upgrade IP : addNotify
+// Tcl Message: upgrade_ip -vlnv xilinx.com:user:PISO:1.0 [get_ips  Uart_ETH_PISO_0_0] -log ip_upgrade.log 
+// Tcl Message: Upgrading 'E:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy/UART2ETH.srcs/sources_1/bd/Uart_ETH/Uart_ETH.bd' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded Uart_ETH_PISO_0_0 from PISO_v1_0 1.0 to PISO_v1_0 1.0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'E:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips Uart_ETH_PISO_0_0] -no_script -sync -force -quiet 
+// HMemoryUtils.trashcanNow. Engine heap size: 968 MB. GUI used memory: 61 MB. Current time: 8/12/18 4:03:08 PM IRDT
+// au:p (cg:JFrame): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a:JButton (JPanel:JComponent, au:p)
+dismissDialog("Generate Output Products"); // au:p (cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 22 seconds
+closeView(PAResourceOtoP.PAViews_SYSTEM, "System"); // fe:aJ
+closeView(PAResourceOtoP.PAViews_SYSTEM, "System"); // fe:aJ
+closeView(PAResourceOtoP.PAViews_SYSTEM, "System"); // fe:aJ
+closeView(PAResourceOtoP.PAViews_SYSTEM, "System"); // fe:aJ
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+closeView(PAResourceOtoP.PAViews_SYSTEM, "System"); // fe:aJ
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h:k (JPanel:JComponent, cg:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// [Engine Memory]: 997 MB (+991kb) [02:43:32]
+// bs:g (cg:JFrame):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // bs:g (cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,000 MB. GUI used memory: 72 MB. Current time: 8/12/18 4:03:58 PM IRDT
+// Elapsed time: 19 seconds
+closeView(PAResourceOtoP.PAViews_SYSTEM, "System"); // fe:aJ
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// [GUI Memory]: 120 MB (+161kb) [02:59:28]
+// [GUI Memory]: 127 MB (+1382kb) [03:02:56]
+// Elapsed time: 1155 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System (3)", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System (2)", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Elapsed time: 276 seconds
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[Uart_ETH, Uart_Blocks, Nets]", 249); // i:JTree (JViewport:JComponent, cg:JFrame)
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[Uart_ETH, Uart_Blocks, All_Data_Sender_0]", 250); // i:JTree (JViewport:JComponent, cg:JFrame)
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[Uart_ETH, Uart_Blocks, Buadrate_Generator]", 252); // i:JTree (JViewport:JComponent, cg:JFrame)
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[Uart_ETH, Uart_Blocks, Uart_0]", 254); // i:JTree (JViewport:JComponent, cg:JFrame)
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[Uart_ETH, Uart_Blocks, Uart_9]", 263); // i:JTree (JViewport:JComponent, cg:JFrame)
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[Uart_ETH, Uart_Blocks, Uart_config, Ports]", 271); // i:JTree (JViewport:JComponent, cg:JFrame)
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[Uart_ETH, Uart_Blocks, Uart_config]", 270); // i:JTree (JViewport:JComponent, cg:JFrame)
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[Uart_ETH, Uart_Blocks, Interface Connections]", 243); // i:JTree (JViewport:JComponent, cg:JFrame)
+collapseTree(PAResourceQtoS.SystemTreeView_SYSTEM_TREE, "[Uart_ETH, Uart_Blocks]", 241); // i:JTree (JViewport:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,000 MB. GUI used memory: 64 MB. Current time: 8/12/18 4:33:58 PM IRDT
+// Elapsed time: 371 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15, true); // u:M (JViewport:JComponent, cg:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// at:q (cg:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(PAResourceQtoS.StaleRunDialog_OPEN_DESIGN, "Open Design"); // a:JButton (JPanel:JComponent, at:q)
+// bs:g (cg:JFrame):  Open Synthesized Design : addNotify
+dismissDialog("Synthesis is Out-of-date"); // at:q (cg:JFrame)
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7z020clg400-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,028 MB. GUI used memory: 62 MB. Current time: 8/12/18 4:34:48 PM IRDT
+// [Engine Memory]: 1,064 MB (+17811kb) [03:14:27]
+// [Engine Memory]: 1,120 MB (+2677kb) [03:14:32]
+// [Engine Memory]: 1,223 MB (+49507kb) [03:14:37]
+// [Engine Memory]: 1,299 MB (+15468kb) [03:14:42]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,334 MB. GUI used memory: 63 MB. Current time: 8/12/18 4:35:08 PM IRDT
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// [Engine Memory]: 1,412 MB (+50719kb) [03:14:47]
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// HMemoryUtils.trashcanNow. Engine heap size: 1,471 MB. GUI used memory: 63 MB. Current time: 8/12/18 4:35:23 PM IRDT
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// [Engine Memory]: 1,849 MB (+384393kb) [03:15:05]
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,850 MB. GUI used memory: 62 MB. Current time: 8/12/18 4:35:31 PM IRDT
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: C:/Xilinx/Vivado/2017.2/data/parts/xilinx/zynq/devint/zynq/xc7z020/xc7z020.xgd; ZipEntry: xc7z020_detail.xgd elapsed time: 1s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.7s
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [e:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/Uart_ETH_clk_wiz_1_0.xdc:57] INFO: [Timing 38-2] Deriving generated clocks [e:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_1_0/Uart_ETH_clk_wiz_1_0.xdc:57] 
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 2056.770 ; gain = 519.609 
+// Tcl Message: Finished Parsing XDC File [E:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy/UART2ETH.srcs/constrs_1/new/UARTConfig.xdc] Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/Uart_ETH_clk_wiz_0_0_late.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_0/inst' Finished Parsing XDC File [e:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy/UART2ETH.srcs/sources_1/bd/Uart_ETH/ip/Uart_ETH_clk_wiz_0_0/Uart_ETH_clk_wiz_0_0_late.xdc] for cell 'Uart_ETH_i/Clock_Managment/clk_wiz_0/inst' 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 352 instances were transformed.   LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 32 instances   RAM16X1D => RAM32X1D (RAMD32, RAMD32): 2 instances   RAM16X1S => RAM32X1S (RAMS32): 24 instances   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 287 instances   RAM32X1D => RAM32X1D (RAMD32, RAMD32): 7 instances  
+// Tcl Message: open_run: Time (s): cpu = 00:00:54 ; elapsed = 00:00:53 . Memory (MB): peak = 2058.770 ; gain = 916.777 
+// ExpRunCommands.openSynthResults elapsed time: 53.9s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// 'dH' command handler elapsed time: 60 seconds
+// M:a (cg:JFrame): Critical Messages: addNotify
+// Elapsed time: 54 seconds
+dismissDialog("Open Synthesized Design"); // bs:g (cg:JFrame)
+// [Engine Memory]: 1,943 MB (+1096kb) [03:15:16]
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, M:a)
+dismissDialog("Critical Messages"); // M:a (cg:JFrame)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Report Utilization]", 25, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RESOURCE_UTILIZATION
+// a:p (cg:JFrame): Report Utilization: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:p)
+dismissDialog("Report Utilization"); // a:p (cg:JFrame)
+// Tcl Message: report_utilization -name utilization_1 
+// bs:g (cg:JFrame):  Report Utilization : addNotify
+// TclEventType: UTILIZATION_RESULT_GENERATED
+// [GUI Memory]: 134 MB (+674kb) [03:15:36]
+// [GUI Memory]: 143 MB (+1342kb) [03:15:36]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,015 MB. GUI used memory: 114 MB. Current time: 8/12/18 4:36:03 PM IRDT
+// [GUI Memory]: 151 MB (+1186kb) [03:15:41]
+// [GUI Memory]: 159 MB (+564kb) [03:15:41]
+// [GUI Memory]: 170 MB (+2810kb) [03:15:42]
+// [Engine Memory]: 2,044 MB (+3860kb) [03:15:42]
+// [GUI Memory]: 178 MB (+57kb) [03:15:42]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,049 MB. GUI used memory: 153 MB. Current time: 8/12/18 4:36:10 PM IRDT
+// [GUI Memory]: 190 MB (+3064kb) [03:15:46]
+// Tcl Message: report_utilization: Time (s): cpu = 00:00:25 ; elapsed = 00:00:13 . Memory (MB): peak = 2211.918 ; gain = 137.992 
+// Tcl Message: report_utilization: Time (s): cpu = 00:00:25 ; elapsed = 00:00:13 . Memory (MB): peak = 2211.918 ; gain = 137.992 
+// Elapsed time: 13 seconds
+dismissDialog("Report Utilization"); // bs:g (cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Utilization", 6); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTab((HResource) null, (String) null, (HResource) null, "Utilization", 6, false, true); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame) - Double Click
+maximizeFrame(PAResourceOtoP.PAViews_UTILIZATION, "Utilization - utilization_1"); // ax:DockableFrame (aF:FrameContainer, cg:JFrame)
+expandTreeTable((HResource) null, "Uart_ETH_i (Uart_ETH) ; 10061 ; 9398 ; 32 ; 16 ; 12.5 ; 0 ; 0 ; 7 ; 2", 1); // x:af (JViewport:JComponent, cg:JFrame)
+// [GUI Memory]: 202 MB (+2247kb) [03:15:55]
+// PAPropertyPanels.initPanels (Uart_Blocks (Uart_Blocks_imp_8DRTJ2)) elapsed time: 0.6s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "Uart_Blocks (Uart_Blocks_imp_8DRTJ2) ; 8537 ; 7861 ; 32 ; 16 ; 11.5 ; 0 ; 0 ; 0 ; 0", 11, "Uart_Blocks (Uart_Blocks_imp_8DRTJ2)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+expandTreeTable((HResource) null, "Uart_Blocks (Uart_Blocks_imp_8DRTJ2) ; 8537 ; 7861 ; 32 ; 16 ; 11.5 ; 0 ; 0 ; 0 ; 0", 11); // x:af (JViewport:JComponent, cg:JFrame)
+// PAPropertyPanels.initPanels (All_Data_Sender_0 (Uart_ETH_All_Data_Sender_0_4)) elapsed time: 0.3s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "All_Data_Sender_0 (Uart_ETH_All_Data_Sender_0_4) ; 577 ; 631 ; 0 ; 0 ; 1.5 ; 0 ; 0 ; 0 ; 0", 12, "All_Data_Sender_0 (Uart_ETH_All_Data_Sender_0_4)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "AllDataMover_0 (Uart_ETH_AllDataMover_0_0) ; 963 ; 1027 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0", 13, "AllDataMover_0 (Uart_ETH_AllDataMover_0_0)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "Buadrate_Generator (Buadrate_Generator_imp_12UOSS2) ; 96 ; 54 ; 32 ; 16 ; 0 ; 0 ; 0 ; 0 ; 0", 14, "96", 1, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+// PAPropertyPanels.initPanels (smartconnect_0 (Uart_ETH_smartconnect_0_0)) elapsed time: 0.3s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "smartconnect_0 (Uart_ETH_smartconnect_0_0) ; 4421 ; 3635 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 15, "4421", 1, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+expandTreeTable((HResource) null, "smartconnect_0 (Uart_ETH_smartconnect_0_0) ; 4421 ; 3635 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 15); // x:af (JViewport:JComponent, cg:JFrame)
+expandTreeTable((HResource) null, "inst (Uart_ETH_smartconnect_0_0__bd_5544) ; 4421 ; 3635 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 16); // x:af (JViewport:JComponent, cg:JFrame)
+// [GUI Memory]: 213 MB (+1584kb) [03:16:25]
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "s00_entry_pipeline (Uart_ETH_smartconnect_0_0__s00_entry_pipeline_imp_DBF1U0) ; 502 ; 660 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 20, "s00_entry_pipeline (Uart_ETH_smartconnect_0_0__s00_entry_pipeline_imp_DBF1U0)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "s00_nodes (Uart_ETH_smartconnect_0_0__s00_nodes_imp_G657GY) ; 839 ; 329 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 21, "s00_nodes (Uart_ETH_smartconnect_0_0__s00_nodes_imp_G657GY)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "s01_entry_pipeline (Uart_ETH_smartconnect_0_0__s01_entry_pipeline_imp_1E3H4NW) ; 502 ; 660 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 22, "s01_entry_pipeline (Uart_ETH_smartconnect_0_0__s01_entry_pipeline_imp_1E3H4NW)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "s01_nodes (Uart_ETH_smartconnect_0_0__s01_nodes_imp_1AEXTNO) ; 839 ; 329 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 23, "s01_nodes (Uart_ETH_smartconnect_0_0__s01_nodes_imp_1AEXTNO)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "switchboards (Uart_ETH_smartconnect_0_0__switchboards_imp_MNYMME) ; 278 ; 545 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 24, "switchboards (Uart_ETH_smartconnect_0_0__switchboards_imp_MNYMME)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+// PAPropertyPanels.initPanels (smartconnect_0 (Uart_ETH_smartconnect_0_0)) elapsed time: 0.3s
+// Elapsed time: 15 seconds
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "smartconnect_0 (Uart_ETH_smartconnect_0_0) ; 4421 ; 3635 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 15, "smartconnect_0 (Uart_ETH_smartconnect_0_0)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+// PAPropertyPanels.initPanels (inst (Uart_ETH_smartconnect_0_0__bd_5544)) elapsed time: 0.3s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "inst (Uart_ETH_smartconnect_0_0__bd_5544) ; 4421 ; 3635 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 16, "inst (Uart_ETH_smartconnect_0_0__bd_5544)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "clk_map (Uart_ETH_smartconnect_0_0__clk_map_imp_NFQSI8) ; 13 ; 22 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 17, "clk_map (Uart_ETH_smartconnect_0_0__clk_map_imp_NFQSI8)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+// PAPropertyPanels.initPanels (m00_exit_pipeline (Uart_ETH_smartconnect_0_0__m00_exit_pipeline_imp_1BYGAA3)) elapsed time: 0.2s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "m00_exit_pipeline (Uart_ETH_smartconnect_0_0__m00_exit_pipeline_imp_1BYGAA3) ; 612 ; 796 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 18, "m00_exit_pipeline (Uart_ETH_smartconnect_0_0__m00_exit_pipeline_imp_1BYGAA3)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "m00_nodes (Uart_ETH_smartconnect_0_0__m00_nodes_imp_1Y5ZRJB) ; 836 ; 294 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 19, "m00_nodes (Uart_ETH_smartconnect_0_0__m00_nodes_imp_1Y5ZRJB)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "s00_entry_pipeline (Uart_ETH_smartconnect_0_0__s00_entry_pipeline_imp_DBF1U0) ; 502 ; 660 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 20, "s00_entry_pipeline (Uart_ETH_smartconnect_0_0__s00_entry_pipeline_imp_DBF1U0)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "s00_nodes (Uart_ETH_smartconnect_0_0__s00_nodes_imp_G657GY) ; 839 ; 329 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 21, "s00_nodes (Uart_ETH_smartconnect_0_0__s00_nodes_imp_G657GY)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "clk_map (Uart_ETH_smartconnect_0_0__clk_map_imp_NFQSI8) ; 13 ; 22 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 17, "clk_map (Uart_ETH_smartconnect_0_0__clk_map_imp_NFQSI8)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+// Elapsed time: 16 seconds
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "Uart_Blocks (Uart_Blocks_imp_8DRTJ2) ; 8537 ; 7861 ; 32 ; 16 ; 11.5 ; 0 ; 0 ; 0 ; 0", 11, "Uart_Blocks (Uart_Blocks_imp_8DRTJ2)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+// PAPropertyPanels.initPanels (All_Data_Sender_0 (Uart_ETH_All_Data_Sender_0_4)) elapsed time: 0.2s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "All_Data_Sender_0 (Uart_ETH_All_Data_Sender_0_4) ; 577 ; 631 ; 0 ; 0 ; 1.5 ; 0 ; 0 ; 0 ; 0", 12, "All_Data_Sender_0 (Uart_ETH_All_Data_Sender_0_4)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "AllDataMover_0 (Uart_ETH_AllDataMover_0_0) ; 963 ; 1027 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0", 13, "AllDataMover_0 (Uart_ETH_AllDataMover_0_0)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+expandTreeTable((HResource) null, "AllDataMover_0 (Uart_ETH_AllDataMover_0_0) ; 963 ; 1027 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0", 13); // x:af (JViewport:JComponent, cg:JFrame)
+expandTreeTable((HResource) null, "U0 (Uart_ETH_AllDataMover_0_0__AllDataMover) ; 963 ; 1027 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0", 14); // x:af (JViewport:JComponent, cg:JFrame)
+collapseTreeTable((HResource) null, "AllDataMover_0 (Uart_ETH_AllDataMover_0_0) ; 963 ; 1027 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0", 13); // x:af (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 18 seconds
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "Buadrate_Generator (Buadrate_Generator_imp_12UOSS2) ; 96 ; 54 ; 32 ; 16 ; 0 ; 0 ; 0 ; 0 ; 0", 14, "Buadrate_Generator (Buadrate_Generator_imp_12UOSS2)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+// PAPropertyPanels.initPanels (smartconnect_0 (Uart_ETH_smartconnect_0_0)) elapsed time: 0.3s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "smartconnect_0 (Uart_ETH_smartconnect_0_0) ; 4421 ; 3635 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 15, "smartconnect_0 (Uart_ETH_smartconnect_0_0)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+// PAPropertyPanels.initPanels (inst (Uart_ETH_smartconnect_0_0__bd_5544)) elapsed time: 0.3s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "inst (Uart_ETH_smartconnect_0_0__bd_5544) ; 4421 ; 3635 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 16, "inst (Uart_ETH_smartconnect_0_0__bd_5544)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "clk_map (Uart_ETH_smartconnect_0_0__clk_map_imp_NFQSI8) ; 13 ; 22 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 17, "clk_map (Uart_ETH_smartconnect_0_0__clk_map_imp_NFQSI8)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+// PAPropertyPanels.initPanels (m00_exit_pipeline (Uart_ETH_smartconnect_0_0__m00_exit_pipeline_imp_1BYGAA3)) elapsed time: 0.2s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "m00_exit_pipeline (Uart_ETH_smartconnect_0_0__m00_exit_pipeline_imp_1BYGAA3) ; 612 ; 796 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 18, "m00_exit_pipeline (Uart_ETH_smartconnect_0_0__m00_exit_pipeline_imp_1BYGAA3)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "m00_nodes (Uart_ETH_smartconnect_0_0__m00_nodes_imp_1Y5ZRJB) ; 836 ; 294 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 19, "m00_nodes (Uart_ETH_smartconnect_0_0__m00_nodes_imp_1Y5ZRJB)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+// Elapsed time: 14 seconds
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "s00_nodes (Uart_ETH_smartconnect_0_0__s00_nodes_imp_G657GY) ; 839 ; 329 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 21, "s00_nodes (Uart_ETH_smartconnect_0_0__s00_nodes_imp_G657GY)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "s01_entry_pipeline (Uart_ETH_smartconnect_0_0__s01_entry_pipeline_imp_1E3H4NW) ; 502 ; 660 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 22, "s01_entry_pipeline (Uart_ETH_smartconnect_0_0__s01_entry_pipeline_imp_1E3H4NW)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "s01_nodes (Uart_ETH_smartconnect_0_0__s01_nodes_imp_1AEXTNO) ; 839 ; 329 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 23, "s01_nodes (Uart_ETH_smartconnect_0_0__s01_nodes_imp_1AEXTNO)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+expandTreeTable((HResource) null, "s01_nodes (Uart_ETH_smartconnect_0_0__s01_nodes_imp_1AEXTNO) ; 839 ; 329 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 23); // x:af (JViewport:JComponent, cg:JFrame)
+collapseTreeTable((HResource) null, "s01_nodes (Uart_ETH_smartconnect_0_0__s01_nodes_imp_1AEXTNO) ; 839 ; 329 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 23); // x:af (JViewport:JComponent, cg:JFrame)
+expandTreeTable((HResource) null, "switchboards (Uart_ETH_smartconnect_0_0__switchboards_imp_MNYMME) ; 278 ; 545 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 24); // x:af (JViewport:JComponent, cg:JFrame)
+collapseTreeTable((HResource) null, "switchboards (Uart_ETH_smartconnect_0_0__switchboards_imp_MNYMME) ; 278 ; 545 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 24); // x:af (JViewport:JComponent, cg:JFrame)
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "switchboards (Uart_ETH_smartconnect_0_0__switchboards_imp_MNYMME) ; 278 ; 545 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 24, "switchboards (Uart_ETH_smartconnect_0_0__switchboards_imp_MNYMME)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+// PAPropertyPanels.initPanels (smartconnect_0 (Uart_ETH_smartconnect_0_0)) elapsed time: 0.3s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "smartconnect_0 (Uart_ETH_smartconnect_0_0) ; 4421 ; 3635 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 15, "smartconnect_0 (Uart_ETH_smartconnect_0_0)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+// Elapsed time: 11 seconds
+collapseTreeTable((HResource) null, "smartconnect_0 (Uart_ETH_smartconnect_0_0) ; 4421 ; 3635 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 15); // x:af (JViewport:JComponent, cg:JFrame)
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "Uart_0 (Uart_0_imp_1UT63H7) ; 144 ; 142 ; 0 ; 0 ; 0.5 ; 0 ; 0 ; 0 ; 0", 16, "Uart_0 (Uart_0_imp_1UT63H7)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "Uart_0 (Uart_0_imp_1UT63H7) ; 144 ; 142 ; 0 ; 0 ; 0.5 ; 0 ; 0 ; 0 ; 0", 16, "Uart_0 (Uart_0_imp_1UT63H7)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+expandTreeTable((HResource) null, "Uart_0 (Uart_0_imp_1UT63H7) ; 144 ; 142 ; 0 ; 0 ; 0.5 ; 0 ; 0 ; 0 ; 0", 16); // x:af (JViewport:JComponent, cg:JFrame)
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "Uart_Rec_0 (Uart_Rec_0_imp_V4ZS9X) ; 91 ; 94 ; 0 ; 0 ; 0.5 ; 0 ; 0 ; 0 ; 0", 17, "Uart_Rec_0 (Uart_Rec_0_imp_V4ZS9X)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+// Elapsed time: 11 seconds
+collapseTreeTable((HResource) null, "Uart_0 (Uart_0_imp_1UT63H7) ; 144 ; 142 ; 0 ; 0 ; 0.5 ; 0 ; 0 ; 0 ; 0", 16); // x:af (JViewport:JComponent, cg:JFrame)
+expandTreeTable((HResource) null, "Uart_2 (Uart_2_imp_1PNZP25) ; 144 ; 142 ; 0 ; 0 ; 0.5 ; 0 ; 0 ; 0 ; 0", 18); // x:af (JViewport:JComponent, cg:JFrame)
+collapseTreeTable((HResource) null, "Uart_2 (Uart_2_imp_1PNZP25) ; 144 ; 142 ; 0 ; 0 ; 0.5 ; 0 ; 0 ; 0 ; 0", 18); // x:af (JViewport:JComponent, cg:JFrame)
+expandTreeTable((HResource) null, "Uart_4 (Uart_4_imp_1C1II3B) ; 144 ; 142 ; 0 ; 0 ; 0.5 ; 0 ; 0 ; 0 ; 0", 20); // x:af (JViewport:JComponent, cg:JFrame)
+collapseTreeTable((HResource) null, "Uart_4 (Uart_4_imp_1C1II3B) ; 144 ; 142 ; 0 ; 0 ; 0.5 ; 0 ; 0 ; 0 ; 0", 20); // x:af (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 48 seconds
+collapseTreeTable((HResource) null, "Uart_Blocks (Uart_Blocks_imp_8DRTJ2) ; 8537 ; 7861 ; 32 ; 16 ; 11.5 ; 0 ; 0 ; 0 ; 0", 11); // x:af (JViewport:JComponent, cg:JFrame)
+collapseTreeTable((HResource) null, "Uart_ETH_i (Uart_ETH) ; 10061 ; 9398 ; 32 ; 16 ; 12.5 ; 0 ; 0 ; 7 ; 2", 1); // x:af (JViewport:JComponent, cg:JFrame)
+// PAPropertyPanels.initPanels (Uart_ETH_wrapper) elapsed time: 0.2s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "Uart_ETH_wrapper ; 10061 ; 9398 ; 32 ; 16 ; 12.5 ; 75 ; 130 ; 7 ; 2", 0, "10061", 1, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+// Elapsed time: 30 seconds
+expandTreeTable((HResource) null, "Uart_ETH_i (Uart_ETH) ; 10061 ; 9398 ; 32 ; 16 ; 12.5 ; 0 ; 0 ; 7 ; 2", 1); // x:af (JViewport:JComponent, cg:JFrame)
+expandTreeTable((HResource) null, "UART_Config_Register_0 (Uart_ETH_UART_Config_Register_0_0) ; 235 ; 232 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0", 12); // x:af (JViewport:JComponent, cg:JFrame)
+expandTreeTable((HResource) null, "U0 (Uart_ETH_UART_Config_Register_0_0__UART_Config_Register) ; 235 ; 232 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0", 13); // x:af (JViewport:JComponent, cg:JFrame)
+collapseTreeTable((HResource) null, "U0 (Uart_ETH_UART_Config_Register_0_0__UART_Config_Register) ; 235 ; 232 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0", 13); // x:af (JViewport:JComponent, cg:JFrame)
+collapseTreeTable((HResource) null, "UART_Config_Register_0 (Uart_ETH_UART_Config_Register_0_0) ; 235 ; 232 ; 0 ; 0 ; 1 ; 0 ; 0 ; 0 ; 0", 12); // x:af (JViewport:JComponent, cg:JFrame)
+expandTreeTable((HResource) null, "Timer_Interrupt (Timer_Interrupt_imp_1B1Z1ZQ) ; 139 ; 91 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 10); // x:af (JViewport:JComponent, cg:JFrame)
+collapseTreeTable((HResource) null, "Timer_Interrupt (Timer_Interrupt_imp_1B1Z1ZQ) ; 139 ; 91 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 10); // x:af (JViewport:JComponent, cg:JFrame)
+expandTreeTable((HResource) null, "Uart_Blocks (Uart_Blocks_imp_8DRTJ2) ; 8537 ; 7861 ; 32 ; 16 ; 11.5 ; 0 ; 0 ; 0 ; 0", 11); // x:af (JViewport:JComponent, cg:JFrame)
+// PAPropertyPanels.initPanels (smartconnect_0 (Uart_ETH_smartconnect_0_0)) elapsed time: 0.3s
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "smartconnect_0 (Uart_ETH_smartconnect_0_0) ; 4421 ; 3635 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 15, "smartconnect_0 (Uart_ETH_smartconnect_0_0)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+expandTreeTable((HResource) null, "smartconnect_0 (Uart_ETH_smartconnect_0_0) ; 4421 ; 3635 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 15); // x:af (JViewport:JComponent, cg:JFrame)
+selectTreeTable("PAResourceTtoZ.UtilizationHierViewTreeTablePanel_TABLE(Hierarchy)", "smartconnect_0 (Uart_ETH_smartconnect_0_0) ; 4421 ; 3635 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 15, "smartconnect_0 (Uart_ETH_smartconnect_0_0)", 0, true); // x:af (JViewport:JComponent, cg:JFrame) - Node
+collapseTreeTable((HResource) null, "smartconnect_0 (Uart_ETH_smartconnect_0_0) ; 4421 ; 3635 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0", 15); // x:af (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 32 seconds
+collapseTreeTable((HResource) null, "Uart_Blocks (Uart_Blocks_imp_8DRTJ2) ; 8537 ; 7861 ; 32 ; 16 ; 11.5 ; 0 ; 0 ; 0 ; 0", 11); // x:af (JViewport:JComponent, cg:JFrame)
+collapseTreeTable((HResource) null, "Uart_ETH_wrapper ; 10061 ; 9398 ; 32 ; 16 ; 12.5 ; 75 ; 130 ; 7 ; 2", 0); // x:af (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 13 seconds
+unMaximizeFrame(PAResourceOtoP.PAViews_COMPILATION, "Log"); // ax:DockableFrame (aF:FrameContainer, cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Device Constraints", 2); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTab((HResource) null, (String) null, (HResource) null, "Device Constraints", 2, false, true); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame) - Double Click
+maximizeFrame(PAResourceOtoP.PAViews_DEVICE_CONSTRAINTS, "Device Constraints"); // ax:DockableFrame (aF:FrameContainer, cg:JFrame)
+unMaximizeFrame(PAResourceOtoP.PAViews_DEVICE_CONSTRAINTS, "Device Constraints"); // ax:DockableFrame (aF:FrameContainer, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Device view-level: 0.0
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Uart_ETH_wrapper(STRUCTURE) (Uart_ETH_wrapper.vhd)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Uart_ETH_wrapper(STRUCTURE) (Uart_ETH_wrapper.vhd), Uart_ETH_i : Uart_ETH (Uart_ETH.bd)]", 3, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, -12971, 263251, false, false, false, true, false); // D:a (JViewport:JComponent, cg:JFrame) - Popup Trigger
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 203, 131, 690, 302, false, false, false, true, false); // Y:C (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_GOTO_INSTANTIATION, "Go to Source"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_INSTANTIATION
+// Launch External Editor: 'C:/Program Files (x86)/Notepad++/notepad++.exe "E:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy/UART2ETH.srcs/sources_1/bd/Uart_ETH/hdl/Uart_ETH_wrapper.vhd" -n175'
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 286452, 233108, false, false, false, true, false); // D:a (JViewport:JComponent, cg:JFrame) - Popup Trigger
+// Device select: 'Clock Region - X1Y1'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 352, 116, 690, 302); // Y:C (k:TdiGroup, cg:JFrame)
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 352, 116, 690, 302, false, false, false, true, false); // Y:C (k:TdiGroup, cg:JFrame) - Popup Trigger
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, -268184, 255213); // D:a (JViewport:JComponent, cg:JFrame)
+// Device view-level: 0.3
+// Device view-level: 1.2
+// Device view-level: 1.5
+// HMemoryUtils.trashcanNow. Engine heap size: 2,093 MB. GUI used memory: 161 MB. Current time: 8/12/18 4:42:34 PM IRDT
+// Device view-level: 2.6
+// Device view-level: 2.9
+// Device view-level: 3.2
+// Device view-level: 3.5
+// Device view-level: 3.8
+// HMemoryUtils.trashcanNow. Engine heap size: 2,093 MB. GUI used memory: 183 MB. Current time: 8/12/18 4:42:35 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,093 MB. GUI used memory: 154 MB. Current time: 8/12/18 4:42:37 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,093 MB. GUI used memory: 150 MB. Current time: 8/12/18 4:42:38 PM IRDT
+// Device view-level: 3.5
+// HMemoryUtils.trashcanNow. Engine heap size: 2,093 MB. GUI used memory: 150 MB. Current time: 8/12/18 4:42:39 PM IRDT
+// Device view-level: 3.2
+// Device view-level: 2.9
+// Device view-level: 2.6
+// Device view-level: 2.3
+// Device view-level: 2.0
+// HMemoryUtils.trashcanNow. Engine heap size: 2,093 MB. GUI used memory: 151 MB. Current time: 8/12/18 4:42:41 PM IRDT
+// Device view-level: 1.5
+// Device view-level: 1.2
+// Device view-level: 0.9
+// Device view-level: 0.6
+// HMemoryUtils.trashcanNow. Engine heap size: 2,093 MB. GUI used memory: 151 MB. Current time: 8/12/18 4:42:42 PM IRDT
+// Device view-level: 0.3
+// Device view-level: 0.0
+// Device view-level: 0.2
+// Elapsed time: 51 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Elapsed time: 766 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bs:g (cg:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {E:/ETH2SER/SoftwareProjects/UART2ETH970521_Redundancy/UART2ETH.srcs/sources_1/bd/Uart_ETH/Uart_ETH.bd} 
+dismissDialog("Open Block Design"); // bs:g (cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,093 MB. GUI used memory: 149 MB. Current time: 8/12/18 5:12:44 PM IRDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
